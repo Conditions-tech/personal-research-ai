@@ -1,0 +1,69 @@
+{
+  "approved_runtime_version": "0.40.6",
+  "method": "official standalone Windows x64 CLI archive; no GUI/updater/startup registration",
+  "archive": "C:\\Users\\Niaz\\AppData\\Local\\Temp\\pra_ollama_cli_3l4agosx\\ollama-windows-amd64.zip",
+  "archive_sha256": "e359637575302f288d76c0007c408a4be9c7376d59c4f28684d63b232a44b427",
+  "archive_bytes": 1471164488,
+  "installation_directory": "C:\\Users\\Niaz\\AppData\\Local\\Programs\\Ollama",
+  "files": 87,
+  "installed_uncompressed_bytes": 1942921587,
+  "previous_user_environment": {
+    "OLLAMA_HOST": null,
+    "OLLAMA_NO_CLOUD": null,
+    "OLLAMA_NUM_PARALLEL": null,
+    "OLLAMA_MAX_LOADED_MODELS": null
+  },
+  "applied_user_environment": {
+    "OLLAMA_HOST": "127.0.0.1:11434",
+    "OLLAMA_NO_CLOUD": "1",
+    "OLLAMA_NUM_PARALLEL": "1",
+    "OLLAMA_MAX_LOADED_MODELS": "1"
+  },
+  "seconds": 8.078,
+  "desktop_installer_executed": false,
+  "runtime_version": "0.40.6",
+  "model": {
+    "name": "qwen2.5:1.5b-instruct-q4_K_M",
+    "model": "qwen2.5:1.5b-instruct-q4_K_M",
+    "modified_at": "2026-10-20T14:43:30.5008077+06:00",
+    "size": 986061892,
+    "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "1.5B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 1536,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "download_seconds": 169.895,
+  "server_pid": 5080,
+  "executable_authenticode_status": "Valid",
+  "executable_signer": "Ollama Inc.",
+  "loopback_listener_verified": "127.0.0.1:11434",
+  "runtime_log_confirms_cloud_disabled": true,
+  "desktop_gui_present": false,
+  "automatic_updater_started": false,
+  "automatic_startup_registration": false,
+  "final_loaded_models": [],
+  "final_available_ram_bytes": 5168799744,
+  "final_runtime_process_memory": [
+    {
+      "pid": 5080,
+      "name": "ollama.exe",
+      "working_set_bytes": 25726976,
+      "peak_working_set_bytes": 32231424,
+      "private_bytes": 56569856
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "protocol": "qwen3-abstract-quotes-pilot-v1",
+  "partition": "development",
+  "counts": {
+    "cases": 4,
+    "attempted_cases": 4,
+    "unattempted_cases": 0,
+    "failed_or_refused_cases": 0,
+    "validated_cases": 4,
+    "expected_supported_fields_all_cases": 17,
+    "returned_fields": 24,
+    "supported_selected_fields": 16,
+    "strict_gold_support": 16,
+    "predeclared_alternative": 0,
+    "correct_missing": 5,
+    "omission": 0,
+    "false_fill": 2,
+    "other_quote_needs_review": 1,
+    "nonmissing_quotes": 19,
+    "literal_source_quotes": 19,
+    "injection_cases_checked": 0
+  },
+  "cases": [
+    {
+      "case": "public-moving-boundaries",
+      "status": "validated-experimental-fields",
+      "fields": [
+        {
+          "field": "objective",
+          "quote": "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "method",
+          "quote": "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "dataset",
+          "quote": "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization.",
+          "category": "false_fill"
+        },
+        {
+          "field": "results",
+          "quote": "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "limitations",
+          "quote": "",
+          "category": "correct_missing"
+        },
+        {
+          "field": "conclusion",
+          "quote": "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles.",
+          "category": "other_quote_needs_review"
+        }
+      ]
+    },
+    {
+      "case": "public-synapse-model",
+      "status": "validated-experimental-fields",
+      "fields": [
+        {
+          "field": "objective",
+          "quote": "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "method",
+          "quote": "Numerical simulations complement these scaling laws by quantifying the nucleation, growth and stabilization of proteins domains on the size of the cell.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "dataset",
+          "quote": "",
+          "category": "correct_missing"
+        },
+        {
+          "field": "results",
+          "quote": "Direct comparison with experiment shows that passive elastohydrodynamics and kinetics of protein binding in the synaptic cleft can describe the short-time formation and organization of protein clusters, without evoking any active processes in the cytoskeleton.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "limitations",
+          "quote": "",
+          "category": "correct_missing"
+        },
+        {
+          "field": "conclusion",
+          "quote": "A simple phase diagram encompasses the variety of patterns that can arise.",
+          "category": "strict_gold_support"
+        }
+      ]
+    },
+    {
+      "case": "public-0286516",
+      "status": "validated-experimental-fields",
+      "fields": [
+        {
+          "field": "objective",
+          "quote": "The aim of the present study was to investigate the possible consequences on learning derived from studying materials in L2 and, more specifically, to explore whether the interplay between monitoring and control (metamemory processes) changes as a function of the language involved.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "method",
+          "quote": "In three experiments, we explored whether font type (Experiment 1), concreteness (Experiment 2), and relatedness (Experiment 3) affected judgments of learning (JOLs) and memory performance in both L1 and L2.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "dataset",
+          "quote": "The results of this study showed that people were able to monitor their learning in both L1 and L2, even though they judged L2 learning as more difficult than L1.",
+          "category": "false_fill"
+        },
+        {
+          "field": "results",
+          "quote": "The results of this study showed that people were able to monitor their learning in both L1 and L2, even though they judged L2 learning as more difficult than L1.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "limitations",
+          "quote": "",
+          "category": "correct_missing"
+        },
+        {
+          "field": "conclusion",
+          "quote": "We suggest that this might be an example of a desirable difficulty for memory.",
+          "category": "strict_gold_support"
+        }
+      ]
+    },
+    {
+      "case": "public-0254766",
+      "status": "validated-experimental-fields",
+      "fields": [
+        {
+          "field": "objective",
+          "quote": "This study, aiming to assess whether it is possible to identify social signatures, focuses on a single archaeological ceramic type.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "method",
+          "quote": "The vessels selected were 3-D scanned to extract accurate geometric parameters and analyzed through an advanced shape analysis.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "dataset",
+          "quote": "For this propose, we selected a corpus of 235 storage jars from two distinct periods: storage jars from the Intermediate Bronze Age (the 25th -20th century BCE); and the Oval Storage Jar type (hereafter: OSJ) from the Iron Age II (the late 9th–early 6th century BCE).",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "results",
+          "quote": "The study results show that integrating computational and objective analysis methods, focusing on the “minute variation” within a single ceramic type, yields substantial insights regarding the relationship between variability and social units.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "limitations",
+          "quote": "",
+          "category": "correct_missing"
+        },
+        {
+          "field": "conclusion",
+          "quote": "In addition to the methodological guidelines and the suggested “work protocol” for further studies, the results shed light on the social organization of the Intermediate Bronze Age and the Iron Age II in Southern Levant.",
+          "category": "strict_gold_support"
+        }
+      ]
+    }
+  ],
+  "scope": "Exact reconstruction and frozen developer-label counters, not independent annotation, scientific verification or an app acceptance. Failed/unattempted cases never count as correct missing fields."
+}

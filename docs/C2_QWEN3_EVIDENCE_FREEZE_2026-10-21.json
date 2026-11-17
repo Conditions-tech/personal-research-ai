@@ -1,0 +1,12 @@
+{
+  "stage": "Before Qwen3 inference and model-specific implementation",
+  "files": {
+    "docs\\C2_QWEN3_DEVELOPMENT_2026-10-21.json": "6168d02767ac6ea5005f43d108962ef7cf271ca8c33627a517aa9578a77f7048",
+    "docs\\C2_QWEN3_HOLDOUT_2026-10-21.json": "f5f17a062cb57585ef3ba4610bece19272c254cdcde9168a4fe7e39b601c9d1e"
+  },
+  "maximum_new_generation_requests": 12,
+  "prior_v6_ledger_used": 12,
+  "model": "qwen3:4b-q4_K_M",
+  "default_unchanged": "abstract-quotes-v3",
+  "not_independent_domain_expert_gold": true
+}

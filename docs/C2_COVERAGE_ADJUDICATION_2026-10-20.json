@@ -1,0 +1,838 @@
+{
+  "scope": "Developer field-by-field adjudication against frozen full-quote expectations; not independent scientific validation",
+  "blindness_limit": "Developer authored/curated fixtures and expectations. Public objective/conclusion alternatives are judgments, not scientific ground truth. Holdout was not used for protocol tuning.",
+  "public_model_quality_unverified": true,
+  "public_failure": "Both public abstracts had zero eligible cues under frozen v3, so no generation was attempted. They are counted as benign workflow failures, not passing missing fields.",
+  "protocol_not_changed_after_holdout": true,
+  "results": [
+    {
+      "report": "C2_COVERAGE_V2_TUNING_RESUMED_2026-10-20.json",
+      "report_sha256": "c939f47ef5aedbba08d81077cd8421ffadb490b588427a981965da725e7e1f2d",
+      "protocol": "abstract-quotes-v2",
+      "partition": "tuning",
+      "real_generations": 3,
+      "returned_field_count": 18,
+      "strict_frozen_field_matches": 12,
+      "omissions_in_returned_proposals": 5,
+      "different_source_spans": 1,
+      "selected_nonmissing_quotes": 12,
+      "every_selected_quote_exactly_copied_from_original": true,
+      "safe_preflight_refusals": 1,
+      "intended_preflight_refusals": 0,
+      "latency_seconds_range_actual_generations": [
+        16.524,
+        21.288
+      ],
+      "sampled_peak_runtime_working_set_bytes": 1385738240,
+      "minimum_pre_load_available_bytes": 5293715456,
+      "minimum_available_bytes_during_actual_generations": 3916795904,
+      "memory_measurement_errors": 0,
+      "review_json_roundtrip": true,
+      "cases": [
+        {
+          "case": "tune-abbreviations",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 21.288,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "Our aim is to compare two infusion protocols.",
+              "frozen_expected_quotes": [
+                "Our aim is to compare two infusion protocols."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "",
+              "frozen_expected_quotes": [
+                "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers."
+              ],
+              "classification": "omission",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "Noor uses protocol A in the U.S. cohort of 24 volunteers.",
+              "frozen_expected_quotes": [
+                "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers."
+              ],
+              "classification": "different-source-span",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "We observed no improvement, i.e. mean error remained 5.2%.",
+              "frozen_expected_quotes": [
+                "We observed no improvement, i.e. mean error remained 5.2%."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The study was limited to one clinic.",
+              "frozen_expected_quotes": [
+                "The study was limited to one clinic."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "We conclude that benefit is uncertain.",
+              "frozen_expected_quotes": [
+                "We conclude that benefit is uncertain."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ],
+          "developer_note": "Dataset is a literal source substring but split after Dr.; fails the full-sentence frozen expectation, not an invented scientific claim."
+        },
+        {
+          "case": "tune-passive-archive",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 16.904,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "The purpose is to compare two medieval inventories.",
+              "frozen_expected_quotes": [
+                "The purpose is to compare two medieval inventories."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "",
+              "frozen_expected_quotes": [
+                "Thirty archival records are transcribed and compared using a fixed codebook."
+              ],
+              "classification": "omission",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "",
+              "frozen_expected_quotes": [
+                "Thirty archival records are transcribed and compared using a fixed codebook."
+              ],
+              "classification": "omission",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "",
+              "frozen_expected_quotes": [
+                "A discrepancy is observed in 3 entries."
+              ],
+              "classification": "omission",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The analysis is restricted to one archive.",
+              "frozen_expected_quotes": [
+                "The analysis is restricted to one archive."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "We conclude that the entries should not be treated as complete population counts.",
+              "frozen_expected_quotes": [
+                "We conclude that the entries should not be treated as complete population counts."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ]
+        },
+        {
+          "case": "tune-quoted-attack-study",
+          "kind": "synthetic",
+          "status": "refused-or-failed",
+          "real_generation_completed": false,
+          "expected_refusal": false,
+          "seconds": 0.012,
+          "error": "AI analysis abstained: instruction-like text was detected in the captured abstract. Use manual review.",
+          "fields": [],
+          "developer_note": "Benign abstract falsely refused before inference; model output quality unmeasured"
+        },
+        {
+          "case": "tune-null-participants",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 16.524,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "",
+              "frozen_expected_quotes": [],
+              "classification": "expected-missing",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "We used a blinded experiment with 30 participants.",
+              "frozen_expected_quotes": [
+                "We used a blinded experiment with 30 participants."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "",
+              "frozen_expected_quotes": [
+                "We used a blinded experiment with 30 participants."
+              ],
+              "classification": "omission",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "We observed no decrease in error.",
+              "frozen_expected_quotes": [
+                "We observed no decrease in error."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The study was limited to one site.",
+              "frozen_expected_quotes": [
+                "The study was limited to one site."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "Our findings imply that effectiveness remains uncertain.",
+              "frozen_expected_quotes": [
+                "Our findings imply that effectiveness remains uncertain."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "report": "C2_COVERAGE_V3_TUNING_2026-10-20.json",
+      "report_sha256": "9b7fb5fc6a83b0024034e53e0f271f89acaa7c3106fb3311c216c15de23a0596",
+      "protocol": "abstract-quotes-v3",
+      "partition": "tuning",
+      "real_generations": 4,
+      "returned_field_count": 24,
+      "strict_frozen_field_matches": 23,
+      "omissions_in_returned_proposals": 1,
+      "different_source_spans": 0,
+      "selected_nonmissing_quotes": 22,
+      "every_selected_quote_exactly_copied_from_original": true,
+      "safe_preflight_refusals": 0,
+      "intended_preflight_refusals": 0,
+      "latency_seconds_range_actual_generations": [
+        16.402,
+        17.315
+      ],
+      "sampled_peak_runtime_working_set_bytes": 1408790528,
+      "minimum_pre_load_available_bytes": 5054464000,
+      "minimum_available_bytes_during_actual_generations": 3683393536,
+      "memory_measurement_errors": 0,
+      "review_json_roundtrip": true,
+      "cases": [
+        {
+          "case": "tune-abbreviations",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 17.315,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "Our aim is to compare two infusion protocols.",
+              "frozen_expected_quotes": [
+                "Our aim is to compare two infusion protocols."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers.",
+              "frozen_expected_quotes": [
+                "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers.",
+              "frozen_expected_quotes": [
+                "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "We observed no improvement, i.e. mean error remained 5.2%.",
+              "frozen_expected_quotes": [
+                "We observed no improvement, i.e. mean error remained 5.2%."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The study was limited to one clinic.",
+              "frozen_expected_quotes": [
+                "The study was limited to one clinic."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "We conclude that benefit is uncertain.",
+              "frozen_expected_quotes": [
+                "We conclude that benefit is uncertain."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ]
+        },
+        {
+          "case": "tune-passive-archive",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 17.203,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "",
+              "frozen_expected_quotes": [
+                "The purpose is to compare two medieval inventories."
+              ],
+              "classification": "omission",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "Thirty archival records are transcribed and compared using a fixed codebook.",
+              "frozen_expected_quotes": [
+                "Thirty archival records are transcribed and compared using a fixed codebook."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "Thirty archival records are transcribed and compared using a fixed codebook.",
+              "frozen_expected_quotes": [
+                "Thirty archival records are transcribed and compared using a fixed codebook."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "A discrepancy is observed in 3 entries.",
+              "frozen_expected_quotes": [
+                "A discrepancy is observed in 3 entries."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The analysis is restricted to one archive.",
+              "frozen_expected_quotes": [
+                "The analysis is restricted to one archive."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "We conclude that the entries should not be treated as complete population counts.",
+              "frozen_expected_quotes": [
+                "We conclude that the entries should not be treated as complete population counts."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ]
+        },
+        {
+          "case": "tune-quoted-attack-study",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 16.993,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "Our objective was to test prompt robustness.",
+              "frozen_expected_quotes": [
+                "Our objective was to test prompt robustness."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "We used a synthetic prompt corpus.",
+              "frozen_expected_quotes": [
+                "We used a synthetic prompt corpus."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "We used a synthetic prompt corpus.",
+              "frozen_expected_quotes": [
+                "We used a synthetic prompt corpus."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "We observed that refusals increased.",
+              "frozen_expected_quotes": [
+                "We observed that refusals increased."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The study was limited to one template.",
+              "frozen_expected_quotes": [
+                "The study was limited to one template."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "We conclude that broader validation is needed.",
+              "frozen_expected_quotes": [
+                "We conclude that broader validation is needed."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ]
+        },
+        {
+          "case": "tune-null-participants",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 16.402,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "",
+              "frozen_expected_quotes": [],
+              "classification": "expected-missing",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "We used a blinded experiment with 30 participants.",
+              "frozen_expected_quotes": [
+                "We used a blinded experiment with 30 participants."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "We used a blinded experiment with 30 participants.",
+              "frozen_expected_quotes": [
+                "We used a blinded experiment with 30 participants."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "We observed no decrease in error.",
+              "frozen_expected_quotes": [
+                "We observed no decrease in error."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The study was limited to one site.",
+              "frozen_expected_quotes": [
+                "The study was limited to one site."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "Our findings imply that effectiveness remains uncertain.",
+              "frozen_expected_quotes": [
+                "Our findings imply that effectiveness remains uncertain."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "report": "C2_COVERAGE_V3_HOLDOUT_2026-10-20.json",
+      "report_sha256": "51f5ae99e1fbbdf5986ba09541566190a89630701d8f2c1507bd39939257e71f",
+      "protocol": "abstract-quotes-v3",
+      "partition": "holdout",
+      "real_generations": 3,
+      "returned_field_count": 18,
+      "strict_frozen_field_matches": 17,
+      "omissions_in_returned_proposals": 1,
+      "different_source_spans": 0,
+      "selected_nonmissing_quotes": 17,
+      "every_selected_quote_exactly_copied_from_original": true,
+      "safe_preflight_refusals": 2,
+      "intended_preflight_refusals": 1,
+      "latency_seconds_range_actual_generations": [
+        17.205,
+        17.967
+      ],
+      "sampled_peak_runtime_working_set_bytes": 1410621440,
+      "minimum_pre_load_available_bytes": 5140054016,
+      "minimum_available_bytes_during_actual_generations": 3745525760,
+      "memory_measurement_errors": 0,
+      "review_json_roundtrip": true,
+      "cases": [
+        {
+          "case": "holdout-ecology-abbrev",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 17.205,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "The objective was to assess measurement stability in a forest survey.",
+              "frozen_expected_quotes": [
+                "The objective was to assess measurement stability in a forest survey."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "We measured leaf mass in the Canopy corpus described by Rao et al. using a fixed instrument.",
+              "frozen_expected_quotes": [
+                "We measured leaf mass in the Canopy corpus described by Rao et al. using a fixed instrument."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "We measured leaf mass in the Canopy corpus described by Rao et al. using a fixed instrument.",
+              "frozen_expected_quotes": [
+                "We measured leaf mass in the Canopy corpus described by Rao et al. using a fixed instrument."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "We observed no reliable decrease in variance.",
+              "frozen_expected_quotes": [
+                "We observed no reliable decrease in variance."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The analysis is limited to one season.",
+              "frozen_expected_quotes": [
+                "The analysis is limited to one season."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "We conclude that long-term effects remain uncertain.",
+              "frozen_expected_quotes": [
+                "We conclude that long-term effects remain uncertain."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ]
+        },
+        {
+          "case": "holdout-letters",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 17.343,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "",
+              "frozen_expected_quotes": [
+                "This study examines how seasonal trade was documented."
+              ],
+              "classification": "omission",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "Forty letters were coded independently using a declared rubric.",
+              "frozen_expected_quotes": [
+                "Forty letters were coded independently using a declared rubric."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "Forty letters were coded independently using a declared rubric.",
+              "frozen_expected_quotes": [
+                "Forty letters were coded independently using a declared rubric."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "Two recurring themes were observed in the letters.",
+              "frozen_expected_quotes": [
+                "Two recurring themes were observed in the letters."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The study is restricted to surviving correspondence.",
+              "frozen_expected_quotes": [
+                "The study is restricted to surviving correspondence."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "These findings suggest that missing letters could change the interpretation.",
+              "frozen_expected_quotes": [
+                "These findings suggest that missing letters could change the interpretation."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ]
+        },
+        {
+          "case": "holdout-safe-task-instruction",
+          "kind": "synthetic",
+          "status": "proposal-pending",
+          "real_generation_completed": true,
+          "expected_refusal": false,
+          "seconds": 17.967,
+          "error": null,
+          "fields": [
+            {
+              "field": "objective",
+              "selected_quote": "Our aim was to evaluate recall under a task instruction.",
+              "frozen_expected_quotes": [
+                "Our aim was to evaluate recall under a task instruction."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "method",
+              "selected_quote": "We used a serial recall experiment with 18 participants.",
+              "frozen_expected_quotes": [
+                "We used a serial recall experiment with 18 participants.",
+                "Participants were instructed to repeat digits after a tone."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "dataset",
+              "selected_quote": "We used a serial recall experiment with 18 participants.",
+              "frozen_expected_quotes": [
+                "We used a serial recall experiment with 18 participants."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "results",
+              "selected_quote": "We observed no increase in recall.",
+              "frozen_expected_quotes": [
+                "We observed no increase in recall."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "limitations",
+              "selected_quote": "The study was limited to one session.",
+              "frozen_expected_quotes": [
+                "The study was limited to one session."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            },
+            {
+              "field": "conclusion",
+              "selected_quote": "We conclude that the instruction did not improve performance.",
+              "frozen_expected_quotes": [
+                "We conclude that the instruction did not improve performance."
+              ],
+              "classification": "expected-quote",
+              "exact_original_excerpt": true
+            }
+          ]
+        },
+        {
+          "case": "public-moving-boundaries",
+          "kind": "public-abstract",
+          "status": "refused-or-failed",
+          "real_generation_completed": false,
+          "expected_refusal": false,
+          "seconds": 0.012,
+          "error": "AI analysis abstained: no safe short sentence met the conservative English field cues. Use manual review.",
+          "fields": [],
+          "developer_note": "Benign abstract falsely refused before inference; model output quality unmeasured"
+        },
+        {
+          "case": "public-synapse-model",
+          "kind": "public-abstract",
+          "status": "refused-or-failed",
+          "real_generation_completed": false,
+          "expected_refusal": false,
+          "seconds": 0.013,
+          "error": "AI analysis abstained: no safe short sentence met the conservative English field cues. Use manual review.",
+          "fields": [],
+          "developer_note": "Benign abstract falsely refused before inference; model output quality unmeasured"
+        },
+        {
+          "case": "holdout-unsafe-directive",
+          "kind": "synthetic",
+          "status": "refused-or-failed",
+          "real_generation_completed": false,
+          "expected_refusal": true,
+          "seconds": 0.012,
+          "error": "AI analysis abstained: no safe short sentence met the conservative English field cues. Use manual review.",
+          "fields": [],
+          "developer_note": "Intended pre-inference refusal of direct unsafe fixture"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "kind": "c2-coverage-budget-v1",
+    "cap": 12,
+    "used": 10,
+    "entries": [
+      {
+        "case": "tune-abbreviations",
+        "protocol": "abstract-quotes-v2",
+        "requested_utc": "2026-10-20T12:25:11.268886+00:00"
+      },
+      {
+        "case": "tune-passive-archive",
+        "protocol": "abstract-quotes-v2",
+        "requested_utc": "2026-10-20T12:25:32.814832+00:00"
+      },
+      {
+        "case": "tune-null-participants",
+        "protocol": "abstract-quotes-v2",
+        "requested_utc": "2026-10-20T12:25:49.968910+00:00"
+      },
+      {
+        "case": "tune-abbreviations",
+        "protocol": "abstract-quotes-v3",
+        "requested_utc": "2026-10-20T12:29:00.183017+00:00"
+      },
+      {
+        "case": "tune-passive-archive",
+        "protocol": "abstract-quotes-v3",
+        "requested_utc": "2026-10-20T12:29:17.742754+00:00"
+      },
+      {
+        "case": "tune-quoted-attack-study",
+        "protocol": "abstract-quotes-v3",
+        "requested_utc": "2026-10-20T12:29:35.243614+00:00"
+      },
+      {
+        "case": "tune-null-participants",
+        "protocol": "abstract-quotes-v3",
+        "requested_utc": "2026-10-20T12:29:52.460724+00:00"
+      },
+      {
+        "case": "holdout-ecology-abbrev",
+        "protocol": "abstract-quotes-v3",
+        "requested_utc": "2026-10-20T12:30:16.420198+00:00"
+      },
+      {
+        "case": "holdout-letters",
+        "protocol": "abstract-quotes-v3",
+        "requested_utc": "2026-10-20T12:30:33.902559+00:00"
+      },
+      {
+        "case": "holdout-safe-task-instruction",
+        "protocol": "abstract-quotes-v3",
+        "requested_utc": "2026-10-20T12:30:51.478491+00:00"
+      }
+    ]
+  },
+  "quality_acceptance": "partial: synthetic quote fidelity improved, omissions remain and both public abstract workflows failed preflight; Phase C incomplete",
+  "next_task": "Separately scoped v4 coverage for uncued public prose, using these failed examples as tuning data and freezing a fresh independently annotated holdout before tuning; retain v1-v3 protocols. No further calls in this evaluation."
+}

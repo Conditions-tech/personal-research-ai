@@ -1,0 +1,82 @@
+{
+  "protocol": "abstract-single-role-v6",
+  "partition": "development",
+  "counts": {
+    "roles": 6,
+    "validated_roles": 6,
+    "failed_roles": 0,
+    "unattempted_roles": 0,
+    "expected_supported_roles": 4,
+    "supported_selections": 4,
+    "strict_gold_support": 4,
+    "predeclared_valid_alternative": 0,
+    "correct_missing": 0,
+    "omission": 0,
+    "fill_against_declared_missingness": 2,
+    "other_quote_needs_review": 0,
+    "nonmissing_quotes": 6,
+    "literal_original_quotes": 6
+  },
+  "roles": [
+    {
+      "case": "v6-moving-boundaries-development",
+      "role": "objective",
+      "strict_gold": [
+        "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles."
+      ],
+      "acceptable_alternatives": [],
+      "category": "strict_gold_support",
+      "selected_quote": "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles."
+    },
+    {
+      "case": "v6-moving-boundaries-development",
+      "role": "method",
+      "strict_gold": [
+        "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles.",
+        "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+        "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+      ],
+      "acceptable_alternatives": [],
+      "category": "strict_gold_support",
+      "selected_quote": "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates."
+    },
+    {
+      "case": "v6-moving-boundaries-development",
+      "role": "dataset",
+      "strict_gold": [],
+      "acceptable_alternatives": [],
+      "category": "fill_against_declared_missingness",
+      "selected_quote": "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates."
+    },
+    {
+      "case": "v6-moving-boundaries-development",
+      "role": "results",
+      "strict_gold": [
+        "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+        "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+      ],
+      "acceptable_alternatives": [],
+      "category": "strict_gold_support",
+      "selected_quote": "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+    },
+    {
+      "case": "v6-moving-boundaries-development",
+      "role": "limitations",
+      "strict_gold": [],
+      "acceptable_alternatives": [],
+      "category": "fill_against_declared_missingness",
+      "selected_quote": "However, cells and their compartments are highly dynamic."
+    },
+    {
+      "case": "v6-moving-boundaries-development",
+      "role": "conclusion",
+      "strict_gold": [
+        "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+      ],
+      "acceptable_alternatives": [],
+      "category": "strict_gold_support",
+      "selected_quote": "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+    }
+  ],
+  "limits": "Source/reconstruction checks and developer labels are not independent semantic/scientific validation. Other quotes need human review; missing/failed/unattempted roles never count as correct absence."
+}

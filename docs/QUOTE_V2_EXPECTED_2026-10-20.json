@@ -1,0 +1,151 @@
+{
+  "note": "Expected IDs fixed before inspecting any v2 live output; alternative negative-result quotes 1/2 both acceptable. Agent-authored synthetic evaluation, not independent scientific validation.",
+  "expected_selections": {
+    "explicit": {
+      "objective": [
+        0
+      ],
+      "method": [
+        1
+      ],
+      "dataset": [
+        1
+      ],
+      "results": [
+        2
+      ],
+      "limitations": [
+        3
+      ],
+      "conclusion": [
+        4
+      ]
+    },
+    "missing": {
+      "objective": [
+        1
+      ],
+      "method": [
+        -1
+      ],
+      "dataset": [
+        -1
+      ],
+      "results": [
+        -1
+      ],
+      "limitations": [
+        -1
+      ],
+      "conclusion": [
+        -1
+      ]
+    },
+    "negative": {
+      "objective": [
+        -1
+      ],
+      "method": [
+        0
+      ],
+      "dataset": [
+        0
+      ],
+      "results": [
+        1,
+        2
+      ],
+      "limitations": [
+        -1
+      ],
+      "conclusion": [
+        3
+      ]
+    },
+    "conflict": {
+      "objective": [
+        0
+      ],
+      "method": [
+        -1
+      ],
+      "dataset": [
+        -1
+      ],
+      "results": [
+        1
+      ],
+      "limitations": [
+        -1
+      ],
+      "conclusion": [
+        -1
+      ]
+    },
+    "fresh-structured": {
+      "objective": [
+        2
+      ],
+      "method": [
+        3
+      ],
+      "dataset": [
+        1
+      ],
+      "results": [
+        0
+      ],
+      "limitations": [
+        5
+      ],
+      "conclusion": [
+        4
+      ]
+    },
+    "fresh-math": {
+      "objective": [
+        0
+      ],
+      "method": [
+        1
+      ],
+      "dataset": [
+        -1
+      ],
+      "results": [
+        2
+      ],
+      "limitations": [
+        4
+      ],
+      "conclusion": [
+        5
+      ]
+    },
+    "fresh-uncertain": {
+      "objective": [
+        -1
+      ],
+      "method": [
+        0
+      ],
+      "dataset": [
+        0
+      ],
+      "results": [
+        1
+      ],
+      "limitations": [
+        3
+      ],
+      "conclusion": [
+        2
+      ]
+    }
+  },
+  "expected_preflight_refusals": [
+    "injection",
+    "fresh-adversarial"
+  ],
+  "expected_ui_case": "explicit"
+}

@@ -1,0 +1,88 @@
+{
+  "scope": "Seven actual public-paper generations from 2026-10-21, reconciled 2026-10-24; no inference during this audit",
+  "cases": [
+    {
+      "case": "public-moving-boundaries",
+      "seconds": 102.206,
+      "immediate_pre_load_available_bytes": 6171410432,
+      "minimum_system_available_bytes": 545505280,
+      "sampled_peak_aggregate_runtime_working_set_bytes": 3720155136,
+      "sampler_errors": [
+        "Cannot measure a local runtime process."
+      ],
+      "done_reason": "stop",
+      "thinking_output_observed": false
+    },
+    {
+      "case": "public-synapse-model",
+      "seconds": 84.549,
+      "immediate_pre_load_available_bytes": 6152331264,
+      "minimum_system_available_bytes": 2281025536,
+      "sampled_peak_aggregate_runtime_working_set_bytes": 3729178624,
+      "sampler_errors": [],
+      "done_reason": "stop",
+      "thinking_output_observed": false
+    },
+    {
+      "case": "public-0286516",
+      "seconds": 95.598,
+      "immediate_pre_load_available_bytes": 6364315648,
+      "minimum_system_available_bytes": 2253406208,
+      "sampled_peak_aggregate_runtime_working_set_bytes": 3751690240,
+      "sampler_errors": [],
+      "done_reason": "stop",
+      "thinking_output_observed": false
+    },
+    {
+      "case": "public-0254766",
+      "seconds": 94.94,
+      "immediate_pre_load_available_bytes": 5992116224,
+      "minimum_system_available_bytes": 2112188416,
+      "sampled_peak_aggregate_runtime_working_set_bytes": 3762552832,
+      "sampler_errors": [],
+      "done_reason": "stop",
+      "thinking_output_observed": false
+    },
+    {
+      "case": "public-0129031",
+      "seconds": 98.228,
+      "immediate_pre_load_available_bytes": 6063771648,
+      "minimum_system_available_bytes": 1948811264,
+      "sampled_peak_aggregate_runtime_working_set_bytes": 3730415616,
+      "sampler_errors": [],
+      "done_reason": "stop",
+      "thinking_output_observed": false
+    },
+    {
+      "case": "public-0123952",
+      "seconds": 102.731,
+      "immediate_pre_load_available_bytes": 6133010432,
+      "minimum_system_available_bytes": 784855040,
+      "sampled_peak_aggregate_runtime_working_set_bytes": 3737956352,
+      "sampler_errors": [],
+      "done_reason": "stop",
+      "thinking_output_observed": false
+    },
+    {
+      "case": "public-0202762",
+      "seconds": 92.619,
+      "immediate_pre_load_available_bytes": 5943414784,
+      "minimum_system_available_bytes": 2164596736,
+      "sampled_peak_aggregate_runtime_working_set_bytes": 3721629696,
+      "sampler_errors": [],
+      "done_reason": "stop",
+      "thinking_output_observed": false
+    }
+  ],
+  "minimum_preload_available_bytes": 5943414784,
+  "minimum_sampled_system_available_bytes": 545505280,
+  "maximum_sampled_aggregate_runtime_working_set_bytes": 3762552832,
+  "sampler_error_count": 1,
+  "latency_seconds": {
+    "min": 84.549,
+    "max": 102.731,
+    "median": 95.598,
+    "sum": 670.871
+  },
+  "limits": "Sampled working sets include shared/file-backed pages, not exact total private peak; errors and application/resource changes limit inference. No claim of scientific reliability or unattended resource fit."
+}

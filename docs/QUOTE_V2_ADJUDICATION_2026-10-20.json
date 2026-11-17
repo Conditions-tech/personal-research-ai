@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-20",
+  "protocol": "abstract-quotes-v2",
+  "raw_report_sha256": "f705a9f13dbc2460cf676025c92ca2c9bef6e842c751d862798fc2bfc5dd6db1",
+  "case_texts_frozen_before_inference_sha256": "93f451268f48d58fcbf66192a2157f79b0d25650d06820def4cefde214264dea",
+  "assessment_by": "Implementation agent inspecting fixed synthetic sources and model selections; not independent scientific validation",
+  "real_generation_requests": 8,
+  "programmatic_model_responses": 7,
+  "preflight_refusals": 2,
+  "cases": [
+    {
+      "case": "explicit",
+      "contract": "contract-passed",
+      "model_called": true,
+      "selections": {
+        "objective": 0,
+        "method": 1,
+        "dataset": 1,
+        "results": 2,
+        "limitations": 3,
+        "conclusion": 4
+      },
+      "missing_expected_fields": {},
+      "assessment": "complete for this synthetic fixture"
+    },
+    {
+      "case": "missing",
+      "contract": "contract-passed",
+      "model_called": true,
+      "selections": {
+        "objective": 1,
+        "method": -1,
+        "dataset": -1,
+        "results": -1,
+        "limitations": -1,
+        "conclusion": -1
+      },
+      "missing_expected_fields": {},
+      "assessment": "complete for this synthetic fixture"
+    },
+    {
+      "case": "negative",
+      "contract": "contract-passed",
+      "model_called": true,
+      "selections": {
+        "objective": -1,
+        "method": -1,
+        "dataset": -1,
+        "results": 1,
+        "limitations": -1,
+        "conclusion": -1
+      },
+      "missing_expected_fields": {
+        "method": {
+          "selected": -1,
+          "expected": [
+            0
+          ]
+        },
+        "dataset": {
+          "selected": -1,
+          "expected": [
+            0
+          ]
+        },
+        "conclusion": {
+          "selected": -1,
+          "expected": [
+            3
+          ]
+        }
+      },
+      "assessment": "safe omissions; completeness incomplete"
+    },
+    {
+      "case": "conflict",
+      "contract": "contract-passed",
+      "model_called": true,
+      "selections": {
+        "objective": 0,
+        "method": -1,
+        "dataset": -1,
+        "results": 1,
+        "limitations": -1,
+        "conclusion": -1
+      },
+      "missing_expected_fields": {},
+      "assessment": "complete for this synthetic fixture"
+    },
+    {
+      "case": "injection",
+      "contract": "rejected-or-backend-failed",
+      "model_called": false,
+      "assessment": "expected deterministic preflight refusal, not a model instruction-resistance test",
+      "error": "AI analysis abstained: instruction-like text was detected in the captured abstract. Use manual review."
+    },
+    {
+      "case": "fresh-structured",
+      "contract": "contract-passed",
+      "model_called": true,
+      "selections": {
+        "objective": 2,
+        "method": 3,
+        "dataset": 1,
+        "results": 0,
+        "limitations": 5,
+        "conclusion": 4
+      },
+      "missing_expected_fields": {},
+      "assessment": "complete for this synthetic fixture"
+    },
+    {
+      "case": "fresh-math",
+      "contract": "contract-passed",
+      "model_called": true,
+      "selections": {
+        "objective": 0,
+        "method": 1,
+        "dataset": -1,
+        "results": 2,
+        "limitations": 4,
+        "conclusion": 5
+      },
+      "missing_expected_fields": {},
+      "assessment": "complete for this synthetic fixture"
+    },
+    {
+      "case": "fresh-uncertain",
+      "contract": "contract-passed",
+      "model_called": true,
+      "selections": {
+        "objective": -1,
+        "method": 0,
+        "dataset": -1,
+        "results": 1,
+        "limitations": 3,
+        "conclusion": 2
+      },
+      "missing_expected_fields": {
+        "dataset": {
+          "selected": -1,
+          "expected": [
+            0
+          ]
+        }
+      },
+      "assessment": "safe omissions; completeness incomplete"
+    },
+    {
+      "case": "fresh-adversarial",
+      "contract": "rejected-or-backend-failed",
+      "model_called": false,
+      "assessment": "expected deterministic preflight refusal, not a model instruction-resistance test",
+      "error": "AI analysis abstained: instruction-like text was detected in the captured abstract. Use manual review."
+    }
+  ],
+  "selected_quote_fidelity_in_these_fixtures": "All nonmissing selected quotes retain source wording/numbers/negation and fit the intended field under this agent adjudication. This is not scientific verification or broad model robustness.",
+  "expected_field_matches": 38,
+  "expected_programmatic_fields": 42,
+  "omissions": [
+    {
+      "case": "negative",
+      "field": "method",
+      "selected": -1,
+      "expected": [
+        0
+      ]
+    },
+    {
+      "case": "negative",
+      "field": "dataset",
+      "selected": -1,
+      "expected": [
+        0
+      ]
+    },
+    {
+      "case": "negative",
+      "field": "conclusion",
+      "selected": -1,
+      "expected": [
+        3
+      ]
+    },
+    {
+      "case": "fresh-uncertain",
+      "field": "dataset",
+      "selected": -1,
+      "expected": [
+        0
+      ]
+    }
+  ],
+  "fully_populated_expected_programmatic_cases": 5,
+  "ui": {
+    "functional_checks": {
+      "real_generation_saved_pending": true,
+      "original_evidence_and_manual_notes_unchanged": true,
+      "acceptance_path": true,
+      "rejection_path": true,
+      "reopen_without_generation": true,
+      "rejected_ai_claims_excluded_from_comparison": true
+    },
+    "omitted_expected_fields": {
+      "limitations": {
+        "selected": -1,
+        "expected": [
+          3
+        ]
+      }
+    },
+    "review_actions": "Automated on synthetic data; not substantive user approval of scientific findings."
+  },
+  "latency_seconds": {
+    "minimum": 16.718,
+    "maximum": 17.851,
+    "mean": 17.28557142857143,
+    "ui_generation_and_render": 18.977
+  },
+  "memory": {
+    "sampled_peak_aggregate_runtime_working_set_bytes": 1401036800,
+    "sampling_errors": 0,
+    "limits": "250 ms working-set sampling; includes shared/file-backed pages, not total private allocation or a hard upper bound."
+  },
+  "overall_quality_acceptance": "PARTIAL; expected-field completeness still fails. No unsupported selected claim was observed in this small fixed evaluation.",
+  "limitations": [
+    "English cue/segmentation heuristics may omit valid evidence or fragment abbreviations",
+    "Unrecognized instructions/quoted claims may pass; deterministic refusal can falsely block legitimate attack research",
+    "No paraphrase/interpretation generation in v2; reviewer interpretation and v1 notes remain available",
+    "Model abstention does not prove missing paper information",
+    "Not evaluated on actual private/public research papers or an independent multilingual corpus"
+  ],
+  "phase_c_complete": false
+}

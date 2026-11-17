@@ -1,0 +1,97 @@
+{
+  "started_utc": "2026-10-20T06:03:20.907491+00:00",
+  "request_cap": 2,
+  "page_size": 2,
+  "cases": [
+    {
+      "case": "conference-supplement",
+      "query": "Deep Residual Learning for Image Recognition Kaiming He Xiangyu Zhang Shaoqing Ren Jian Sun 2016",
+      "provider": "Crossref",
+      "years": [
+        null,
+        null
+      ],
+      "categories": [
+        "conference-paper"
+      ],
+      "reported_total": 1916141,
+      "total_scope": "query-matches",
+      "fetched": 4,
+      "filtered": 0,
+      "unique": 0,
+      "pages": 2,
+      "status": "partial",
+      "stop_reason": "record_budget",
+      "error": "",
+      "retained_types": {},
+      "retained_years": [],
+      "checks": {
+        "pages_traversed": true,
+        "raw_count_matches_pages": true,
+        "first_total_preserved": true,
+        "within_budget": true,
+        "cursor_sequence": true,
+        "filter_evidence": true,
+        "positive_type_or_historical_evidence": false,
+        "natural_empty": true,
+        "no_error": true
+      }
+    }
+  ],
+  "requests": [
+    {
+      "case": "conference-supplement",
+      "provider": "Crossref",
+      "sequence": 1,
+      "page_size": 2,
+      "page": null,
+      "year_filter": "",
+      "started_utc": "2026-10-20T06:03:20.928647+00:00",
+      "cursor_follows_previous": true,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "journal-article": 2
+      },
+      "reported_total": 1916141
+    },
+    {
+      "case": "conference-supplement",
+      "provider": "Crossref",
+      "sequence": 2,
+      "page_size": 2,
+      "page": null,
+      "year_filter": "",
+      "started_utc": "2026-10-20T06:03:23.127532+00:00",
+      "cursor_follows_previous": true,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "journal-article": 2
+      },
+      "reported_total": 1916141
+    }
+  ],
+  "runs": [
+    {
+      "case": "conference-supplement",
+      "run_id": "bbf36101be2f4b3a99517ffb33295bc8",
+      "counts": {
+        "raw_fetched": 4,
+        "filtered": 0,
+        "unique_in_run": 0,
+        "duplicate_filtered_entries": 0,
+        "new_library_records": 0
+      },
+      "replay_insertions": 0,
+      "export_round_trip": true
+    }
+  ],
+  "temporary_counts": {
+    "papers": 0,
+    "searches": 1
+  },
+  "temporary_storage_removed": true,
+  "finished_utc": "2026-10-20T06:03:24.428515+00:00",
+  "passed": false
+}

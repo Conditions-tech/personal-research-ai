@@ -1,0 +1,42 @@
+{
+  "kind": "c2-coverage-budget-v1",
+  "cap": 12,
+  "used": 7,
+  "entries": [
+    {
+      "case": "public-moving-boundaries",
+      "protocol": "qwen3-abstract-quotes-pilot-v1",
+      "requested_utc": "2026-10-21T06:48:13.108240+00:00"
+    },
+    {
+      "case": "public-synapse-model",
+      "protocol": "qwen3-abstract-quotes-pilot-v1",
+      "requested_utc": "2026-10-21T06:52:43.999050+00:00"
+    },
+    {
+      "case": "public-0286516",
+      "protocol": "qwen3-abstract-quotes-pilot-v1",
+      "requested_utc": "2026-10-21T06:54:08.376790+00:00"
+    },
+    {
+      "case": "public-0254766",
+      "protocol": "qwen3-abstract-quotes-pilot-v1",
+      "requested_utc": "2026-10-21T06:55:43.951279+00:00"
+    },
+    {
+      "case": "public-0129031",
+      "protocol": "qwen3-abstract-quotes-pilot-v1",
+      "requested_utc": "2026-10-21T06:59:42.621113+00:00"
+    },
+    {
+      "case": "public-0123952",
+      "protocol": "qwen3-abstract-quotes-pilot-v1",
+      "requested_utc": "2026-10-21T07:02:35.407415+00:00"
+    },
+    {
+      "case": "public-0202762",
+      "protocol": "qwen3-abstract-quotes-pilot-v1",
+      "requested_utc": "2026-10-21T07:06:26.920347+00:00"
+    }
+  ]
+}

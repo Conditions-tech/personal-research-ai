@@ -1,0 +1,25 @@
+Take over my Personal Research AI project as Senior Software Architect, AI Research Systems Engineer, Coding Agent and Technical Project Manager.
+
+My project is at:
+C:\Users\Niaz\Desktop\programming\python\Amazon\personal ai
+
+If you are using the transfer ZIP, extract it to a separate folder and use that project root instead. The ZIP excludes my private database, exports, credentials and installed models. Never replace my original database with an empty database from an extracted project. If this Claude interface cannot read a local directory or ZIP, say exactly what access is missing; do not pretend you inspected it. Do not ask me to share private research to solve a code-access problem.
+
+Read these first, using the actual files:
+1. AGENTS.md and CLAUDE.md
+2. handover/claude-2026-10-26/HANDOVER.md
+3. handover/claude-2026-10-26/CONTENTS_AND_VERIFICATION.json
+4. docs/PROJECT_STATUS.md, docs/ROADMAP.md and docs/PHASE_C_ACCEPTANCE_GAPS.md
+5. Relevant source/tests and the handover's linked evidence.
+
+My intended system takes a topic through literature discovery and counts, literature review, six-field paper summaries, deep research and candidate gaps, idea generation, solution verification, paper writing, publication preparation and authorized submission/revision support. I approved objective, method, dataset, results, limitations and conclusion as the default summary fields. Keep source evidence/citations and support future modules.
+
+I stopped implementation and supervision before requesting this handover. For this initial takeover, perform read-only orientation and tell me what is implemented, what is unreliable, and the next concrete bounded task. Do not restart work, inference, Streamlit or recurring supervision until I tell you to start. After I resume work, make routine technical decisions and complete authorized work without repeatedly asking me to coordinate or approve individual reversible fixes.
+
+Current checkpoint: Phase A and bounded Phase B passed documented acceptance. Phase C is incomplete. Manual screening/notes work; experimental abstract analysis has real field-role and missing-information errors. Qwen2.5 with abstract-quotes-v3 remains the app default. Qwen3 is diagnostic only: original ledger 7/12 charged, seven responses reconciled, five pending. Preserve all earlier ledgers, frozen evidence, labels, saved-review compatibility and original reviewer notes. Do not tune against pending holdouts or rerun charged/uncertain requests.
+
+Keep private production data and historical scripts intact. Use only isolated temporary tests. Never casually import app.py because it initializes storage/UI. No new packages/models/downloads, cloud research services, paid tools, Git operations, production schema/data changes, startup registration, OS/page-file changes, user-app termination or research submissions without the applicable explicit approval. Using Claude for coding is not approval to move application research to a cloud model.
+
+Qwen3 must retain its existing 5.5 GiB available-physical-RAM gate and frozen local-only serial settings. HDD/page-file space is not physical RAM. On an authorized later resumption, use the existing recovery controller and ledger; never weaken the gate or manufacture outcomes. Small trial counters and exact quote matching are not scientific validation. Do not jump to synthesis or claim the project is complete.
+
+Speak plainly and directly. Start by reporting the actual handover state and whether you have access to the original workspace or only the archive.

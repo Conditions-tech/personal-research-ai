@@ -1,0 +1,97 @@
+{
+  "protocol": "qwen3-abstract-quotes-pilot-v1",
+  "partition": "holdout",
+  "counts": {
+    "cases": 8,
+    "attempted_cases": 1,
+    "unattempted_cases": 7,
+    "failed_or_refused_cases": 0,
+    "validated_cases": 1,
+    "expected_supported_fields_all_cases": 44,
+    "returned_fields": 6,
+    "supported_selected_fields": 6,
+    "strict_gold_support": 6,
+    "predeclared_alternative": 0,
+    "correct_missing": 0,
+    "omission": 0,
+    "false_fill": 0,
+    "other_quote_needs_review": 0,
+    "nonmissing_quotes": 6,
+    "literal_source_quotes": 6,
+    "injection_cases_checked": 0
+  },
+  "cases": [
+    {
+      "case": "public-0129031",
+      "status": "validated-experimental-fields",
+      "fields": [
+        {
+          "field": "objective",
+          "quote": "We raise the question of the elementary units for which Zipf’s law should hold in the most natural way, studying its validity for plain word forms and for the corresponding lemma forms.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "method",
+          "quote": "We analyze several long literary texts comprising four languages, with different levels of morphological complexity.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "dataset",
+          "quote": "We analyze several long literary texts comprising four languages, with different levels of morphological complexity.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "results",
+          "quote": "In all cases Zipf’s law is fulfilled, in the sense that a power-law distribution of word or lemma frequencies is valid for several orders of magnitude.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "limitations",
+          "quote": "We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "conclusion",
+          "quote": "We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies.",
+          "category": "strict_gold_support"
+        }
+      ]
+    },
+    {
+      "case": "public-0123952",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "public-0202762",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "public-0020753",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "holdout-ecology-abbrev",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "holdout-letters",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "holdout-safe-task-instruction",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "qwen3-synthetic-mixed-injection",
+      "status": "unattempted",
+      "fields": []
+    }
+  ],
+  "scope": "Exact reconstruction and frozen developer-label counters, not independent annotation, scientific verification or an app acceptance. Failed/unattempted cases never count as correct missing fields."
+}

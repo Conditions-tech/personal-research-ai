@@ -1,0 +1,67 @@
+{
+  "kind": "c2-coverage-budget-v1",
+  "cap": 12,
+  "used": 12,
+  "entries": [
+    {
+      "case": "public-moving-boundaries",
+      "protocol": "abstract-quotes-v4",
+      "requested_utc": "2026-10-20T17:48:43.887302+00:00"
+    },
+    {
+      "case": "public-synapse-model",
+      "protocol": "abstract-quotes-v4",
+      "requested_utc": "2026-10-20T17:49:07.776204+00:00"
+    },
+    {
+      "case": "public-0286516",
+      "protocol": "abstract-quotes-v4",
+      "requested_utc": "2026-10-20T17:49:30.110532+00:00"
+    },
+    {
+      "case": "public-0254766",
+      "protocol": "abstract-quotes-v4",
+      "requested_utc": "2026-10-20T17:49:56.689247+00:00"
+    },
+    {
+      "case": "public-moving-boundaries",
+      "protocol": "abstract-quotes-v5",
+      "requested_utc": "2026-10-20T17:51:51.177321+00:00"
+    },
+    {
+      "case": "public-synapse-model",
+      "protocol": "abstract-quotes-v5",
+      "requested_utc": "2026-10-20T17:52:25.766457+00:00"
+    },
+    {
+      "case": "public-0286516",
+      "protocol": "abstract-quotes-v5",
+      "requested_utc": "2026-10-20T17:53:02.510552+00:00"
+    },
+    {
+      "case": "public-0254766",
+      "protocol": "abstract-quotes-v5",
+      "requested_utc": "2026-10-20T17:53:35.455700+00:00"
+    },
+    {
+      "case": "public-0129031",
+      "protocol": "abstract-quotes-v5",
+      "requested_utc": "2026-10-20T17:54:23.993017+00:00"
+    },
+    {
+      "case": "public-0123952",
+      "protocol": "abstract-quotes-v5",
+      "requested_utc": "2026-10-20T17:54:55.916270+00:00"
+    },
+    {
+      "case": "public-0202762",
+      "protocol": "abstract-quotes-v5",
+      "requested_utc": "2026-10-20T17:55:29.039522+00:00"
+    },
+    {
+      "case": "public-0020753",
+      "protocol": "abstract-quotes-v5",
+      "requested_utc": "2026-10-20T17:55:58.942747+00:00"
+    }
+  ]
+}

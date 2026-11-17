@@ -1,0 +1,303 @@
+{
+  "date": "2026-10-20",
+  "protocol": "abstract-quotes-v2",
+  "scope": "Offline tuning-fixture segmentation/candidate inspection; no model choices or scientific correctness measured",
+  "manifest_sha256": "f70673b5331aa8dd67ef626cbe7b4dd63b73e32aba9f39f96002c84870251f74",
+  "holdout_not_inspected_by_this_check": true,
+  "cases": [
+    {
+      "case": "tune-abbreviations",
+      "kind": "synthetic",
+      "domain": "synthetic clinical methods",
+      "offline_only": true,
+      "real_model_called": false,
+      "spans": [
+        "Our aim is to compare two infusion protocols.",
+        "Dr.",
+        "Noor uses protocol A in the U.S. cohort of 24 volunteers.",
+        "We observed no improvement, i.e. mean error remained 5.2%.",
+        "The study was limited to one clinic.",
+        "We conclude that benefit is uncertain."
+      ],
+      "eligible_ids": {
+        "objective": [
+          0
+        ],
+        "method": [],
+        "dataset": [
+          2
+        ],
+        "results": [
+          3
+        ],
+        "limitations": [
+          4
+        ],
+        "conclusion": [
+          5
+        ]
+      },
+      "expected_quote_eligibility": {
+        "objective": {
+          "expected_quotes": [
+            "Our aim is to compare two infusion protocols."
+          ],
+          "eligible_exact_expected_quotes": [
+            "Our aim is to compare two infusion protocols."
+          ],
+          "candidate_quotes": [
+            "Our aim is to compare two infusion protocols."
+          ]
+        },
+        "method": {
+          "expected_quotes": [
+            "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers."
+          ],
+          "eligible_exact_expected_quotes": [],
+          "candidate_quotes": []
+        },
+        "dataset": {
+          "expected_quotes": [
+            "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers."
+          ],
+          "eligible_exact_expected_quotes": [],
+          "candidate_quotes": [
+            "Noor uses protocol A in the U.S. cohort of 24 volunteers."
+          ]
+        },
+        "results": {
+          "expected_quotes": [
+            "We observed no improvement, i.e. mean error remained 5.2%."
+          ],
+          "eligible_exact_expected_quotes": [
+            "We observed no improvement, i.e. mean error remained 5.2%."
+          ],
+          "candidate_quotes": [
+            "We observed no improvement, i.e. mean error remained 5.2%."
+          ]
+        },
+        "limitations": {
+          "expected_quotes": [
+            "The study was limited to one clinic."
+          ],
+          "eligible_exact_expected_quotes": [
+            "The study was limited to one clinic."
+          ],
+          "candidate_quotes": [
+            "The study was limited to one clinic."
+          ]
+        },
+        "conclusion": {
+          "expected_quotes": [
+            "We conclude that benefit is uncertain."
+          ],
+          "eligible_exact_expected_quotes": [
+            "We conclude that benefit is uncertain."
+          ],
+          "candidate_quotes": [
+            "We conclude that benefit is uncertain."
+          ]
+        }
+      }
+    },
+    {
+      "case": "tune-passive-archive",
+      "kind": "synthetic",
+      "domain": "synthetic humanities",
+      "offline_only": true,
+      "real_model_called": false,
+      "spans": [
+        "The purpose is to compare two medieval inventories.",
+        "Thirty archival records are transcribed and compared using a fixed codebook.",
+        "A discrepancy is observed in 3 entries.",
+        "The analysis is restricted to one archive.",
+        "We conclude that the entries should not be treated as complete population counts."
+      ],
+      "eligible_ids": {
+        "objective": [
+          0
+        ],
+        "method": [],
+        "dataset": [],
+        "results": [],
+        "limitations": [
+          3
+        ],
+        "conclusion": [
+          4
+        ]
+      },
+      "expected_quote_eligibility": {
+        "objective": {
+          "expected_quotes": [
+            "The purpose is to compare two medieval inventories."
+          ],
+          "eligible_exact_expected_quotes": [
+            "The purpose is to compare two medieval inventories."
+          ],
+          "candidate_quotes": [
+            "The purpose is to compare two medieval inventories."
+          ]
+        },
+        "method": {
+          "expected_quotes": [
+            "Thirty archival records are transcribed and compared using a fixed codebook."
+          ],
+          "eligible_exact_expected_quotes": [],
+          "candidate_quotes": []
+        },
+        "dataset": {
+          "expected_quotes": [
+            "Thirty archival records are transcribed and compared using a fixed codebook."
+          ],
+          "eligible_exact_expected_quotes": [],
+          "candidate_quotes": []
+        },
+        "results": {
+          "expected_quotes": [
+            "A discrepancy is observed in 3 entries."
+          ],
+          "eligible_exact_expected_quotes": [],
+          "candidate_quotes": []
+        },
+        "limitations": {
+          "expected_quotes": [
+            "The analysis is restricted to one archive."
+          ],
+          "eligible_exact_expected_quotes": [
+            "The analysis is restricted to one archive."
+          ],
+          "candidate_quotes": [
+            "The analysis is restricted to one archive."
+          ]
+        },
+        "conclusion": {
+          "expected_quotes": [
+            "We conclude that the entries should not be treated as complete population counts."
+          ],
+          "eligible_exact_expected_quotes": [
+            "We conclude that the entries should not be treated as complete population counts."
+          ],
+          "candidate_quotes": [
+            "We conclude that the entries should not be treated as complete population counts."
+          ]
+        }
+      }
+    },
+    {
+      "case": "tune-quoted-attack-study",
+      "kind": "synthetic",
+      "domain": "synthetic security research",
+      "offline_only": true,
+      "real_model_called": false,
+      "preflight_refusal": "AI analysis abstained: instruction-like text was detected in the captured abstract. Use manual review.",
+      "false_whole_abstract_refusal": true
+    },
+    {
+      "case": "tune-null-participants",
+      "kind": "synthetic",
+      "domain": "synthetic human factors",
+      "offline_only": true,
+      "real_model_called": false,
+      "spans": [
+        "We used a blinded experiment with 30 participants.",
+        "We observed no decrease in error.",
+        "Our findings imply that effectiveness remains uncertain.",
+        "The study was limited to one site."
+      ],
+      "eligible_ids": {
+        "objective": [],
+        "method": [
+          0
+        ],
+        "dataset": [
+          0
+        ],
+        "results": [
+          1
+        ],
+        "limitations": [
+          3
+        ],
+        "conclusion": [
+          2
+        ]
+      },
+      "expected_quote_eligibility": {
+        "objective": {
+          "expected_quotes": [],
+          "eligible_exact_expected_quotes": [],
+          "candidate_quotes": []
+        },
+        "method": {
+          "expected_quotes": [
+            "We used a blinded experiment with 30 participants."
+          ],
+          "eligible_exact_expected_quotes": [
+            "We used a blinded experiment with 30 participants."
+          ],
+          "candidate_quotes": [
+            "We used a blinded experiment with 30 participants."
+          ]
+        },
+        "dataset": {
+          "expected_quotes": [
+            "We used a blinded experiment with 30 participants."
+          ],
+          "eligible_exact_expected_quotes": [
+            "We used a blinded experiment with 30 participants."
+          ],
+          "candidate_quotes": [
+            "We used a blinded experiment with 30 participants."
+          ]
+        },
+        "results": {
+          "expected_quotes": [
+            "We observed no decrease in error."
+          ],
+          "eligible_exact_expected_quotes": [
+            "We observed no decrease in error."
+          ],
+          "candidate_quotes": [
+            "We observed no decrease in error."
+          ]
+        },
+        "limitations": {
+          "expected_quotes": [
+            "The study was limited to one site."
+          ],
+          "eligible_exact_expected_quotes": [
+            "The study was limited to one site."
+          ],
+          "candidate_quotes": [
+            "The study was limited to one site."
+          ]
+        },
+        "conclusion": {
+          "expected_quotes": [
+            "Our findings imply that effectiveness remains uncertain."
+          ],
+          "eligible_exact_expected_quotes": [
+            "Our findings imply that effectiveness remains uncertain."
+          ],
+          "candidate_quotes": [
+            "Our findings imply that effectiveness remains uncertain."
+          ]
+        }
+      }
+    }
+  ],
+  "findings": [
+    "Dr. fragments the clinical tuning quote under frozen v2 rules; U.S. and i.e. remain intact in this fixture, and abbreviation handling is heuristic",
+    "Passive/present-tense methods and record-based study inputs lack some eligible v2 candidates",
+    "Legitimate prompt research containing a quoted attack causes a false whole-abstract refusal",
+    "Existing participants/null-result tuning fixture has eligible quotes, so prior omissions cannot be attributed solely to keyword coverage"
+  ],
+  "unmeasured": [
+    "actual selected/misassigned/unsupported quotes",
+    "live latency and peak model memory",
+    "public holdout paper outcomes"
+  ],
+  "model_requests_used": 0,
+  "v3_implemented_or_activated": false
+}

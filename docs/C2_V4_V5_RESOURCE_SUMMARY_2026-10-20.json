@@ -1,0 +1,44 @@
+{
+  "reports": [
+    {
+      "report": "C2_V4_TUNING_RESUMED_2026-10-20.json",
+      "generations": 4,
+      "latency_seconds_range": [
+        22.012,
+        26.578
+      ],
+      "sampled_peak_aggregate_runtime_working_set_bytes": 1467129856,
+      "minimum_pre_load_available_bytes": 4523057152,
+      "minimum_available_bytes_during_inference": 2769252352,
+      "memory_measurement_errors": 0,
+      "json_roundtrip": true
+    },
+    {
+      "report": "C2_V5_TUNING_RESULTS_2026-10-20.json",
+      "generations": 4,
+      "latency_seconds_range": [
+        32.691,
+        36.862
+      ],
+      "sampled_peak_aggregate_runtime_working_set_bytes": 1434849280,
+      "minimum_pre_load_available_bytes": 4398448640,
+      "minimum_available_bytes_during_inference": 3698802688,
+      "memory_measurement_errors": 0,
+      "json_roundtrip": true
+    },
+    {
+      "report": "C2_V5_HOLDOUT_RESULTS_2026-10-20.json",
+      "generations": 4,
+      "latency_seconds_range": [
+        29.634,
+        32.835
+      ],
+      "sampled_peak_aggregate_runtime_working_set_bytes": 1429512192,
+      "minimum_pre_load_available_bytes": 4725751808,
+      "minimum_available_bytes_during_inference": 3633283072,
+      "memory_measurement_errors": 0,
+      "json_roundtrip": true
+    }
+  ],
+  "measurement_limits": "250 ms sampled aggregate working sets include shared/file-backed pages; some final holdout inference overlapped the full isolated regression suite, so timings describe development load, not controlled performance or expected user latency."
+}

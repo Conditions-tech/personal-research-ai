@@ -1,0 +1,57 @@
+{
+  "kind": "c2-coverage-budget-v1",
+  "cap": 12,
+  "used": 10,
+  "entries": [
+    {
+      "case": "tune-abbreviations",
+      "protocol": "abstract-quotes-v2",
+      "requested_utc": "2026-10-20T12:25:11.268886+00:00"
+    },
+    {
+      "case": "tune-passive-archive",
+      "protocol": "abstract-quotes-v2",
+      "requested_utc": "2026-10-20T12:25:32.814832+00:00"
+    },
+    {
+      "case": "tune-null-participants",
+      "protocol": "abstract-quotes-v2",
+      "requested_utc": "2026-10-20T12:25:49.968910+00:00"
+    },
+    {
+      "case": "tune-abbreviations",
+      "protocol": "abstract-quotes-v3",
+      "requested_utc": "2026-10-20T12:29:00.183017+00:00"
+    },
+    {
+      "case": "tune-passive-archive",
+      "protocol": "abstract-quotes-v3",
+      "requested_utc": "2026-10-20T12:29:17.742754+00:00"
+    },
+    {
+      "case": "tune-quoted-attack-study",
+      "protocol": "abstract-quotes-v3",
+      "requested_utc": "2026-10-20T12:29:35.243614+00:00"
+    },
+    {
+      "case": "tune-null-participants",
+      "protocol": "abstract-quotes-v3",
+      "requested_utc": "2026-10-20T12:29:52.460724+00:00"
+    },
+    {
+      "case": "holdout-ecology-abbrev",
+      "protocol": "abstract-quotes-v3",
+      "requested_utc": "2026-10-20T12:30:16.420198+00:00"
+    },
+    {
+      "case": "holdout-letters",
+      "protocol": "abstract-quotes-v3",
+      "requested_utc": "2026-10-20T12:30:33.902559+00:00"
+    },
+    {
+      "case": "holdout-safe-task-instruction",
+      "protocol": "abstract-quotes-v3",
+      "requested_utc": "2026-10-20T12:30:51.478491+00:00"
+    }
+  ]
+}

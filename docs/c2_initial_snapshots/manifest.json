@@ -1,0 +1,77 @@
+{
+  "capture_date_local": "2026-11-16",
+  "offsets": "Zero-based Unicode code points, end exclusive, into UTF-8 reviewer text with LF line endings.",
+  "cases": [
+    {
+      "case_id": "C2-INIT-01",
+      "doi": "10.1371/journal.pone.0298867",
+      "title": "Evidence of elevated situational awareness for active duty soldiers during navigation of a virtual environment",
+      "attribution": "Enders et al.",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0298867",
+      "version": "Publisher version of record, HTML Abstract",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "reviewer_file": "C2-INIT-01.txt",
+      "reviewer_sha256": "70e9276ff5e4572aef09824086a3d6be99a5efeef22bbda259b247a1a909654d",
+      "spans": [
+        {
+          "id": "P1",
+          "start": 0,
+          "end": 2134
+        }
+      ]
+    },
+    {
+      "case_id": "C2-INIT-02",
+      "doi": "10.3389/feduc.2024.1287744",
+      "title": "Retrieval-based concept mapping makes a difference as a retrieval practice activity: a study with high school students",
+      "attribution": "Lechuga, Ortega-Tudela and Gómez-Ariza",
+      "source_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1287744/full",
+      "version": "Publisher version of record, HTML Abstract with structured headings",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "reviewer_file": "C2-INIT-02.txt",
+      "reviewer_sha256": "271062d92f4b7304908fb3956c1b1fb8444ce94e3476b24dd6d3d696b146ee8b",
+      "spans": [
+        {
+          "id": "P1",
+          "start": 0,
+          "end": 450
+        },
+        {
+          "id": "P2",
+          "start": 452,
+          "end": 928
+        },
+        {
+          "id": "P3",
+          "start": 930,
+          "end": 1387
+        },
+        {
+          "id": "P4",
+          "start": 1389,
+          "end": 1712
+        }
+      ]
+    },
+    {
+      "case_id": "C2-INIT-03",
+      "doi": "10.1051/0004-6361/202553719",
+      "title": "Discovery of a transiting hot water-world candidate orbiting Ross 176 with TESS and CARMENES",
+      "attribution": "Geraldía-González et al.",
+      "source_url": "https://api.crossref.org/works/10.1051/0004-6361/202553719",
+      "version": "EDP Sciences Crossref abstract deposit associated with DOI and version-of-record licence; exact publisher PDF comparison unavailable",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "deposited_fragment": "C2-INIT-03.jats-fragment.txt",
+      "deposited_fragment_sha256": "6eabf7414cb378d760e1c441cd6539e8dd8c6a385e16bf5308cc62b6db40ba04",
+      "reviewer_file": "C2-INIT-03.txt",
+      "reviewer_sha256": "3d89778443f8fb9253626018d84005178ea28c6c0494e35ce003b76eb95274fd",
+      "spans": [
+        {
+          "id": "P1",
+          "start": 0,
+          "end": 1926
+        }
+      ]
+    }
+  ]
+}

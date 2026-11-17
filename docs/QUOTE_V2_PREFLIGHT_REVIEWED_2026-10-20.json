@@ -1,0 +1,348 @@
+{
+  "prompt_version": "abstract-quotes-v2",
+  "cases_sha256": "93f451268f48d58fcbf66192a2157f79b0d25650d06820def4cefde214264dea",
+  "source_sha256": {
+    "review/analysis.py": "8bf51800e49c7f00dda75de39578fd5b039d72a4bda9bea4b0eec5adc1e53d77",
+    "review/quote_analysis.py": "ca7cfa9aaa517afd3d1af87d72e284f2055dca9f2e0638acdc397e15b45d139d",
+    "review/local_backend.py": "f6bbb17e4ba50974026958639257ae67d43867734b5a46ac35170e48c8bd43e6",
+    "tools/local_analysis_benchmark.py": "e096d17e9a922d217abd7340cd4a9fe701a4ca001ad970aa709e6c21fb088968"
+  },
+  "preflight": [
+    {
+      "case": "explicit",
+      "status": "eligible",
+      "choices": {
+        "objective": {
+          "type": "integer",
+          "enum": [
+            0,
+            -1
+          ]
+        },
+        "method": {
+          "type": "integer",
+          "enum": [
+            1,
+            -1
+          ]
+        },
+        "dataset": {
+          "type": "integer",
+          "enum": [
+            1,
+            -1
+          ]
+        },
+        "results": {
+          "type": "integer",
+          "enum": [
+            2,
+            -1
+          ]
+        },
+        "limitations": {
+          "type": "integer",
+          "enum": [
+            3,
+            -1
+          ]
+        },
+        "conclusion": {
+          "type": "integer",
+          "enum": [
+            4,
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "case": "missing",
+      "status": "eligible",
+      "choices": {
+        "objective": {
+          "type": "integer",
+          "enum": [
+            1,
+            -1
+          ]
+        },
+        "method": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "dataset": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "results": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "limitations": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "conclusion": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "case": "negative",
+      "status": "eligible",
+      "choices": {
+        "objective": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "method": {
+          "type": "integer",
+          "enum": [
+            0,
+            -1
+          ]
+        },
+        "dataset": {
+          "type": "integer",
+          "enum": [
+            0,
+            -1
+          ]
+        },
+        "results": {
+          "type": "integer",
+          "enum": [
+            1,
+            2,
+            -1
+          ]
+        },
+        "limitations": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "conclusion": {
+          "type": "integer",
+          "enum": [
+            3,
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "case": "conflict",
+      "status": "eligible",
+      "choices": {
+        "objective": {
+          "type": "integer",
+          "enum": [
+            0,
+            -1
+          ]
+        },
+        "method": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "dataset": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "results": {
+          "type": "integer",
+          "enum": [
+            1,
+            2,
+            -1
+          ]
+        },
+        "limitations": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "conclusion": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "case": "injection",
+      "status": "preflight-abstention",
+      "reason": "AI analysis abstained: instruction-like text was detected in the captured abstract. Use manual review."
+    },
+    {
+      "case": "fresh-structured",
+      "status": "eligible",
+      "choices": {
+        "objective": {
+          "type": "integer",
+          "enum": [
+            2,
+            -1
+          ]
+        },
+        "method": {
+          "type": "integer",
+          "enum": [
+            3,
+            -1
+          ]
+        },
+        "dataset": {
+          "type": "integer",
+          "enum": [
+            1,
+            -1
+          ]
+        },
+        "results": {
+          "type": "integer",
+          "enum": [
+            0,
+            -1
+          ]
+        },
+        "limitations": {
+          "type": "integer",
+          "enum": [
+            5,
+            -1
+          ]
+        },
+        "conclusion": {
+          "type": "integer",
+          "enum": [
+            4,
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "case": "fresh-math",
+      "status": "eligible",
+      "choices": {
+        "objective": {
+          "type": "integer",
+          "enum": [
+            0,
+            -1
+          ]
+        },
+        "method": {
+          "type": "integer",
+          "enum": [
+            1,
+            -1
+          ]
+        },
+        "dataset": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "results": {
+          "type": "integer",
+          "enum": [
+            2,
+            -1
+          ]
+        },
+        "limitations": {
+          "type": "integer",
+          "enum": [
+            4,
+            -1
+          ]
+        },
+        "conclusion": {
+          "type": "integer",
+          "enum": [
+            5,
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "case": "fresh-uncertain",
+      "status": "eligible",
+      "choices": {
+        "objective": {
+          "type": "integer",
+          "enum": [
+            -1
+          ]
+        },
+        "method": {
+          "type": "integer",
+          "enum": [
+            0,
+            -1
+          ]
+        },
+        "dataset": {
+          "type": "integer",
+          "enum": [
+            0,
+            -1
+          ]
+        },
+        "results": {
+          "type": "integer",
+          "enum": [
+            1,
+            -1
+          ]
+        },
+        "limitations": {
+          "type": "integer",
+          "enum": [
+            3,
+            -1
+          ]
+        },
+        "conclusion": {
+          "type": "integer",
+          "enum": [
+            2,
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "case": "fresh-adversarial",
+      "status": "preflight-abstention",
+      "reason": "AI analysis abstained: instruction-like text was detected in the captured abstract. Use manual review."
+    }
+  ],
+  "note": "Reviewed before any version-two live generation; corrected overly broad method/absence cues found by offline preflight. Case texts remain frozen."
+}

@@ -1,0 +1,175 @@
+{
+  "kind": "qwen3-runtime-account-repair-v1",
+  "recorded_utc": "2026-10-25T07:13:29.123598+00:00",
+  "repair_completed": true,
+  "before": {
+    "pid": 5268,
+    "executable_path": "C:\\Users\\Niaz\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+    "owner": "CodexSandboxOffline",
+    "session_id": 1,
+    "listener_address": "127.0.0.1",
+    "active_tcp_clients": 0,
+    "api_version": "0.40.6",
+    "tags_model_count": 0,
+    "loaded_model_count": 0,
+    "idle_verified": true
+  },
+  "repair": {
+    "power_shell_stop_attempt": "Failed with Object reference not set to an instance of an object; PID remained running.",
+    "targeted_stop_method": "taskkill.exe /PID 5268 (no recursive /T); completed before replacement start.",
+    "startup_registration_changed": false,
+    "persistent_environment_changed": false,
+    "model_or_manifest_files_modified": false,
+    "explicit_process_environment": {
+      "OLLAMA_MODELS": "C:\\Users\\Niaz\\.ollama\\models",
+      "OLLAMA_HOST": "127.0.0.1:11434",
+      "OLLAMA_NO_CLOUD": "1",
+      "OLLAMA_NUM_PARALLEL": "1",
+      "OLLAMA_MAX_LOADED_MODELS": "1",
+      "proxy_environment_cleared_for_child": true
+    },
+    "same_existing_executable": true,
+    "executable_sha256": "71d2002d3ae572d5fa8c1d368ce9d1b9a39c7187cf169e8b330c55410bf6c58e"
+  },
+  "installed_model_files": {
+    "model_name": "qwen3:4b-q4_K_M",
+    "approved_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+    "outer_manifest_file_sha256": "2506fc962873ce25ee9aa95c6d69babe97f1a0d308ef48cba743182ca8356ce9",
+    "outer_manifest_file_bytes": 1022,
+    "all_five_layers_verified_at_declared_sizes": true,
+    "layers": [
+      {
+        "digest": "sha256:163553aea1b1de62de7c5eb2ef5afb756b4b3133308d9ae7e42e951d8d696ef5",
+        "size_bytes": 2620774592,
+        "present_and_size_verified": true
+      },
+      {
+        "digest": "sha256:ae370d884f108d16e7cc8fd5259ebc5773a0afa6e078b11f4ed7e39a27e0dfc4",
+        "size_bytes": 1723,
+        "present_and_size_verified": true
+      },
+      {
+        "digest": "sha256:d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12",
+        "size_bytes": 11338,
+        "present_and_size_verified": true
+      },
+      {
+        "digest": "sha256:cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb",
+        "size_bytes": 120,
+        "present_and_size_verified": true
+      },
+      {
+        "digest": "sha256:2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+        "size_bytes": 859,
+        "present_and_size_verified": true
+      }
+    ],
+    "nested_manifest_sha256_matches_approved_digest": true
+  },
+  "after": {
+    "process": {
+      "pid": 13804,
+      "executable_path": "C:\\Users\\Niaz\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+      "owner": "Niaz",
+      "session_id": 1,
+      "listener_address": "127.0.0.1",
+      "listener_count": 1,
+      "active_tcp_clients": 0
+    },
+    "runtime_version": "0.40.6",
+    "model_name": "qwen3:4b-q4_K_M",
+    "model_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+    "model_size_bytes": 2620788260,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "4.0B",
+      "quantization_level": "Q4_K_M"
+    },
+    "thinking_values": [
+      false,
+      true
+    ],
+    "thinking_false_supported": true,
+    "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ],
+    "api_tags_approved_model_count": 1,
+    "api_ps_loaded_count": 0,
+    "controller_check_status": "ready",
+    "controller_check_stage": "idle_verified",
+    "available_ram_samples": [
+      {
+        "utc": "2026-10-25T07:12:45.996830+00:00",
+        "available_bytes": 1316044800
+      },
+      {
+        "utc": "2026-10-25T07:12:50.997168+00:00",
+        "available_bytes": 1307320320
+      },
+      {
+        "utc": "2026-10-25T07:12:55.997493+00:00",
+        "available_bytes": 1301250048
+      }
+    ],
+    "last_sample_below_gate": true,
+    "minimum_generation_gate_bytes": 5905580032,
+    "generation_ready": false,
+    "subsequent_run_approved_check": {
+      "command": "python tools/qwen3_recovery.py --run-approved",
+      "status": "waiting_memory",
+      "available_ram_bytes": [1110786048, 1130930176, 993452032],
+      "generation_started": false,
+      "additional_inference_requests": 0,
+      "ledger_used_after_check": 7,
+      "pending_cases_after_check": 5
+    }
+  },
+  "later_supervisor_restart_check": {
+    "reason": "Ollama runtime was absent after an app/host interruption",
+    "started_by_existing_supervisor": true,
+    "reported_account": "Niaz",
+    "process_id": 11528,
+    "process_path_verified": "C:\\Users\\Niaz\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+    "process_path_is_existing_approved_binary": true,
+    "version_endpoint": "0.40.6",
+    "tags_approved_model_count": 1,
+    "tags_approved_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+    "loaded_model_count": 0,
+    "second_ollama_process_observed": false,
+    "controller_status": "waiting_memory",
+    "controller_available_ram_bytes": 4430458880,
+    "generation_gate_bytes": 5905580032,
+    "generation_started": false,
+    "inference_requests": 0,
+    "process_account_independently_readable": false
+  },
+  "ledger": {
+    "used": 7,
+    "cap": 12,
+    "pending": [
+      "public-0020753",
+      "holdout-ecology-abbrev",
+      "holdout-letters",
+      "holdout-safe-task-instruction",
+      "qwen3-synthetic-mixed-injection"
+    ],
+    "sha256": "c41a196712ebfb0bca3b7d4cfb77d4f6138bcebf896fab56c22a3bbe90dbb41a"
+  },
+  "inference_requests": 0,
+  "model_downloads": 0,
+  "production_database_accessed": false,
+  "frozen_digest_or_source_changed": false,
+  "production_schema_changed": false,
+  "historical_scripts_changed": false,
+  "packages_installed": false,
+  "git_operations": false,
+  "prior_identity_diagnosis": "C2_QWEN3_RUNTIME_IDENTITY_2026-10-25.json",
+  "verification": "C2_QWEN3_CONTINUATION_VERIFY_2026-10-25.json"
+}

@@ -1,0 +1,17 @@
+{
+  "protocol": "qwen3-abstract-quotes-pilot-v1",
+  "manifest_sha256": "6168d02767ac6ea5005f43d108962ef7cf271ca8c33627a517aa9578a77f7048",
+  "partition": "development",
+  "started_utc": "2026-10-21T06:43:59.271890+00:00",
+  "experimental_not_app_proposal": true,
+  "requested_case_ids": [
+    "public-moving-boundaries"
+  ],
+  "state": "blocked",
+  "cases": [],
+  "blocker": {
+    "reason": "Available memory below unchanged 5.5 GiB gate",
+    "available_bytes": 5384642560
+  },
+  "finished_utc": "2026-10-21T06:43:59.272922+00:00"
+}

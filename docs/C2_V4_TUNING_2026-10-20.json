@@ -1,0 +1,203 @@
+{
+  "format_version": 1,
+  "created_date": "2026-10-20",
+  "purpose": "Public abstract quality/coverage evaluation, no private research or provider discovery",
+  "adjudication": "Developer-authored labels before tuning; not independently annotated or blinded. Source presence is distinct from field relevance/scientific support. Ambiguous roles retained with notes.",
+  "split_policy": "Tuning cases may inform rules/prompts. Holdout text/labels were curated before tuning, but neither holdout outcomes nor labels may inform tuning. Freeze a new partition before any future retuning.",
+  "all_sources_one_publisher_limit": true,
+  "partition": "tuning",
+  "cases": [
+    {
+      "id": "public-moving-boundaries",
+      "kind": "public-abstract",
+      "domain": "public computational biophysics",
+      "title": "Simulating Stochastic Reaction-Diffusion Systems on and within Moving Boundaries",
+      "authors": "Atiyo Ghosh; Tatiana T. Marquez-Lago",
+      "year": 2015,
+      "doi": "10.1371/journal.pone.0133401",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0133401",
+      "license": "CC BY 4.0",
+      "abstract": "Chemical reactions inside cells are generally considered to happen within fixed-size compartments. However, cells and their compartments are highly dynamic. Thus, such stringent geometrical assumptions may not reflect biophysical reality, and can highly bias conclusions from simulation studies. In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles. We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates. Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization.",
+      "expected": {
+        "objective": [
+          "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles."
+        ],
+        "method": [
+          "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles.",
+          "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+          "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+        ],
+        "dataset": [],
+        "results": [
+          "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+          "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+        ],
+        "limitations": [],
+        "conclusion": [
+          "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+        ]
+      },
+      "expected_refusal": false,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "accessed_date": "2026-10-20",
+      "transformation": "HTML abstract rendered as plain text; paragraph breaks joined by spaces, emphasis removed; no sentence intentionally omitted.",
+      "adjudication_note": "Developer labels from abstract only; objective/conclusion alternatives in unstructured real abstracts are interpretive, not independent scientific ground truth.",
+      "abstract_sha256": "6ce1892f2c59b4193d8a49d78c6ac2d273c108b74659b75ff389438de6dd2832",
+      "role_in_previous_evaluation": "Observed v3 holdout failure, explicitly reused as tuning only"
+    },
+    {
+      "id": "public-synapse-model",
+      "kind": "public-abstract",
+      "domain": "public computational biophysics",
+      "title": "Elastohydrodynamics and Kinetics of Protein Patterning in the Immunological Synapse",
+      "authors": "Andreas Carlson; L. Mahadevan",
+      "year": 2015,
+      "doi": "10.1371/journal.pcbi.1004481",
+      "source_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004481",
+      "license": "CC BY 4.0",
+      "abstract": "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft. Our theory leads to simple predictions for the spatial and temporal scales of protein cluster formation, growth and arrest as a function of membrane stiffness, rigidity and kinetics of the adhesive proteins, and the fluid flow in the synaptic cleft. Numerical simulations complement these scaling laws by quantifying the nucleation, growth and stabilization of proteins domains on the size of the cell. Direct comparison with experiment shows that passive elastohydrodynamics and kinetics of protein binding in the synaptic cleft can describe the short-time formation and organization of protein clusters, without evoking any active processes in the cytoskeleton. Despite the apparent complexity of the process, our analysis shows that just two dimensionless parameters characterize the spatial and temporal evolution of the protein pattern: a ratio of membrane elasticity to protein stiffness, and the ratio of a hydrodynamic time scale for fluid flow relative to the protein binding rate. A simple phase diagram encompasses the variety of patterns that can arise.",
+      "expected": {
+        "objective": [
+          "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft."
+        ],
+        "method": [
+          "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft.",
+          "Numerical simulations complement these scaling laws by quantifying the nucleation, growth and stabilization of proteins domains on the size of the cell.",
+          "Direct comparison with experiment shows that passive elastohydrodynamics and kinetics of protein binding in the synaptic cleft can describe the short-time formation and organization of protein clusters, without evoking any active processes in the cytoskeleton."
+        ],
+        "dataset": [],
+        "results": [
+          "Our theory leads to simple predictions for the spatial and temporal scales of protein cluster formation, growth and arrest as a function of membrane stiffness, rigidity and kinetics of the adhesive proteins, and the fluid flow in the synaptic cleft.",
+          "Direct comparison with experiment shows that passive elastohydrodynamics and kinetics of protein binding in the synaptic cleft can describe the short-time formation and organization of protein clusters, without evoking any active processes in the cytoskeleton.",
+          "Despite the apparent complexity of the process, our analysis shows that just two dimensionless parameters characterize the spatial and temporal evolution of the protein pattern: a ratio of membrane elasticity to protein stiffness, and the ratio of a hydrodynamic time scale for fluid flow relative to the protein binding rate."
+        ],
+        "limitations": [],
+        "conclusion": [
+          "Direct comparison with experiment shows that passive elastohydrodynamics and kinetics of protein binding in the synaptic cleft can describe the short-time formation and organization of protein clusters, without evoking any active processes in the cytoskeleton.",
+          "A simple phase diagram encompasses the variety of patterns that can arise."
+        ]
+      },
+      "expected_refusal": false,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "accessed_date": "2026-10-20",
+      "transformation": "HTML abstract rendered as plain text; paragraph breaks joined by spaces, emphasis removed; no sentence intentionally omitted.",
+      "adjudication_note": "Developer labels from abstract only; objective/conclusion alternatives in unstructured real abstracts are interpretive, not independent scientific ground truth.",
+      "abstract_sha256": "3c1ca976ba8296ee0b7284cfacfab2c459d0b83290941373fcd05d42dc480869",
+      "role_in_previous_evaluation": "Observed v3 holdout failure, explicitly reused as tuning only"
+    },
+    {
+      "id": "public-0286516",
+      "kind": "public-abstract",
+      "domain": "cognitive psychology / bilingual metamemory",
+      "title": "Judgments of learning in bilinguals: Does studying in a L2 hinder learning monitoring?",
+      "authors": "Marta Reyes; Mª Julia Morales; Mª Teresa Bajo",
+      "year": 2023,
+      "doi": "10.1371/journal.pone.0286516",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0286516",
+      "license": "CC BY 4.0",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Copyright:  © 2023 Reyes et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "abstract": "Nowadays, use of a second language (L2) has taken a central role in daily activities. There are numerous contexts in which people have to process information, acquire new knowledge, or make decisions via a second language. For example, in academia and higher education, English is commonly used as the language of instruction and communication even though English might not be students’ native or first language (L1) and they might not be proficient in it. Such students may face different challenges when studying and learning in L2 relative to contexts in which they study and learn in their L1, and this may affect their metamemory strategies. However, little is yet known about whether metamemory processes undergo significant changes when learning is carried out in L2. The aim of the present study was to investigate the possible consequences on learning derived from studying materials in L2 and, more specifically, to explore whether the interplay between monitoring and control (metamemory processes) changes as a function of the language involved. In three experiments, we explored whether font type (Experiment 1), concreteness (Experiment 2), and relatedness (Experiment 3) affected judgments of learning (JOLs) and memory performance in both L1 and L2. JOLs are considered the result of metacognitive strategies involved in the monitoring of learning and have been reported to vary with the difficulty of the material. The results of this study showed that people were able to monitor their learning in both L1 and L2, even though they judged L2 learning as more difficult than L1. Interestingly, self-perceived difficulty did not hinder learning, and people recognized L2 materials as well or better than L1 materials. We suggest that this might be an example of a desirable difficulty for memory.",
+      "abstract_sha256": "65d7d842fffd24e87fb4f0b3236252ef13af6a5c489c115265841686ca575924",
+      "html_sha256": "cca3db635d2de54b2b1a063958e881156a1c2a162f409b179bad70f0c2e69428",
+      "capture_utc": "2026-10-20T12:45:54.715796+00:00",
+      "capture_method": "Publisher citation_abstract meta attribute; HTML entities decoded by HTMLParser; full abstract preserved without section headings/emphasis markup",
+      "expected_refusal": false,
+      "adjudication_note": "Manipulated task factors are described, but no studied corpus/sample/participant group is identified; dataset is labelled missing conservatively. This is a debatable developer distinction, not independent ground truth.",
+      "expected": {
+        "objective": [
+          "The aim of the present study was to investigate the possible consequences on learning derived from studying materials in L2 and, more specifically, to explore whether the interplay between monitoring and control (metamemory processes) changes as a function of the language involved."
+        ],
+        "method": [
+          "In three experiments, we explored whether font type (Experiment 1), concreteness (Experiment 2), and relatedness (Experiment 3) affected judgments of learning (JOLs) and memory performance in both L1 and L2."
+        ],
+        "dataset": [],
+        "results": [
+          "The results of this study showed that people were able to monitor their learning in both L1 and L2, even though they judged L2 learning as more difficult than L1.",
+          "Interestingly, self-perceived difficulty did not hinder learning, and people recognized L2 materials as well or better than L1 materials."
+        ],
+        "limitations": [],
+        "conclusion": [
+          "We suggest that this might be an example of a desirable difficulty for memory."
+        ]
+      },
+      "prelabel_sentence_ids": {
+        "objective": [
+          5
+        ],
+        "method": [
+          6
+        ],
+        "dataset": [],
+        "results": [
+          8,
+          9
+        ],
+        "limitations": [],
+        "conclusion": [
+          10
+        ]
+      }
+    },
+    {
+      "id": "public-0254766",
+      "kind": "public-abstract",
+      "domain": "archaeology / ceramic geometry",
+      "title": "Toward the identification of social signatures in ceramic production – An archaeological case study",
+      "authors": "Ortal Harush; Leore Grosman",
+      "year": 2021,
+      "doi": "10.1371/journal.pone.0254766",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0254766",
+      "license": "CC BY 4.0",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Copyright:  © 2021 Harush, Grosman. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "abstract": "Ceramic analysis has been concerned with categorizing types according to vessel shape and size for describing a given material culture at a particular time. This analysis’ long tradition has enabled archaeologists to define cultural units across time. However, going into the analysis of sub-typological variations is rarely done, although their meanings bear significant consequences on the understanding of ties between individuals and social units. This study, aiming to assess whether it is possible to identify social signatures, focuses on a single archaeological ceramic type. For this propose, we selected a corpus of 235 storage jars from two distinct periods: storage jars from the Intermediate Bronze Age (the 25th -20th century BCE); and the Oval Storage Jar type (hereafter: OSJ) from the Iron Age II (the late 9th–early 6th century BCE). The vessels selected were 3-D scanned to extract accurate geometric parameters and analyzed through an advanced shape analysis. The study results show that integrating computational and objective analysis methods, focusing on the “minute variation” within a single ceramic type, yields substantial insights regarding the relationship between variability and social units. In addition to the methodological guidelines and the suggested “work protocol” for further studies, the results shed light on the social organization of the Intermediate Bronze Age and the Iron Age II in Southern Levant.",
+      "abstract_sha256": "abd2183201f3007edad70e3d68df8ffcd84ef6936536e52d7bca0b812ea11555",
+      "html_sha256": "003c397e91101342b4fa87adb1e366a06f5c8461babea012f0440be0560c7fa4",
+      "capture_utc": "2026-10-20T12:45:55.929673+00:00",
+      "capture_method": "Publisher citation_abstract meta attribute; HTML entities decoded by HTMLParser; full abstract preserved without section headings/emphasis markup",
+      "expected_refusal": false,
+      "adjudication_note": "Objective and author takeaways overlap with results. Introductory limitations of previous typology are not labelled limitations of this study.",
+      "expected": {
+        "objective": [
+          "This study, aiming to assess whether it is possible to identify social signatures, focuses on a single archaeological ceramic type."
+        ],
+        "method": [
+          "The vessels selected were 3-D scanned to extract accurate geometric parameters and analyzed through an advanced shape analysis."
+        ],
+        "dataset": [
+          "For this propose, we selected a corpus of 235 storage jars from two distinct periods: storage jars from the Intermediate Bronze Age (the 25th -20th century BCE); and the Oval Storage Jar type (hereafter: OSJ) from the Iron Age II (the late 9th–early 6th century BCE)."
+        ],
+        "results": [
+          "The study results show that integrating computational and objective analysis methods, focusing on the “minute variation” within a single ceramic type, yields substantial insights regarding the relationship between variability and social units.",
+          "In addition to the methodological guidelines and the suggested “work protocol” for further studies, the results shed light on the social organization of the Intermediate Bronze Age and the Iron Age II in Southern Levant."
+        ],
+        "limitations": [],
+        "conclusion": [
+          "The study results show that integrating computational and objective analysis methods, focusing on the “minute variation” within a single ceramic type, yields substantial insights regarding the relationship between variability and social units.",
+          "In addition to the methodological guidelines and the suggested “work protocol” for further studies, the results shed light on the social organization of the Intermediate Bronze Age and the Iron Age II in Southern Levant."
+        ]
+      },
+      "prelabel_sentence_ids": {
+        "objective": [
+          3
+        ],
+        "method": [
+          5
+        ],
+        "dataset": [
+          4
+        ],
+        "results": [
+          6,
+          7
+        ],
+        "limitations": [],
+        "conclusion": [
+          6,
+          7
+        ]
+      }
+    }
+  ]
+}

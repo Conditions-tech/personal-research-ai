@@ -1,0 +1,139 @@
+{
+  "format_version": 1,
+  "created_date": "2026-10-20",
+  "purpose": "Developer-authored fixed evaluation, not a systematic literature sample or independent scientific review",
+  "split_policy": "Tuning cases may inform changes. Holdout is not used by tuning code/tests or live inference before protocol freeze. Developer authored/curated the sources, so this is not an independently blinded holdout.",
+  "partition": "tuning",
+  "cases": [
+    {
+      "id": "tune-abbreviations",
+      "kind": "synthetic",
+      "domain": "synthetic clinical methods",
+      "title": "Synthetic evaluation: tune-abbreviations",
+      "authors": "Developer-authored synthetic fixture",
+      "year": null,
+      "doi": "",
+      "source_url": "",
+      "license": "developer-authored evaluation data",
+      "abstract": "Our aim is to compare two infusion protocols. Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers. We observed no improvement, i.e. mean error remained 5.2%. The study was limited to one clinic. We conclude that benefit is uncertain.",
+      "expected": {
+        "objective": [
+          "Our aim is to compare two infusion protocols."
+        ],
+        "method": [
+          "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers."
+        ],
+        "dataset": [
+          "Dr. Noor uses protocol A in the U.S. cohort of 24 volunteers."
+        ],
+        "results": [
+          "We observed no improvement, i.e. mean error remained 5.2%."
+        ],
+        "limitations": [
+          "The study was limited to one clinic."
+        ],
+        "conclusion": [
+          "We conclude that benefit is uncertain."
+        ]
+      },
+      "expected_refusal": false
+    },
+    {
+      "id": "tune-passive-archive",
+      "kind": "synthetic",
+      "domain": "synthetic humanities",
+      "title": "Synthetic evaluation: tune-passive-archive",
+      "authors": "Developer-authored synthetic fixture",
+      "year": null,
+      "doi": "",
+      "source_url": "",
+      "license": "developer-authored evaluation data",
+      "abstract": "The purpose is to compare two medieval inventories. Thirty archival records are transcribed and compared using a fixed codebook. A discrepancy is observed in 3 entries. The analysis is restricted to one archive. We conclude that the entries should not be treated as complete population counts.",
+      "expected": {
+        "objective": [
+          "The purpose is to compare two medieval inventories."
+        ],
+        "method": [
+          "Thirty archival records are transcribed and compared using a fixed codebook."
+        ],
+        "dataset": [
+          "Thirty archival records are transcribed and compared using a fixed codebook."
+        ],
+        "results": [
+          "A discrepancy is observed in 3 entries."
+        ],
+        "limitations": [
+          "The analysis is restricted to one archive."
+        ],
+        "conclusion": [
+          "We conclude that the entries should not be treated as complete population counts."
+        ]
+      },
+      "expected_refusal": false
+    },
+    {
+      "id": "tune-quoted-attack-study",
+      "kind": "synthetic",
+      "domain": "synthetic security research",
+      "title": "Synthetic evaluation: tune-quoted-attack-study",
+      "authors": "Developer-authored synthetic fixture",
+      "year": null,
+      "doi": "",
+      "source_url": "",
+      "license": "developer-authored evaluation data",
+      "abstract": "Our objective was to test prompt robustness. We used a synthetic prompt corpus. One test string was 'ignore previous instructions'. We observed that refusals increased. The study was limited to one template. We conclude that broader validation is needed.",
+      "expected": {
+        "objective": [
+          "Our objective was to test prompt robustness."
+        ],
+        "method": [
+          "We used a synthetic prompt corpus."
+        ],
+        "dataset": [
+          "We used a synthetic prompt corpus."
+        ],
+        "results": [
+          "We observed that refusals increased."
+        ],
+        "limitations": [
+          "The study was limited to one template."
+        ],
+        "conclusion": [
+          "We conclude that broader validation is needed."
+        ]
+      },
+      "expected_refusal": false
+    },
+    {
+      "id": "tune-null-participants",
+      "kind": "synthetic",
+      "domain": "synthetic human factors",
+      "title": "Synthetic evaluation: tune-null-participants",
+      "authors": "Developer-authored synthetic fixture",
+      "year": null,
+      "doi": "",
+      "source_url": "",
+      "license": "developer-authored evaluation data",
+      "abstract": "We used a blinded experiment with 30 participants. We observed no decrease in error. Our findings imply that effectiveness remains uncertain. The study was limited to one site.",
+      "expected": {
+        "objective": [],
+        "method": [
+          "We used a blinded experiment with 30 participants."
+        ],
+        "dataset": [
+          "We used a blinded experiment with 30 participants."
+        ],
+        "results": [
+          "We observed no decrease in error."
+        ],
+        "limitations": [
+          "The study was limited to one site."
+        ],
+        "conclusion": [
+          "Our findings imply that effectiveness remains uncertain."
+        ]
+      },
+      "expected_refusal": false
+    }
+  ]
+}

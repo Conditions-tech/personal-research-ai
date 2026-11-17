@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-10-20T17:47:15.208908+00:00",
+  "partition": "tuning",
+  "manifest_sha256": "59cb77bdcc13c984d29d99d02815e5e55d36949160bc70760af04ff8f3163f44",
+  "protocol": "abstract-quotes-v4",
+  "developer_evaluation_not_independent_scientific_review": true,
+  "cases": [],
+  "minimum_available_memory_bytes": 4294967296,
+  "requests": [],
+  "state": "blocked",
+  "blocker": {
+    "reason": "Memory below unchanged approved gate",
+    "available_bytes": 2893463552
+  },
+  "finished_utc": "2026-10-20T17:47:25.337488+00:00"
+}

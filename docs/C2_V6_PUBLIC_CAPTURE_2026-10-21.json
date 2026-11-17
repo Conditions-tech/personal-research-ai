@@ -1,0 +1,19 @@
+{
+  "id": "v6-peer-review-holdout",
+  "kind": "public-abstract",
+  "domain": "metascience / randomized peer-review experiment",
+  "title": "A large scale randomized controlled trial on herding in peer-review discussions",
+  "authors": "Ivan Stelmakh; Charvi Rastogi; Nihar B. Shah; Aarti Singh; Hal Daumé III",
+  "year": 2023,
+  "doi": "10.1371/journal.pone.0287443",
+  "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0287443",
+  "license": "CC BY 4.0",
+  "license_url": "http://creativecommons.org/licenses/by/4.0/",
+  "license_evidence": "Copyright:  © 2023 Stelmakh et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+  "capture_utc": "2026-10-20T18:07:28.035749+00:00",
+  "abstract": "Peer review is the backbone of academia and humans constitute a cornerstone of this process, being responsible for reviewing submissions and making the final acceptance/rejection decisions. Given that human decision-making is known to be susceptible to various cognitive biases, it is important to understand which (if any) biases are present in the peer-review process, and design the pipeline such that the impact of these biases is minimized. In this work, we focus on the dynamics of discussions between reviewers and investigate the presence of herding behaviour therein. Specifically, we aim to understand whether reviewers and discussion chairs get disproportionately influenced by the first argument presented in the discussion when (in case of reviewers) they form an independent opinion about the paper before discussing it with others. In conjunction with the review process of a large, top tier machine learning conference, we design and execute a randomized controlled trial that involves 1,544 papers and 2,797 reviewers with the goal of testing for the conditional causal effect of the discussion initiator’s opinion on the outcome of a paper. Our experiment reveals no evidence of herding in peer-review discussions. This observation is in contrast with past work that has documented an undue influence of the first piece of information on the final decision (e.g., anchoring effect) and analyzed herding behaviour in other applications (e.g., financial markets). Regarding policy implications, the absence of the herding effect suggests that the current status quo of the absence of a unified policy towards discussion initiation does not result in an increased arbitrariness of the resulting decisions.",
+  "abstract_sha256": "2a11bdcd0d6078fc8cab21866700704f37239120dfd37e5a0e1a9b8deaf0f873",
+  "html_sha256": "35384bb91279b5c3affb02094635a6973e7a1652e317f4c25b0062cef05f9af4",
+  "capture_method": "Complete publisher citation_abstract metadata; entities decoded, emphasis/paragraph formatting omitted; no intentional word omission",
+  "expected_refusal": false
+}

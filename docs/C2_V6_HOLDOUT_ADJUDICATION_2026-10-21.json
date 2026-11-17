@@ -1,0 +1,86 @@
+{
+  "protocol": "abstract-single-role-v6",
+  "partition": "holdout",
+  "counts": {
+    "roles": 6,
+    "validated_roles": 6,
+    "failed_roles": 0,
+    "unattempted_roles": 0,
+    "expected_supported_roles": 5,
+    "supported_selections": 2,
+    "strict_gold_support": 2,
+    "predeclared_valid_alternative": 0,
+    "correct_missing": 0,
+    "omission": 0,
+    "fill_against_declared_missingness": 1,
+    "other_quote_needs_review": 3,
+    "nonmissing_quotes": 6,
+    "literal_original_quotes": 6
+  },
+  "roles": [
+    {
+      "case": "v6-peer-review-holdout",
+      "role": "objective",
+      "strict_gold": [
+        "In this work, we focus on the dynamics of discussions between reviewers and investigate the presence of herding behaviour therein.",
+        "Specifically, we aim to understand whether reviewers and discussion chairs get disproportionately influenced by the first argument presented in the discussion when (in case of reviewers) they form an independent opinion about the paper before discussing it with others."
+      ],
+      "acceptable_alternatives": [
+        "In conjunction with the review process of a large, top tier machine learning conference, we design and execute a randomized controlled trial that involves 1,544 papers and 2,797 reviewers with the goal of testing for the conditional causal effect of the discussion initiator’s opinion on the outcome of a paper."
+      ],
+      "category": "other_quote_needs_review",
+      "selected_quote": "Our experiment reveals no evidence of herding in peer-review discussions."
+    },
+    {
+      "case": "v6-peer-review-holdout",
+      "role": "method",
+      "strict_gold": [
+        "In conjunction with the review process of a large, top tier machine learning conference, we design and execute a randomized controlled trial that involves 1,544 papers and 2,797 reviewers with the goal of testing for the conditional causal effect of the discussion initiator’s opinion on the outcome of a paper."
+      ],
+      "acceptable_alternatives": [],
+      "category": "other_quote_needs_review",
+      "selected_quote": "Our experiment reveals no evidence of herding in peer-review discussions."
+    },
+    {
+      "case": "v6-peer-review-holdout",
+      "role": "dataset",
+      "strict_gold": [
+        "In conjunction with the review process of a large, top tier machine learning conference, we design and execute a randomized controlled trial that involves 1,544 papers and 2,797 reviewers with the goal of testing for the conditional causal effect of the discussion initiator’s opinion on the outcome of a paper."
+      ],
+      "acceptable_alternatives": [],
+      "category": "other_quote_needs_review",
+      "selected_quote": "Our experiment reveals no evidence of herding in peer-review discussions."
+    },
+    {
+      "case": "v6-peer-review-holdout",
+      "role": "results",
+      "strict_gold": [
+        "Our experiment reveals no evidence of herding in peer-review discussions."
+      ],
+      "acceptable_alternatives": [],
+      "category": "strict_gold_support",
+      "selected_quote": "Our experiment reveals no evidence of herding in peer-review discussions."
+    },
+    {
+      "case": "v6-peer-review-holdout",
+      "role": "limitations",
+      "strict_gold": [],
+      "acceptable_alternatives": [],
+      "category": "fill_against_declared_missingness",
+      "selected_quote": "Regarding policy implications, the absence of the herding effect suggests that the current status quo of the absence of a unified policy towards discussion initiation does not result in an increased arbitrariness of the resulting decisions."
+    },
+    {
+      "case": "v6-peer-review-holdout",
+      "role": "conclusion",
+      "strict_gold": [
+        "Regarding policy implications, the absence of the herding effect suggests that the current status quo of the absence of a unified policy towards discussion initiation does not result in an increased arbitrariness of the resulting decisions."
+      ],
+      "acceptable_alternatives": [
+        "Our experiment reveals no evidence of herding in peer-review discussions."
+      ],
+      "category": "strict_gold_support",
+      "selected_quote": "Regarding policy implications, the absence of the herding effect suggests that the current status quo of the absence of a unified policy towards discussion initiation does not result in an increased arbitrariness of the resulting decisions."
+    }
+  ],
+  "limits": "Source/reconstruction checks and developer labels are not independent semantic/scientific validation. Other quotes need human review; missing/failed/unattempted roles never count as correct absence."
+}

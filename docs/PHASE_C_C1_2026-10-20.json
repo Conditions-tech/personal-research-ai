@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-20",
+  "scope": "Phase C C1 review workspace; Phase C remains in progress",
+  "command": "python -m unittest discover -s tests -v",
+  "tests": 105,
+  "seconds": 33.131,
+  "baseline_tests": 92,
+  "baseline_seconds": 26.795,
+  "python": "3.14.7",
+  "streamlit": "1.66.0",
+  "pandas": "3.0.6",
+  "requests": "2.34.2",
+  "source_sha256": {
+    "app.py": "2249c1afc7e005ddb08a509a61f2c84fd21a57042f2360ba345ba71dd784e801",
+    "discovery\\metadata.py": "3ee1a98c4ca1b6713dba6eac0045c2e5c9056cd482f42e817093385a40555fa3",
+    "discovery\\providers.py": "dbee7d5c290ba5b4f51459f2b0a45dd16a4b570cc7fc7598645dec97284d1afd",
+    "discovery\\retrieval.py": "36a47459f72de61b3ef3b245e225500198c7812eadd01f8a2a5f1ce5922e3688",
+    "discovery\\runs.py": "12971af0b69111490f8f60839f4c077e0c1a9ca341055894a723e670c18952b1",
+    "discovery\\__init__.py": "29e1034f77ee37965c32da0fcc36e1dfb20833b76d86c60ba0a1df968b0ab8f6",
+    "review\\ui.py": "a9449ad630e744b0b9be3cdca661b36e9d9fe83570e8e18dea1b988f089cb853",
+    "review\\workspace.py": "6f134c28d7ed2d31f692cd7ddea361162fcf69a278b3b1e055f5922f98353403",
+    "review\\__init__.py": "4101c2599be7da6e183ec7e61755b1cf900398e02433e66cfdf0a22e75671ebd",
+    "tests\\test_app.py": "198caeca27189fe4bd3a93541b0f25c6b46284c2a899d13615b4261b592b1dc2",
+    "tests\\test_backup.py": "3c0645d674c9ed2a3e6299dccb5d9fee6dae28eb32776248f2cae18546d3ff46",
+    "tests\\test_discovery.py": "eda4170521ec1f1c58dae96dbcf6313fb0b81c7ce7b084dfd5827b996c738151",
+    "tests\\test_live_guard.py": "d536051b634683736fe1605099270d5d62330afe0300e275eb24146f403ffe8a",
+    "tests\\test_retrieval.py": "035201cd1ba8273ce9fe9fbe0113c89c3f84c3e169476fc23c0e46f08120fb1b",
+    "tests\\test_review.py": "c731226af3ed62c0103b6cd8963823a48e7e54e2ba2b5fd8bf6341a70906ec4c",
+    "tests\\test_runs.py": "e99680a342b4f5090b9579356eff1e9b9c213901c5517a6a5545ff09429332de",
+    "tests\\test_ui.py": "ee57e291fd37ebdc2d4cbe73072a4a775547efbf5962fe8eac8c1862e776b24b",
+    "tools\\live_discovery_smoke.py": "6af44fdafad8ef96b7a6b4acab8bf3e6a0e3730e3c9aae12c26f48763d2e226d"
+  },
+  "protected_sha256": {
+    "data/research.db": "f392c9d6576c9c61cb6c231859fff3a8c9744342b9d67f3237a855e00b1c9e9e",
+    "app_backup_v01.py": "456f501df57dfd5f437fecb83c17966f2fed825def6efc02a082b1b90ab2a6a9",
+    "app_before_search_fix.py": "22a9d709996fbf4e279aa3af3363ec95ff19910ee85b2f0ea3fd99f32f60a483",
+    "requirements.txt": "1df12cae1fd4212d2840f400e767aefff2f89035748676da5320316e7e52fee4",
+    "AGENTS.md": "3842118be0d70a543f899febe20c2be27a79974c2f632c74946f81401f5ab5c4"
+  },
+  "checks": {
+    "existing_app_helper_ast_unchanged": true,
+    "protected_hashes_unchanged": true,
+    "source_snapshot_stable": true,
+    "active_python_compiled": 18
+  },
+  "limitations": [
+    "No AI backend or generated summaries",
+    "No full text or synthesized literature review",
+    "No actual browser upload/download or layout verification",
+    "Session-only work unless downloaded; one active review; no revision history",
+    "Excerpt matches do not verify scientific support; snapshot hash is not authentication"
+  ]
+}

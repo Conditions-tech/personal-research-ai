@@ -1,0 +1,16 @@
+{
+  "scope": "Developer review after frozen-label scoring; original labels/scores are unchanged. These observations are not independent scientific annotation.",
+  "tuning": {
+    "public-moving-boundaries": "Background was assigned as objective; a benchmark/result sentence was assigned as dataset; a photobleaching application was assigned as limitation. These are clear role/support problems despite literal copying.",
+    "public-synapse-model": "Model predictions are a weak/ambiguous method quote; a numerical simulation statement does not identify an empirical dataset; a two-parameter finding is not an explicit study limitation. Do not report these as scientifically verified roles.",
+    "public-0286516": "All six frozen labels matched. The conservative missing-dataset label distinguishes task factors from identified study inputs; this boundary is debatable and was noted before tuning.",
+    "public-0254766": "Corpus selection is a defensible alternative method; scanned vessels identify materials but omit the count/periods of the richer gold dataset quote. Both remain strict mismatches, not automatically false scientific claims. The social-organization takeaway is not an explicit study limitation."
+  },
+  "holdout": {
+    "public-0129031": "A distribution finding was assigned to dataset and a research question to results. The cutoff-stability finding is a defensible alternative author takeaway, so its strict conclusion mismatch is not conclusive evidence of an incorrect interpretation.",
+    "public-0123952": "Background conservation need was selected as objective, an outcome as dataset and an ecological finding as limitation; the survey sentence would identify the actual sampled organisms/tree groups and counts.",
+    "public-0202762": "The proof/result sentence as method and the statement that adverse effects were quantified as results are less specific or ambiguous alternatives. Keep strict gold mismatch counts without declaring every alternative a hallucination.",
+    "public-0020753": "The methodological implication sentence was assigned to results; it states a takeaway rather than the reported experimental finding. Five other fields matched the frozen labels."
+  },
+  "acceptance": "Real prose is reachable and source text/uncertainty remain intact. Role/support quality remains failed/partial; no synthesis, independent scientific accuracy or comprehensive injection resistance is established."
+}

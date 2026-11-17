@@ -1,0 +1,9 @@
+{
+  "stage": "Before v4 source implementation or new real generation",
+  "files": {
+    "docs\\C2_V4_TUNING_2026-10-20.json": "59cb77bdcc13c984d29d99d02815e5e55d36949160bc70760af04ff8f3163f44",
+    "docs\\C2_V4_HOLDOUT_2026-10-20.json": "c37cbc73c6852bd831eda995d310c87bc51526ad655f47800afddc7da26bce32"
+  },
+  "prelabelled_before_tuning": true,
+  "independent_annotation": false
+}

@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-10-20T17:48:23.660984+00:00",
+  "partition": "tuning",
+  "manifest_sha256": "59cb77bdcc13c984d29d99d02815e5e55d36949160bc70760af04ff8f3163f44",
+  "protocol": "abstract-quotes-v4",
+  "developer_evaluation_not_independent_scientific_review": true,
+  "cases": [],
+  "minimum_available_memory_bytes": 4294967296,
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/version"
+    }
+  ],
+  "state": "blocked",
+  "blocker": {
+    "reason": "Local model unavailable, timed out or returned invalid data. Review work is unchanged."
+  },
+  "finished_utc": "2026-10-20T17:48:25.668626+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "Read-only post-second-public-holdout recovery; no inference",
+  "report_state": "blocked",
+  "blocker": {
+    "reason": "Available memory below unchanged 5.5 GiB gate",
+    "available_bytes": 5788188672
+  },
+  "samples": [
+    5770702848,
+    5773533184,
+    5768441856,
+    5767266304,
+    5770174464,
+    5770309632,
+    5770633216,
+    5770268672,
+    5762007040,
+    5761507328,
+    5763461120
+  ],
+  "gate_passed": false,
+  "required_bytes": 5905580032,
+  "ledger_used": 6
+}

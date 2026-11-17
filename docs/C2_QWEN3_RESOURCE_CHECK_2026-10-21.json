@@ -1,0 +1,41 @@
+{
+  "identity": {
+    "model": "qwen3:4b-q4_K_M",
+    "model_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+    "runtime_version": "0.40.6",
+    "endpoint": "http://127.0.0.1:11434",
+    "size_bytes": 2620788260,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "4.0B",
+      "quantization_level": "Q4_K_M"
+    },
+    "thinking_controls": {
+      "values": [
+        false,
+        true
+      ],
+      "default": true
+    },
+    "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ]
+  },
+  "loaded_models": [],
+  "available_bytes": 5348339712,
+  "minimum_available_bytes": 5905580032,
+  "memory_gate_passed": false,
+  "generation_requests_in_this_check": 0,
+  "loopback_listener_in_log": true,
+  "cloud_disabled_in_log": true,
+  "serial_in_log": true,
+  "one_loaded_model_in_log": true,
+  "automatic_startup_changed": false
+}

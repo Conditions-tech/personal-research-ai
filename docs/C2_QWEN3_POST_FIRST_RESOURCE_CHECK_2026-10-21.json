@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-10-21T06:51:21.200143+00:00",
+  "scope": "Read-only post-first-generation recovery check; no further inference",
+  "available_bytes_samples": [
+    5451829248,
+    5455556608,
+    5455523840,
+    5454897152,
+    5455044608,
+    5454913536,
+    5454901248,
+    5453500416,
+    5454069760,
+    5456908288,
+    5456896000
+  ],
+  "required_bytes": 5905580032,
+  "gate_passed": false,
+  "runtime_processes": [
+    {
+      "pid": 12592,
+      "name": "ollama.exe",
+      "working_set_bytes": 19853312,
+      "peak_working_set_bytes": 25436160,
+      "private_bytes": 59293696
+    }
+  ],
+  "ledger_used": 1
+}

@@ -1,0 +1,25 @@
+{
+  "stage": "Frozen before v3 tuning generations and holdout evaluation",
+  "protocol": "abstract-quotes-v3",
+  "tuned_using": "C2_COVERAGE_TUNING_2026-10-20.json only",
+  "holdout_not_used_for_rules": true,
+  "source_sha256": {
+    "review/quote_analysis_v3.py": "c86f1e10bbad54af834e1403b3f693daf5f3cea07d60e2c96346492845ab2f54",
+    "review/quote_analysis.py": "ca7cfa9aaa517afd3d1af87d72e284f2055dca9f2e0638acdc397e15b45d139d",
+    "review/analysis.py": "7178828dc206f5b6a6ad0e83350c8dda093ea20aaf3337c40c40b71adec424a6",
+    "review/ui.py": "c15f32ba236f5b51c0067ff13fed7fb88210d33b22abdbc524f670cf0432eb25",
+    "tools/coverage_evaluation.py": "f59983691472a48ec86a197503d99316a595c4373508adede12b912e020aa483"
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "num_gpu": 0,
+    "num_thread": 4
+  },
+  "stream": false,
+  "keep_alive": 0,
+  "model_runtime_unchanged": true,
+  "budget_used_before_v3": 3
+}

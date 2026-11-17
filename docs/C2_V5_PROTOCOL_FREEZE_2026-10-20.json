@@ -1,0 +1,25 @@
+{
+  "stage": "After v4 tuning failure, before first v5 generation; holdout not used to tune",
+  "version": "abstract-quotes-v5",
+  "source_sha256": {
+    "review/quote_analysis_v5.py": "27405dd8b70bbb2afb2b69676178742019308ceca7a5d870b68ed684d3fb7bbe",
+    "review/quote_analysis_v4.py": "21843e18232a9082c12b0b50607068fd34d7bbe9573a5882c3b19517e23e5a15",
+    "review/quote_analysis_v3.py": "c86f1e10bbad54af834e1403b3f693daf5f3cea07d60e2c96346492845ab2f54",
+    "review/analysis.py": "c1e6efc89f4e11168a30849cc38696344ac0df28f345f4b370f33dc90d557753",
+    "review/ui.py": "50f7eb0d797d7d7a5a57f3177ca045a9f979ff3ed020c5d3b7c87553f2b67910",
+    "tools/coverage_evaluation.py": "3b2bd95a804eaabcbe77fe9099f433bf3df79d7cc08b2dc24d6e1083991385bb"
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "num_gpu": 0,
+    "num_thread": 4
+  },
+  "keep_alive": 0,
+  "stream": false,
+  "changed_representation": "Literal source quote or empty string instead of integer ID",
+  "followup_budget_used": 4,
+  "holdout_not_used_for_rules_or_prompt": true
+}

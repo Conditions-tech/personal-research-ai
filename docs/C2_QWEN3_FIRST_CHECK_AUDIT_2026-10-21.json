@@ -1,0 +1,46 @@
+{
+  "protocol": "qwen3-abstract-quotes-pilot-v1",
+  "partition": "development",
+  "counts": {
+    "cases": 4,
+    "attempted_cases": 0,
+    "unattempted_cases": 4,
+    "failed_or_refused_cases": 0,
+    "validated_cases": 0,
+    "expected_supported_fields_all_cases": 17,
+    "returned_fields": 0,
+    "supported_selected_fields": 0,
+    "strict_gold_support": 0,
+    "predeclared_alternative": 0,
+    "correct_missing": 0,
+    "omission": 0,
+    "false_fill": 0,
+    "other_quote_needs_review": 0,
+    "nonmissing_quotes": 0,
+    "literal_source_quotes": 0,
+    "injection_cases_checked": 0
+  },
+  "cases": [
+    {
+      "case": "public-moving-boundaries",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "public-synapse-model",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "public-0286516",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "public-0254766",
+      "status": "unattempted",
+      "fields": []
+    }
+  ],
+  "scope": "Exact reconstruction and frozen developer-label counters, not independent annotation, scientific verification or an app acceptance. Failed/unattempted cases never count as correct missing fields."
+}

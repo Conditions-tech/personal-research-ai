@@ -1,0 +1,497 @@
+{
+  "started_utc": "2026-10-20T05:58:47.276912+00:00",
+  "request_cap": 11,
+  "page_size": 2,
+  "cases": [
+    {
+      "case": "journal-pages",
+      "query": "The Hallmarks of Cancer",
+      "provider": "OpenAlex",
+      "years": [
+        null,
+        null
+      ],
+      "categories": [
+        "journal-paper"
+      ],
+      "reported_total": 375492,
+      "total_scope": "server-filtered-candidates",
+      "fetched": 4,
+      "filtered": 3,
+      "unique": 3,
+      "pages": 2,
+      "status": "partial",
+      "stop_reason": "record_budget",
+      "error": "",
+      "retained_types": {
+        "article": 3
+      },
+      "retained_years": [
+        2000,
+        2012,
+        2018
+      ],
+      "checks": {
+        "pages_traversed": true,
+        "raw_count_matches_pages": true,
+        "first_total_preserved": true,
+        "within_budget": true,
+        "cursor_sequence": true,
+        "filter_evidence": true,
+        "positive_type_or_historical_evidence": true,
+        "natural_empty": true,
+        "no_error": true
+      }
+    },
+    {
+      "case": "journal-pages",
+      "query": "The Hallmarks of Cancer",
+      "provider": "Crossref",
+      "years": [
+        null,
+        null
+      ],
+      "categories": [
+        "journal-paper"
+      ],
+      "reported_total": 3182702,
+      "total_scope": "query-matches",
+      "fetched": 4,
+      "filtered": 4,
+      "unique": 4,
+      "pages": 2,
+      "status": "partial",
+      "stop_reason": "record_budget",
+      "error": "",
+      "retained_types": {
+        "journal-article": 4
+      },
+      "retained_years": [
+        1999,
+        2000
+      ],
+      "checks": {
+        "pages_traversed": true,
+        "raw_count_matches_pages": true,
+        "first_total_preserved": true,
+        "within_budget": true,
+        "cursor_sequence": true,
+        "filter_evidence": true,
+        "positive_type_or_historical_evidence": true,
+        "natural_empty": true,
+        "no_error": true
+      }
+    },
+    {
+      "case": "conference-pages",
+      "query": "Deep Residual Learning for Image Recognition",
+      "provider": "OpenAlex",
+      "years": [
+        null,
+        null
+      ],
+      "categories": [
+        "conference-paper"
+      ],
+      "reported_total": 240756,
+      "total_scope": "server-filtered-candidates",
+      "fetched": 4,
+      "filtered": 2,
+      "unique": 2,
+      "pages": 2,
+      "status": "partial",
+      "stop_reason": "record_budget",
+      "error": "",
+      "retained_types": {
+        "conference-paper": 2
+      },
+      "retained_years": [
+        2016,
+        2017
+      ],
+      "checks": {
+        "pages_traversed": true,
+        "raw_count_matches_pages": true,
+        "first_total_preserved": true,
+        "within_budget": true,
+        "cursor_sequence": true,
+        "filter_evidence": true,
+        "positive_type_or_historical_evidence": true,
+        "natural_empty": true,
+        "no_error": true
+      }
+    },
+    {
+      "case": "conference-pages",
+      "query": "Deep Residual Learning for Image Recognition",
+      "provider": "Crossref",
+      "years": [
+        null,
+        null
+      ],
+      "categories": [
+        "conference-paper"
+      ],
+      "reported_total": 4671020,
+      "total_scope": "query-matches",
+      "fetched": 4,
+      "filtered": 0,
+      "unique": 0,
+      "pages": 2,
+      "status": "partial",
+      "stop_reason": "record_budget",
+      "error": "",
+      "retained_types": {},
+      "retained_years": [],
+      "checks": {
+        "pages_traversed": true,
+        "raw_count_matches_pages": true,
+        "first_total_preserved": true,
+        "within_budget": true,
+        "cursor_sequence": true,
+        "filter_evidence": true,
+        "positive_type_or_historical_evidence": false,
+        "natural_empty": true,
+        "no_error": true
+      }
+    },
+    {
+      "case": "historical",
+      "query": "Philosophical Transactions",
+      "provider": "OpenAlex",
+      "years": [
+        null,
+        1800
+      ],
+      "categories": [],
+      "reported_total": 457,
+      "total_scope": "server-filtered-candidates",
+      "fetched": 2,
+      "filtered": 2,
+      "unique": 2,
+      "pages": 1,
+      "status": "partial",
+      "stop_reason": "record_budget",
+      "error": "",
+      "retained_types": {
+        "article": 2
+      },
+      "retained_years": [
+        1735,
+        1791
+      ],
+      "checks": {
+        "pages_traversed": true,
+        "raw_count_matches_pages": true,
+        "first_total_preserved": true,
+        "within_budget": true,
+        "cursor_sequence": true,
+        "filter_evidence": true,
+        "positive_type_or_historical_evidence": true,
+        "natural_empty": true,
+        "no_error": true
+      }
+    },
+    {
+      "case": "natural-empty",
+      "query": "zzqvx8f7c4b2dphasebnaturalempty",
+      "provider": "OpenAlex",
+      "years": [
+        null,
+        null
+      ],
+      "categories": [],
+      "reported_total": 0,
+      "total_scope": "server-filtered-candidates",
+      "fetched": 0,
+      "filtered": 0,
+      "unique": 0,
+      "pages": 1,
+      "status": "complete",
+      "stop_reason": "source_exhausted",
+      "error": "",
+      "retained_types": {},
+      "retained_years": [],
+      "checks": {
+        "pages_traversed": true,
+        "raw_count_matches_pages": true,
+        "first_total_preserved": true,
+        "within_budget": true,
+        "cursor_sequence": true,
+        "filter_evidence": true,
+        "positive_type_or_historical_evidence": true,
+        "natural_empty": true,
+        "no_error": true
+      }
+    },
+    {
+      "case": "natural-empty",
+      "query": "zzqvx8f7c4b2dphasebnaturalempty",
+      "provider": "Crossref",
+      "years": [
+        null,
+        null
+      ],
+      "categories": [],
+      "reported_total": 0,
+      "total_scope": "query-matches",
+      "fetched": 0,
+      "filtered": 0,
+      "unique": 0,
+      "pages": 1,
+      "status": "complete",
+      "stop_reason": "source_exhausted",
+      "error": "",
+      "retained_types": {},
+      "retained_years": [],
+      "checks": {
+        "pages_traversed": true,
+        "raw_count_matches_pages": true,
+        "first_total_preserved": true,
+        "within_budget": true,
+        "cursor_sequence": true,
+        "filter_evidence": true,
+        "positive_type_or_historical_evidence": true,
+        "natural_empty": true,
+        "no_error": true
+      }
+    }
+  ],
+  "requests": [
+    {
+      "case": "journal-pages",
+      "provider": "OpenAlex",
+      "sequence": 1,
+      "page_size": 2,
+      "page": 1,
+      "year_filter": "type:article|review",
+      "started_utc": "2026-10-20T05:58:47.300768+00:00",
+      "cursor_follows_previous": null,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "article": 2
+      },
+      "reported_total": 375492
+    },
+    {
+      "case": "journal-pages",
+      "provider": "OpenAlex",
+      "sequence": 2,
+      "page_size": 2,
+      "page": 2,
+      "year_filter": "type:article|review",
+      "started_utc": "2026-10-20T05:58:50.251951+00:00",
+      "cursor_follows_previous": null,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "article": 2
+      },
+      "reported_total": 375492
+    },
+    {
+      "case": "journal-pages",
+      "provider": "Crossref",
+      "sequence": 1,
+      "page_size": 2,
+      "page": null,
+      "year_filter": "",
+      "started_utc": "2026-10-20T05:58:52.252391+00:00",
+      "cursor_follows_previous": true,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "journal-article": 2
+      },
+      "reported_total": 3182702
+    },
+    {
+      "case": "journal-pages",
+      "provider": "Crossref",
+      "sequence": 2,
+      "page_size": 2,
+      "page": null,
+      "year_filter": "",
+      "started_utc": "2026-10-20T05:58:54.313055+00:00",
+      "cursor_follows_previous": true,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "journal-article": 2
+      },
+      "reported_total": 3182702
+    },
+    {
+      "case": "conference-pages",
+      "provider": "OpenAlex",
+      "sequence": 1,
+      "page_size": 2,
+      "page": 1,
+      "year_filter": "type:article|conference-paper|review",
+      "started_utc": "2026-10-20T05:58:56.313222+00:00",
+      "cursor_follows_previous": null,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "conference-paper": 1,
+        "article": 1
+      },
+      "reported_total": 240756
+    },
+    {
+      "case": "conference-pages",
+      "provider": "OpenAlex",
+      "sequence": 2,
+      "page_size": 2,
+      "page": 2,
+      "year_filter": "type:article|conference-paper|review",
+      "started_utc": "2026-10-20T05:58:58.523472+00:00",
+      "cursor_follows_previous": null,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "conference-paper": 1,
+        "article": 1
+      },
+      "reported_total": 240756
+    },
+    {
+      "case": "conference-pages",
+      "provider": "Crossref",
+      "sequence": 1,
+      "page_size": 2,
+      "page": null,
+      "year_filter": "",
+      "started_utc": "2026-10-20T05:59:00.533164+00:00",
+      "cursor_follows_previous": true,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "journal-article": 2
+      },
+      "reported_total": 4671020
+    },
+    {
+      "case": "conference-pages",
+      "provider": "Crossref",
+      "sequence": 2,
+      "page_size": 2,
+      "page": null,
+      "year_filter": "",
+      "started_utc": "2026-10-20T05:59:03.004065+00:00",
+      "cursor_follows_previous": true,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "journal-article": 2
+      },
+      "reported_total": 4671020
+    },
+    {
+      "case": "historical",
+      "provider": "OpenAlex",
+      "sequence": 1,
+      "page_size": 2,
+      "page": 1,
+      "year_filter": "to_publication_date:1800-12-31",
+      "started_utc": "2026-10-20T05:59:05.012984+00:00",
+      "cursor_follows_previous": null,
+      "http_status": 200,
+      "raw_fetched": 2,
+      "raw_types": {
+        "article": 2
+      },
+      "reported_total": 457
+    },
+    {
+      "case": "natural-empty",
+      "provider": "OpenAlex",
+      "sequence": 1,
+      "page_size": 2,
+      "page": 1,
+      "year_filter": "",
+      "started_utc": "2026-10-20T05:59:07.015116+00:00",
+      "cursor_follows_previous": null,
+      "http_status": 200,
+      "raw_fetched": 0,
+      "raw_types": {},
+      "reported_total": 0
+    },
+    {
+      "case": "natural-empty",
+      "provider": "Crossref",
+      "sequence": 1,
+      "page_size": 2,
+      "page": null,
+      "year_filter": "",
+      "started_utc": "2026-10-20T05:59:09.023037+00:00",
+      "cursor_follows_previous": true,
+      "http_status": 200,
+      "raw_fetched": 0,
+      "raw_types": {},
+      "reported_total": 0
+    }
+  ],
+  "runs": [
+    {
+      "case": "journal-pages",
+      "run_id": "e3921a3764ef45e8b6f10f7d3063505b",
+      "counts": {
+        "raw_fetched": 8,
+        "filtered": 7,
+        "unique_in_run": 7,
+        "duplicate_filtered_entries": 0,
+        "new_library_records": 7
+      },
+      "replay_insertions": 0,
+      "export_round_trip": true
+    },
+    {
+      "case": "conference-pages",
+      "run_id": "af0e5f81f81d4f249c25030dcd84ffe6",
+      "counts": {
+        "raw_fetched": 8,
+        "filtered": 2,
+        "unique_in_run": 2,
+        "duplicate_filtered_entries": 0,
+        "new_library_records": 2
+      },
+      "replay_insertions": 0,
+      "export_round_trip": true
+    },
+    {
+      "case": "historical",
+      "run_id": "4c052eebbfbe46348939479a51068e0f",
+      "counts": {
+        "raw_fetched": 2,
+        "filtered": 2,
+        "unique_in_run": 2,
+        "duplicate_filtered_entries": 0,
+        "new_library_records": 2
+      },
+      "replay_insertions": 0,
+      "export_round_trip": true
+    },
+    {
+      "case": "natural-empty",
+      "run_id": "979a655bc0ea4a97a95bc3fb4c33191f",
+      "counts": {
+        "raw_fetched": 0,
+        "filtered": 0,
+        "unique_in_run": 0,
+        "duplicate_filtered_entries": 0,
+        "new_library_records": 0
+      },
+      "replay_insertions": 0,
+      "export_round_trip": true
+    }
+  ],
+  "temporary_counts": {
+    "papers": 11,
+    "searches": 7
+  },
+  "temporary_storage_removed": true,
+  "finished_utc": "2026-10-20T05:59:10.229787+00:00",
+  "passed": false
+}

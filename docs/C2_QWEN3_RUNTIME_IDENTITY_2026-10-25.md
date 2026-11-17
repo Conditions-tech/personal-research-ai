@@ -1,0 +1,21 @@
+# Qwen3 runtime identity diagnosis — 2026-10-25
+
+**Historical pre-repair snapshot.** The current runtime was repaired afterward; see [the repair record](C2_QWEN3_RUNTIME_REPAIR_2026-10-25.md) for current identity and memory status.
+
+## Findings
+
+The recovery check failed at the approved-model inventory step. Current local `/api/version` returns **0.40.6**, `/api/tags` returns HTTP 200 with an empty model list, and `/api/ps` returns an empty loaded-model list. The recovery state is now `waiting_runtime_identity`, stores `runtime_identity: null`, and records `/api/tags`, HTTP 200, and the safe reason “Approved local model/digest unavailable; no fallback or download.” The previous successful digest is no longer presented as current runtime identity. No analysis or unload request was made.
+
+PID **5268** was confirmed as the listener on `127.0.0.1:11434`. Its executable path is the existing `C:\Users\Niaz\AppData\Local\Programs\Ollama\ollama.exe`; that binary exists and was not changed. Process ownership resolves to **`DESKTOP-3PPN186\CodexSandboxOffline`** in session 1. The current elevated user and owner of `C:\Users\Niaz\.ollama\models` resolve to **`DESKTOP-3PPN186\Niaz`**. A Windows user-profile record for the daemon owner could not be resolved. The daemon’s `OLLAMA_MODELS` environment value could not be read, so its active model-store path is not proven.
+
+The model files under Niaz’s store are present at all five manifest-declared sizes. The outer manifest file’s SHA-256 is `2506fc962873ce25ee9aa95c6d69babe97f1a0d308ef48cba743182ca8356ce9`. That file hash is not the pinned model layer hash: the manifest explicitly references an 859-byte nested manifest with digest `sha256:2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0`, and that nested blob’s size and SHA-256 both match. The earlier frozen pilot’s saved `/api/tags` responses also report that approved model name and digest. Thus the on-disk installed model evidence matches the approved identity; the currently serving runtime has not registered it.
+
+The different process owner is consistent with a per-account default model-store mismatch, but the daemon environment was not readable and the `OLLAMA_MODELS` override is unknown. Treat that as the leading explanation, not a proven root cause. Keep the missing model as an explicit blocker until a local `/api/tags` response reports the exact approved name and digest.
+
+## Process safety and attempted repair
+
+Before the attempted service correction, the executable path and PID matched the explicitly supervisor-launched process, it was the only listener on the approved port, `/api/ps` showed zero loaded models, and the only TCP entry for that port was the listener (no established client). No inference was running. A targeted `Stop-Process -Id 5268` then failed with a PowerShell “Object reference not set to an instance of an object” error. A fresh check confirmed PID 5268 was still running and still answered with 0.40.6, no tags and no loaded models. No alternate termination method was attempted, no duplicate daemon was started, and no process was left partially replaced.
+
+The safest next repair is to run the same installed daemon under the **Niaz** account with `OLLAMA_MODELS=C:\Users\Niaz\.ollama\models`, or otherwise provide that exact existing model path in the daemon’s child environment. Then require `/api/tags` to return `qwen3:4b-q4_K_M` with digest `2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0` before resuming. Do not edit the manifest, layer files, pin or ledger to make an empty inventory pass. Available RAM was about **1.6 GiB** at the latest controller check, so generation would remain gated even after the runtime inventory is repaired.
+
+The original ledger remains **7/12** with all five approved cases pending. No model was loaded, no inference/download occurred, and the production database, schema, historical scripts and installed files were not modified. The exact preserved live metadata and file checks are in [runtime identity evidence](C2_QWEN3_RUNTIME_IDENTITY_2026-10-25.json); controller and full-suite verification are in [continuation verification](C2_QWEN3_CONTINUATION_VERIFY_2026-10-25.json).

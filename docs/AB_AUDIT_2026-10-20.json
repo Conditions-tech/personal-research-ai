@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-20",
+  "scope": "Phase A/B bounded implementation re-audit; Phase C handover only",
+  "result": "pass within documented scope",
+  "runtime": {
+    "python": "3.14.7",
+    "packages": {
+      "streamlit": "1.66.0",
+      "pandas": "3.0.6",
+      "requests": "2.34.2"
+    }
+  },
+  "verification": {
+    "baseline_tests": 74,
+    "baseline_seconds": 24.825,
+    "final_tests": 80,
+    "final_seconds": 25.521,
+    "helper_tests": 19,
+    "retrieval_tests": 24,
+    "active_python_files": 14,
+    "source_stable_during_final_suite": true,
+    "protected_files_unchanged": true,
+    "schema_initialization_unchanged": true
+  },
+  "commands": [
+    "python -m unittest discover -s tests -v",
+    "python -m unittest discover -s tests -p test_app.py -v",
+    "python -m unittest discover -s tests -p test_retrieval.py -v"
+  ],
+  "source_sha256": {
+    "app.py": "6a9fe87ee74749a268eccdf731f21749e83e21aedecacf1997cad02e16ca6104",
+    "discovery\\metadata.py": "f2cbf02ac011c71d0717b2e253c01eb8f8f0470b45896e9d009e454a0595a4b4",
+    "discovery\\providers.py": "dbee7d5c290ba5b4f51459f2b0a45dd16a4b570cc7fc7598645dec97284d1afd",
+    "discovery\\retrieval.py": "b7f51472338cfeb3d6b334619c2f00d3ac2ef19775dc3e92e4b0e7045e6d2ba7",
+    "discovery\\runs.py": "10628b73db13e8c7a33973697d7d13ba1a844abbe9d7ec6bfeaf633e564d63d5",
+    "discovery\\__init__.py": "29e1034f77ee37965c32da0fcc36e1dfb20833b76d86c60ba0a1df968b0ab8f6",
+    "tests\\test_app.py": "198caeca27189fe4bd3a93541b0f25c6b46284c2a899d13615b4261b592b1dc2",
+    "tests\\test_backup.py": "3c0645d674c9ed2a3e6299dccb5d9fee6dae28eb32776248f2cae18546d3ff46",
+    "tests\\test_discovery.py": "eda4170521ec1f1c58dae96dbcf6313fb0b81c7ce7b084dfd5827b996c738151",
+    "tests\\test_live_guard.py": "d536051b634683736fe1605099270d5d62330afe0300e275eb24146f403ffe8a",
+    "tests\\test_retrieval.py": "040cd8eee2bc3347308f75d2e2aa24f404747a5a9bec42fde2ebdd06441c7e6d",
+    "tests\\test_runs.py": "e12c8521e909bd447691db93608774dac4915faaf167eb89e53f9f65c5a2be0d",
+    "tests\\test_ui.py": "b842639a9d97fff51fab8e3fa2cfae0b7bd604e36d56e3e1d7f4a40cdb63b5df",
+    "tools\\live_discovery_smoke.py": "6af44fdafad8ef96b7a6b4acab8bf3e6a0e3730e3c9aae12c26f48763d2e226d"
+  },
+  "new_live_requests": 0,
+  "production_sqlite_connections": 0,
+  "limits": [
+    "sampled provider integration and heuristic record linkage",
+    "metadata and abstracts only; no full text or passage attribution",
+    "session-local run snapshots and 100 displayed history attempts",
+    "separate paper/history transactions without crash-atomic run recovery",
+    "browser transfer, concurrency, actual live faults and other runtimes unverified"
+  ],
+  "phase_c_implemented": false
+}

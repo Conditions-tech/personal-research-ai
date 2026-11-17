@@ -1,0 +1,10 @@
+{
+  "stage": "Before v3 implementation and holdout inference",
+  "files": {
+    "docs/C2_COVERAGE_TUNING_2026-10-20.json": "f70673b5331aa8dd67ef626cbe7b4dd63b73e32aba9f39f96002c84870251f74",
+    "docs/C2_COVERAGE_HOLDOUT_2026-10-20.json": "841b7c3ace11912ddf6095cab8e1bf70f96f75f96131a79087f188debe546dc8"
+  },
+  "holdout_not_used_to_tune": true,
+  "baseline_report": "C2_COVERAGE_V2_TUNING_RESUMED_2026-10-20.json",
+  "ledger_used": 3
+}

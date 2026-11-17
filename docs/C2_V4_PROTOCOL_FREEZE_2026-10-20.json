@@ -1,0 +1,22 @@
+{
+  "stage": "Before first v4 generation; only tuning examples used to design prompt",
+  "version": "abstract-quotes-v4",
+  "source_sha256": {
+    "review/quote_analysis_v4.py": "21843e18232a9082c12b0b50607068fd34d7bbe9573a5882c3b19517e23e5a15",
+    "review/quote_analysis_v3.py": "c86f1e10bbad54af834e1403b3f693daf5f3cea07d60e2c96346492845ab2f54",
+    "review/analysis.py": "8a20380c7d40cb69613d7dbcc082b1067b899164c302d61d7ce640d876b2f973",
+    "review/ui.py": "ce8b2aa3a08000259a03d092832783f40a0c693992c4e0973ed67d32c24ac75c",
+    "tools/coverage_evaluation.py": "27e101aaa38f2c5648a5e3233429bea91003713a69348e15d96062a33650d932"
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "num_gpu": 0,
+    "num_thread": 4
+  },
+  "keep_alive": 0,
+  "stream": false,
+  "holdout_not_used_for_rules_or_prompt": true
+}

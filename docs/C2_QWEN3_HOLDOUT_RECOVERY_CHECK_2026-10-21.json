@@ -1,0 +1,18 @@
+{
+  "scope": "Read-only recovery after first holdout case; no further inference",
+  "samples": [
+    5699739648,
+    5702897664,
+    5703114752,
+    5703188480,
+    5703237632,
+    5703249920,
+    5703368704,
+    5703372800,
+    5715013632,
+    5715132416,
+    5717098496
+  ],
+  "required_bytes": 5905580032,
+  "gate_passed": false
+}

@@ -1,0 +1,11 @@
+Introduction:
+While specific sequences of retrieval-based activities have been shown to have a powerful effect on learning, no previous study has examined this issue in children or adolescents. Here, we aimed to determine whether the benefit of concept mapping as an initial retrieval activity observed previously with college students in a lab setting may also be found in younger and less experienced students in a more naturalistic school setting.
+
+Methods:
+After a short training in concept mapping, participants (N = 60) read an educational text and then engaged in a sequence of two learning activities that required them to retrieve relevant ideas from the text. One of the activities involved free recall by writing down as many ideas as possible and the other involved creating a concept map, both of them in the absence of educational texts. Critically, we manipulated the order in which the activities were performed.
+
+Results:
+A mediation analysis with success during retrieval practice as the mediator revealed both a direct effect of retrieval sequence and an indirect effect. Creating a concept map first and then freely recalling by writing paragraphs significantly improved performance on a 2-week delayed learning test, as compared to performing the same activities in the inverse order, even when doing concept mapping first led to lower success rates during practice.
+
+Discussion:
+These results support the idea that concept learning from instructional texts can be modulated by the sequence of retrieval activities performed and point to the educational value of retrieval-based concept mapping as a first learning activity within a series across different learners and educational settings.

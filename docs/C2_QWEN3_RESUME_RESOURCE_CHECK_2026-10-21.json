@@ -1,0 +1,11 @@
+{
+  "model_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+  "runtime_version": "0.40.6",
+  "loaded_models": [],
+  "available_bytes_samples": [
+    6301450240
+  ],
+  "required_bytes": 5905580032,
+  "gate_passed": true,
+  "generation_requests": 0
+}

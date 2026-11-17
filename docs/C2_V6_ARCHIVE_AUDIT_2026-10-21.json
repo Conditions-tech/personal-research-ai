@@ -1,0 +1,386 @@
+{
+  "kind": "saved-analysis-compatibility-audit-v1",
+  "archives": [
+    {
+      "path": "tests\\fixtures\\review_ai_v1_synthetic.json",
+      "sha256": "73dce25fe1e1a0b30066159355eb34dfc57e80ac3e8d3a1e49e219129553c846",
+      "draft_count": 1,
+      "drafts": [
+        {
+          "draft_id": "3cddfb20eb45469ab1ec129c1a20f55d",
+          "prompt_version": "abstract-analysis-v1",
+          "format_version": 1,
+          "status": "pending",
+          "validation_level": "complete-review-reopening",
+          "decision_validated": true
+        }
+      ]
+    },
+    {
+      "path": "tests\\fixtures\\review_ai_mixed_versions_synthetic.json",
+      "sha256": "1627d3446aa6b5542cc5f9f8e131cf11d4a7ee372c79accbc95a29767918dca3",
+      "draft_count": 2,
+      "drafts": [
+        {
+          "draft_id": "3cddfb20eb45469ab1ec129c1a20f55d",
+          "prompt_version": "abstract-analysis-v1",
+          "format_version": 1,
+          "status": "pending",
+          "validation_level": "complete-review-reopening",
+          "decision_validated": true
+        },
+        {
+          "draft_id": "f737664515bb4340b649ea0c25ea2060",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "complete-review-reopening",
+          "decision_validated": true
+        }
+      ]
+    },
+    {
+      "path": "tests\\fixtures\\review_ai_v1_v2_v3_synthetic.json",
+      "sha256": "95aa180f4757e53b22364df3bdba9aae3da95e101b8b1f65de54b096c30e0b15",
+      "draft_count": 3,
+      "drafts": [
+        {
+          "draft_id": "3cddfb20eb45469ab1ec129c1a20f55d",
+          "prompt_version": "abstract-analysis-v1",
+          "format_version": 1,
+          "status": "pending",
+          "validation_level": "complete-review-reopening",
+          "decision_validated": true
+        },
+        {
+          "draft_id": "f737664515bb4340b649ea0c25ea2060",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "complete-review-reopening",
+          "decision_validated": true
+        },
+        {
+          "draft_id": "d7573091c2194d7cbc8b9d90ff7c4ceb",
+          "prompt_version": "abstract-quotes-v3",
+          "format_version": 3,
+          "status": "pending",
+          "validation_level": "complete-review-reopening",
+          "decision_validated": true
+        }
+      ]
+    },
+    {
+      "path": "docs\\LOCAL_ANALYSIS_BENCHMARK_2026-10-20.json",
+      "sha256": "1866583245aa4cc8d8da1884c32d7d51d1e43df1ef8b5123083894649825a87b",
+      "draft_count": 1,
+      "drafts": [
+        {
+          "draft_id": "f980a530a7f74c499ce5310662e8483f",
+          "prompt_version": "abstract-analysis-v1",
+          "format_version": 1,
+          "status": "pending",
+          "validation_level": "unreplayed-no-complete-review",
+          "decision_validated": false
+        }
+      ]
+    },
+    {
+      "path": "docs\\LOCAL_ANALYSIS_BENCHMARK_2026-10-20_SUPPLEMENT.json",
+      "sha256": "4a4396739b588764e24aab9d5164c1d01bf269c55883cc342b241849752cb87c",
+      "draft_count": 3,
+      "drafts": [
+        {
+          "draft_id": "20a83ac95ae9460281aa3546dbfc4c30",
+          "prompt_version": "abstract-analysis-v1",
+          "format_version": 1,
+          "status": "pending",
+          "validation_level": "unreplayed-no-complete-review",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "f682b7db452f4d398caa0d9c2cd96ffb",
+          "prompt_version": "abstract-analysis-v1",
+          "format_version": 1,
+          "status": "pending",
+          "validation_level": "unreplayed-no-complete-review",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "9aa4149dedef47d997c1b0b4273c5a57",
+          "prompt_version": "abstract-analysis-v1",
+          "format_version": 1,
+          "status": "pending",
+          "validation_level": "unreplayed-no-complete-review",
+          "decision_validated": false
+        }
+      ]
+    },
+    {
+      "path": "docs\\QUOTE_V2_BENCHMARK_2026-10-20.json",
+      "sha256": "f705a9f13dbc2460cf676025c92ca2c9bef6e842c751d862798fc2bfc5dd6db1",
+      "draft_count": 8,
+      "drafts": [
+        {
+          "draft_id": "9e49a4a4e5914a8484fdf1cd1d8b5291",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "0721ddd991e7486bb2a15febb692b860",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "39c7238989154edc9ba892d78c7aec17",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "3649064651ca44e8887b7a626c8bc407",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "4c8c29d7e5704d4181581c0f11a723e8",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "adb70ee0d1504fe3ae5bcd031ea4b531",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "f1e43d76af394e08947e8282697ede39",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "e7f121b996524d36b46dda8620de0f8a",
+          "prompt_version": "abstract-quotes-v2",
+          "format_version": 2,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        }
+      ]
+    },
+    {
+      "path": "docs\\C2_COVERAGE_V3_TUNING_2026-10-20.json",
+      "sha256": "9b7fb5fc6a83b0024034e53e0f271f89acaa7c3106fb3311c216c15de23a0596",
+      "draft_count": 4,
+      "drafts": [
+        {
+          "draft_id": "a9f4a020ee1c4507b7e70171b7490595",
+          "prompt_version": "abstract-quotes-v3",
+          "format_version": 3,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "54307bab8f8548dea9f2cc86db51771c",
+          "prompt_version": "abstract-quotes-v3",
+          "format_version": 3,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "c04d5ecefbca4a658d356ede0340b113",
+          "prompt_version": "abstract-quotes-v3",
+          "format_version": 3,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "6999829320e145b1a4d9cff1062aa8f4",
+          "prompt_version": "abstract-quotes-v3",
+          "format_version": 3,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        }
+      ]
+    },
+    {
+      "path": "docs\\C2_COVERAGE_V3_HOLDOUT_2026-10-20.json",
+      "sha256": "51f5ae99e1fbbdf5986ba09541566190a89630701d8f2c1507bd39939257e71f",
+      "draft_count": 3,
+      "drafts": [
+        {
+          "draft_id": "7f30714353f24bb4bf1ad4fde5505019",
+          "prompt_version": "abstract-quotes-v3",
+          "format_version": 3,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "63890a5c69c44f80883351062f1c2a6f",
+          "prompt_version": "abstract-quotes-v3",
+          "format_version": 3,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "e87424d0b0c64a609fac302e2e26adba",
+          "prompt_version": "abstract-quotes-v3",
+          "format_version": 3,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        }
+      ]
+    },
+    {
+      "path": "docs\\C2_V4_TUNING_RESUMED_2026-10-20.json",
+      "sha256": "937be142094846375431c1fc4ea3c637a055f7ad8a7207222d21280edc199921",
+      "draft_count": 4,
+      "drafts": [
+        {
+          "draft_id": "d3a31f03e2df4c14824f858d5365fe26",
+          "prompt_version": "abstract-quotes-v4",
+          "format_version": 4,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "125b44713aaf44c7bfd6ffc369aec201",
+          "prompt_version": "abstract-quotes-v4",
+          "format_version": 4,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "6fcb00c8cee4497f9e8dc364c9e23a8c",
+          "prompt_version": "abstract-quotes-v4",
+          "format_version": 4,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "27106e9880dd412d9a40b43be2011451",
+          "prompt_version": "abstract-quotes-v4",
+          "format_version": 4,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        }
+      ]
+    },
+    {
+      "path": "docs\\C2_V5_TUNING_RESULTS_2026-10-20.json",
+      "sha256": "85ae1fc8389430bc638ffd0f951364d4137e19820fd9f81fad1c4fb0aa10c13f",
+      "draft_count": 4,
+      "drafts": [
+        {
+          "draft_id": "ef5982b119d944ca88846a5455592a78",
+          "prompt_version": "abstract-quotes-v5",
+          "format_version": 5,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "9d842ed34eb74334a7153dcc8fb1625c",
+          "prompt_version": "abstract-quotes-v5",
+          "format_version": 5,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "f819a13d95ed4fbeb392af76cbba02ce",
+          "prompt_version": "abstract-quotes-v5",
+          "format_version": 5,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "7dfcb414cbd64ebaa2158be202f8714e",
+          "prompt_version": "abstract-quotes-v5",
+          "format_version": 5,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        }
+      ]
+    },
+    {
+      "path": "docs\\C2_V5_HOLDOUT_RESULTS_2026-10-20.json",
+      "sha256": "4d2ff55ee1a14ac1287859d95b2bfeffd10a5a2b8751f2471a61850a56b06f41",
+      "draft_count": 4,
+      "drafts": [
+        {
+          "draft_id": "12b3619d47744a3a8bde6a2d10c89706",
+          "prompt_version": "abstract-quotes-v5",
+          "format_version": 5,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "13faa273019c4d9480427b579162f548",
+          "prompt_version": "abstract-quotes-v5",
+          "format_version": 5,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "eb416eb976a0401f8097d854fca3292b",
+          "prompt_version": "abstract-quotes-v5",
+          "format_version": 5,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        },
+        {
+          "draft_id": "37749faa68a2450681c97310c18fc058",
+          "prompt_version": "abstract-quotes-v5",
+          "format_version": 5,
+          "status": "pending",
+          "validation_level": "context-protocol-only",
+          "decision_validated": false
+        }
+      ]
+    }
+  ],
+  "drafts_observed": 37,
+  "validation_levels": {
+    "complete-review-reopening": 6,
+    "context-protocol-only": 27,
+    "unreplayed-no-complete-review": 4
+  },
+  "drafts_replayed": 33,
+  "scope": "Complete reviews use normal snapshot/decision validation. Draft-only archives have context-protocol checks only; raw v1 without its complete review is explicitly unreplayed. No inference, scientific verification, authentication or reconstruction of absent history."
+}

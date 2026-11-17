@@ -1,0 +1,23 @@
+{
+  "query": "Deep Residual Learning for Image Recognition",
+  "params_without_cursor": {
+    "query.bibliographic": "Deep Residual Learning for Image Recognition",
+    "rows": 2,
+    "sort": "score",
+    "order": "desc"
+  },
+  "http_status": 200,
+  "reported_total": 4671020,
+  "raw_types": [
+    "posted-content",
+    "journal-article"
+  ],
+  "exact_title_match": [
+    false,
+    true
+  ],
+  "scores": [
+    31.988167,
+    31.942028
+  ]
+}

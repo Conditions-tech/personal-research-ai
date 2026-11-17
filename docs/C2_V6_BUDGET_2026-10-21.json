@@ -1,0 +1,67 @@
+{
+  "kind": "c2-coverage-budget-v1",
+  "cap": 12,
+  "used": 12,
+  "entries": [
+    {
+      "case": "v6-moving-boundaries-development/objective",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:11:53.945980+00:00"
+    },
+    {
+      "case": "v6-moving-boundaries-development/method",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:12:10.530008+00:00"
+    },
+    {
+      "case": "v6-moving-boundaries-development/dataset",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:12:28.128720+00:00"
+    },
+    {
+      "case": "v6-moving-boundaries-development/results",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:12:46.306274+00:00"
+    },
+    {
+      "case": "v6-moving-boundaries-development/limitations",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:13:04.521839+00:00"
+    },
+    {
+      "case": "v6-moving-boundaries-development/conclusion",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:13:20.113559+00:00"
+    },
+    {
+      "case": "v6-peer-review-holdout/objective",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:14:14.252330+00:00"
+    },
+    {
+      "case": "v6-peer-review-holdout/method",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:14:31.452828+00:00"
+    },
+    {
+      "case": "v6-peer-review-holdout/dataset",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:14:49.020294+00:00"
+    },
+    {
+      "case": "v6-peer-review-holdout/results",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:15:06.388752+00:00"
+    },
+    {
+      "case": "v6-peer-review-holdout/limitations",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:15:23.989120+00:00"
+    },
+    {
+      "case": "v6-peer-review-holdout/conclusion",
+      "protocol": "abstract-single-role-v6",
+      "requested_utc": "2026-10-20T18:15:43.990554+00:00"
+    }
+  ]
+}

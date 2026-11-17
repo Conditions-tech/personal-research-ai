@@ -1,0 +1,85 @@
+{
+  "kind": "qwen3-runtime-identity-diagnosis-v1",
+  "checked_local_date": "2026-10-25",
+  "inference_sent": false,
+  "downloaded": false,
+  "ledger_used": 7,
+  "ledger_cap": 12,
+  "unattempted_case_ids": [
+    "public-0020753",
+    "holdout-ecology-abbrev",
+    "holdout-letters",
+    "holdout-safe-task-instruction",
+    "qwen3-synthetic-mixed-injection"
+  ],
+  "runtime": {
+    "process_id": 5268,
+    "executable_path": "C:\\Users\\Niaz\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+    "executable_sha256": "71d2002d3ae572d5fa8c1d368ce9d1b9a39c7187cf169e8b330c55410bf6c58e",
+    "process_owner": "DESKTOP-3PPN186\\CodexSandboxOffline",
+    "session_id": 1,
+    "listener": "127.0.0.1:11434",
+    "active_tcp_clients": 0,
+    "api_version_status": 200,
+    "api_version": "0.40.6",
+    "api_tags_status": 200,
+    "api_tags_model_count": 0,
+    "api_ps_status": 200,
+    "api_ps_loaded_count": 0,
+    "controller_state": "waiting_runtime_identity",
+    "controller_error": {
+      "endpoint": "/api/tags",
+      "http_status": 200,
+      "type": "PilotBlocked",
+      "reason": "Approved local model/digest unavailable; no fallback or download."
+    }
+  },
+  "account_and_model_store": {
+    "current_elevated_user": "DESKTOP-3PPN186\\Niaz",
+    "model_store": "C:\\Users\\Niaz\\.ollama\\models",
+    "model_store_owner": "DESKTOP-3PPN186\\Niaz",
+    "process_owner_matches_store_owner": false,
+    "daemon_owner_profile_resolved": false,
+    "daemon_ollama_models_environment_readable": false,
+    "root_cause": "Unknown; per-account default model-store mismatch is consistent with the empty inventory, but the process environment/model-store path was not accessible to verify."
+  },
+  "installed_model": {
+    "name": "qwen3:4b-q4_K_M",
+    "approved_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+    "outer_manifest_sha256": "2506fc962873ce25ee9aa95c6d69babe97f1a0d308ef48cba743182ca8356ce9",
+    "outer_manifest_file_bytes": 1022,
+    "manifest_layer_count": 5,
+    "all_manifest_layers_present_and_declared_sizes_match": true,
+    "nested_model_manifest_sha256": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+    "nested_model_manifest_declared_bytes": 859,
+    "nested_model_manifest_actual_bytes": 859,
+    "nested_model_manifest_content_hash_matches": true,
+    "earlier_frozen_api_tags_evidence_matches_approved_digest": true
+  },
+  "process_repair_attempt": {
+    "preconditions_verified": [
+      "PID and executable path matched the supervisor-identified process.",
+      "It was the unique listener on the approved loopback port.",
+      "The loaded-model API reported zero models.",
+      "The TCP table had no established client for the listener."
+    ],
+    "stop_process_attempted": true,
+    "stop_process_result": "PowerShell returned 'Object reference not set to an instance of an object'.",
+    "post_attempt_process_still_running": true,
+    "post_attempt_api_still_healthy": true,
+    "alternate_termination_attempted": false,
+    "replacement_daemon_started": false
+  },
+  "resources": {
+    "available_before_latest_controller_check_bytes": 1679548416,
+    "minimum_generation_gate_bytes": 5905580032,
+    "generation_ready": false
+  },
+  "limitations": [
+    "The Windows profile for the daemon owner and its OLLAMA_MODELS process value could not be read.",
+    "The different account is a confirmed condition; the precise cause of the empty model listing is not confirmed.",
+    "The outer manifest file hash is distinct from the model digest stored in its nested manifest layer.",
+    "The daemon was not replaced because the targeted process-stop command failed; it remains alive with zero loaded models.",
+    "No model generation, unload control, package change, download, schema change or production database access occurred."
+  ]
+}

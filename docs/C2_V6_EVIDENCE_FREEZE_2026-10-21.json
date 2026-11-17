@@ -1,0 +1,10 @@
+{
+  "stage": "Before v6 implementation or inference",
+  "files": {
+    "docs\\C2_V6_DEVELOPMENT_2026-10-21.json": "b56f1f112cde68a1a8602c25ff56b18cc30f4d40a5ffbdb7ad4af8f10b09e5d3",
+    "docs\\C2_V6_HOLDOUT_2026-10-21.json": "2ce9dabfad9b0906fdc1b3eab8e710516ed1590aaf70d49168189ae356339ddf"
+  },
+  "new_generation_budget": 12,
+  "prior_v4_v5_ledger_used_unchanged": 12,
+  "independent_annotation": false
+}

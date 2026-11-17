@@ -1,0 +1,34 @@
+{
+  "reviewer": "Implementing coding assistant; post-output evidence review, not independent or blinded domain-expert annotation",
+  "created_utc": "2026-10-21T07:05:55.776062+00:00",
+  "scope": "Completed public development and first two public holdout outputs; later unattempted cases receive no judgment",
+  "frozen_labels_or_prompts_modified": false,
+  "observations": [
+    {
+      "case": "public-moving-boundaries",
+      "field": "dataset",
+      "judgment": "Fill against predeclared missingness; numerical photobleaching simulation is not an identified empirical dataset under the frozen role rule. This is an abstract-only classification, not a claim that no data exist in the full paper."
+    },
+    {
+      "case": "public-moving-boundaries",
+      "field": "conclusion",
+      "judgment": "The selected algorithm-contribution sentence may overlap an author takeaway. It differs from predeclared conclusion support; retain as other-quote-needs-review without automatically declaring hallucination or crediting a new gold label."
+    },
+    {
+      "case": "public-0286516",
+      "field": "dataset",
+      "judgment": "Selected learning-monitoring finding is a result, not identification of studied data/participants. The original missing-dataset boundary is debatable, but this chosen sentence still supplies no sample/corpus details."
+    },
+    {
+      "case": "public-0123952",
+      "field": "dataset",
+      "judgment": "Selected global forest-conversion background is not the actual study sample. The abstract separately identifies surveyed trees and counts."
+    },
+    {
+      "case": "public-0123952",
+      "field": "limitations",
+      "judgment": "Forest-specialist decline near an edge is an ecological finding, not an explicit constraint/inability of this study or inference under the frozen definition."
+    }
+  ],
+  "quality_decision": "No promotion or automatic acceptance: at least the background-as-dataset and result-as-study-limitation selections are clear role failures despite exact source presence. Tiny non-blinded sample does not establish general accuracy."
+}

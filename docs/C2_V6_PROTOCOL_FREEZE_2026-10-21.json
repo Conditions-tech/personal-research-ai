@@ -1,0 +1,16 @@
+{
+  "protocol": "abstract-single-role-v6",
+  "stage": "Before development or holdout inference",
+  "source_sha256": {
+    "review/role_analysis_v6.py": "d0a67978936d45cfc47bd83784016618d6c3ae86ac657776874d31b939e33ff1",
+    "tools/role_analysis_evaluation.py": "23c2302c1c7d5707b1a01827b75a5941532c2488888b6ba266db88cf0121bb28",
+    "review/quote_analysis_v4.py": "21843e18232a9082c12b0b50607068fd34d7bbe9573a5882c3b19517e23e5a15",
+    "review/quote_analysis_v3.py": "c86f1e10bbad54af834e1403b3f693daf5f3cea07d60e2c96346492845ab2f54",
+    "review/analysis.py": "6718161934304854bd175951327b8acaf33a3ee7889cc6d0c09b8d7514770f9b"
+  },
+  "one_independent_role_per_request": true,
+  "no_earlier_model_answers_in_context": true,
+  "model_and_options_unchanged": true,
+  "default": "abstract-quotes-v3",
+  "experimental_not_in_default": true
+}

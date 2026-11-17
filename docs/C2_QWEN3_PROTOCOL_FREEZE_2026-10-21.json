@@ -1,0 +1,42 @@
+{
+  "stage": "Before first Qwen3 generation",
+  "created_utc": "2026-10-21T06:43:56.542259+00:00",
+  "protocol": "qwen3-abstract-quotes-pilot-v1",
+  "model": "qwen3:4b-q4_K_M",
+  "model_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+  "runtime_version": "0.40.6",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 6144,
+    "num_predict": 1024,
+    "num_gpu": 0,
+    "num_thread": 4
+  },
+  "think": false,
+  "keep_alive": 0,
+  "stream": false,
+  "minimum_available_memory_bytes": 5905580032,
+  "generation_read_timeout_seconds": 120,
+  "maximum_generation_requests": 12,
+  "first_smoke_case": "public-moving-boundaries",
+  "source_and_evidence_sha256": {
+    "tools/qwen3_pilot.py": "02b473cfdaf7d746fc4d12f2537446fd43b73c9e1491b7590a11116c0a31fb12",
+    "tools/qwen3_pilot_audit.py": "3e062e7dadb33e95be87dc27d8bb67228bfbdabdb149025828242a45618ee6e7",
+    "review/quote_analysis_v5.py": "27405dd8b70bbb2afb2b69676178742019308ceca7a5d870b68ed684d3fb7bbe",
+    "review/analysis.py": "6718161934304854bd175951327b8acaf33a3ee7889cc6d0c09b8d7514770f9b",
+    "review/local_backend.py": "f6bbb17e4ba50974026958639257ae67d43867734b5a46ac35170e48c8bd43e6",
+    "docs/C2_QWEN3_DEVELOPMENT_2026-10-21.json": "6168d02767ac6ea5005f43d108962ef7cf271ca8c33627a517aa9578a77f7048",
+    "docs/C2_QWEN3_HOLDOUT_2026-10-21.json": "f5f17a062cb57585ef3ba4610bece19272c254cdcde9168a4fe7e39b601c9d1e",
+    "docs/C2_QWEN3_ALTERNATIVES_FREEZE_2026-10-21.json": "f7f55a557ecda7bcd7d35d3040bf2ad03ba215086565f4537f230d4b32604419"
+  },
+  "comparison_limit": "Same retained v5 text/schema/validation, with different model, smaller context and explicit nonthinking; not an isolated causal estimate of model size. All data previously developer-inspected except newly authored synthetic injection.",
+  "default_unchanged": "abstract-quotes-v3",
+  "app_proposal_formats_unchanged": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

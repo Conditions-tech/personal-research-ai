@@ -1,0 +1,9 @@
+{
+  "mode": "known-work lookup, not query pagination",
+  "doi": "10.1109/CVPR.2016.90",
+  "http_status": 200,
+  "raw_type": "proceedings-article",
+  "doi_matches": true,
+  "conference_retained": true,
+  "journal_retained": false
+}

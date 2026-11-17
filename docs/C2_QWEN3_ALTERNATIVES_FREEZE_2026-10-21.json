@@ -1,0 +1,21 @@
+{
+  "stage": "Before any Qwen3 generation",
+  "created_utc": "2026-10-21T06:38:58.423881+00:00",
+  "source": "C2_V4_V5_DEVELOPER_REVIEW_2026-10-20.json: explicitly identified defensible alternatives; ambiguous/weak alternatives are not automatically credited",
+  "acceptable_alternate_quotes": {
+    "public-0254766": {
+      "method": [
+        "For this propose, we selected a corpus of 235 storage jars from two distinct periods: storage jars from the Intermediate Bronze Age (the 25th -20th century BCE); and the Oval Storage Jar type (hereafter: OSJ) from the Iron Age II (the late 9th–early 6th century BCE)."
+      ],
+      "dataset": [
+        "The vessels selected were 3-D scanned to extract accurate geometric parameters and analyzed through an advanced shape analysis."
+      ]
+    },
+    "public-0129031": {
+      "conclusion": [
+        "In contrast, the low-frequency cut-offs are less stable, tending to increase substantially after the transformation."
+      ]
+    }
+  },
+  "not_independent_domain_expert_gold": true
+}

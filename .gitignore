@@ -1,0 +1,21 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and application secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Private local research data and generated exports
+/data/
+/exports/
+# Local pilot state and generated transfer bundles
+/.pilot_state/
+/handover/*.zip

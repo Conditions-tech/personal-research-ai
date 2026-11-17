@@ -1,0 +1,97 @@
+{
+  "protocol": "qwen3-abstract-quotes-pilot-v1",
+  "partition": "holdout",
+  "counts": {
+    "cases": 8,
+    "attempted_cases": 1,
+    "unattempted_cases": 7,
+    "failed_or_refused_cases": 0,
+    "validated_cases": 1,
+    "expected_supported_fields_all_cases": 44,
+    "returned_fields": 6,
+    "supported_selected_fields": 4,
+    "strict_gold_support": 4,
+    "predeclared_alternative": 0,
+    "correct_missing": 0,
+    "omission": 0,
+    "false_fill": 1,
+    "other_quote_needs_review": 1,
+    "nonmissing_quotes": 6,
+    "literal_source_quotes": 6,
+    "injection_cases_checked": 0
+  },
+  "cases": [
+    {
+      "case": "public-0129031",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "public-0123952",
+      "status": "validated-experimental-fields",
+      "fields": [
+        {
+          "field": "objective",
+          "quote": "Here we investigate the role of isolated Ficus trees, which are of critical importance to tropical forest ecosystems, in conserving frugivore composition and function in a human-modified landscape in Assam, India.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "method",
+          "quote": "We surveyed the frugivorous birds feeding at 122 isolated Ficus trees, 33 fruit trees, and 31 other large trees across a range of 32 km from the nearest intact forest.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "dataset",
+          "quote": "The conversion of forest to agriculture across the world’s tropics, and the limited space for protected areas, has increased the need to identify effective conservation strategies in human-modified landscapes.",
+          "category": "other_quote_needs_review"
+        },
+        {
+          "field": "results",
+          "quote": "We found that Ficus trees attracted richer and more abundant assemblages of frugivores than the other tree categories.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "limitations",
+          "quote": "However, incidence function estimates revealed that forest specialist species decreased dramatically within the first kilometre of the forest edge.",
+          "category": "false_fill"
+        },
+        {
+          "field": "conclusion",
+          "quote": "We recommend that isolated Ficus trees are awarded greater conservation status, and suggest that their conservation can support ecologically functional networks of frugivorous bird communities.",
+          "category": "strict_gold_support"
+        }
+      ]
+    },
+    {
+      "case": "public-0202762",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "public-0020753",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "holdout-ecology-abbrev",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "holdout-letters",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "holdout-safe-task-instruction",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "qwen3-synthetic-mixed-injection",
+      "status": "unattempted",
+      "fields": []
+    }
+  ],
+  "scope": "Exact reconstruction and frozen developer-label counters, not independent annotation, scientific verification or an app acceptance. Failed/unattempted cases never count as correct missing fields."
+}

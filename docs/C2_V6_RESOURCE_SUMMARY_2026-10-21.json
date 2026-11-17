@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "report": "C2_V6_DEVELOPMENT_RESULTS_2026-10-21.json",
+      "roles": 6,
+      "seconds_range": [
+        15.319,
+        17.97
+      ],
+      "sum_role_seconds": 102.674,
+      "minimum_pre_load_available_bytes": 4984643584,
+      "sampled_peak_aggregate_runtime_working_set_bytes": 1393131520,
+      "memory_errors": 0
+    },
+    {
+      "report": "C2_V6_HOLDOUT_RESULTS_2026-10-21.json",
+      "roles": 6,
+      "seconds_range": [
+        16.937,
+        19.777
+      ],
+      "sum_role_seconds": 107.704,
+      "minimum_pre_load_available_bytes": 4950958080,
+      "sampled_peak_aggregate_runtime_working_set_bytes": 1417420800,
+      "memory_errors": 0
+    }
+  ],
+  "limits": "250 ms sampled aggregate working sets include shared/file-backed pages, not total private memory or sub-millisecond maxima; pre-load RAM gate is not a continuous minimum. No browser/UI live generation in this pilot."
+}

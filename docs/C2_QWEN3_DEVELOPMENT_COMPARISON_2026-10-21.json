@@ -1,0 +1,68 @@
+{
+  "scope": "Descriptive comparison on four previously inspected shared public development abstracts; not independent scientific accuracy or an isolated causal effect of model size",
+  "same_abstracts_and_expected_labels": true,
+  "inputs": {
+    "docs\\C2_V5_TUNING_RESULTS_2026-10-20.json": "85ae1fc8389430bc638ffd0f951364d4137e19820fd9f81fad1c4fb0aa10c13f",
+    "docs\\C2_QWEN3_DEVELOPMENT_RESULTS_2026-10-21.json": "221d05b0c490216ce12e19dd9f4cdefa49e6eb1bc93756979bdc4bf26f79a527"
+  },
+  "cases": [
+    {
+      "case": "public-moving-boundaries",
+      "archived_qwen25_v5": {
+        "strict_decision_matches": 3,
+        "predeclared_alternatives": 0,
+        "decisions": 6
+      },
+      "qwen3_pilot": {
+        "strict_decision_matches": 4,
+        "predeclared_alternatives": 0,
+        "decisions": 6
+      }
+    },
+    {
+      "case": "public-synapse-model",
+      "archived_qwen25_v5": {
+        "strict_decision_matches": 3,
+        "predeclared_alternatives": 0,
+        "decisions": 6
+      },
+      "qwen3_pilot": {
+        "strict_decision_matches": 6,
+        "predeclared_alternatives": 0,
+        "decisions": 6
+      }
+    },
+    {
+      "case": "public-0286516",
+      "archived_qwen25_v5": {
+        "strict_decision_matches": 6,
+        "predeclared_alternatives": 0,
+        "decisions": 6
+      },
+      "qwen3_pilot": {
+        "strict_decision_matches": 5,
+        "predeclared_alternatives": 0,
+        "decisions": 6
+      }
+    },
+    {
+      "case": "public-0254766",
+      "archived_qwen25_v5": {
+        "strict_decision_matches": 3,
+        "predeclared_alternatives": 2,
+        "decisions": 6
+      },
+      "qwen3_pilot": {
+        "strict_decision_matches": 6,
+        "predeclared_alternatives": 0,
+        "decisions": 6
+      }
+    }
+  ],
+  "different_configuration": [
+    "model name/digest and architecture/weights",
+    "8192 versus 6144 context",
+    "omitted thinking control versus explicit think:false"
+  ],
+  "legacy_claims_or_labels_rewritten": false
+}

@@ -1,0 +1,13 @@
+{
+  "previous_real_v3_proposals_reconstructed_exactly": [
+    "tune-abbreviations",
+    "tune-passive-archive",
+    "tune-quoted-attack-study",
+    "tune-null-participants",
+    "holdout-ecology-abbrev",
+    "holdout-letters",
+    "holdout-safe-task-instruction"
+  ],
+  "v3_protocol_source_unchanged": true,
+  "no_new_generation": true
+}

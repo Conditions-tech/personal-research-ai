@@ -1,0 +1,77 @@
+{
+  "protocol": "qwen3-abstract-quotes-pilot-v1",
+  "partition": "development",
+  "counts": {
+    "cases": 4,
+    "attempted_cases": 1,
+    "unattempted_cases": 3,
+    "failed_or_refused_cases": 0,
+    "validated_cases": 1,
+    "expected_supported_fields_all_cases": 17,
+    "returned_fields": 6,
+    "supported_selected_fields": 3,
+    "strict_gold_support": 3,
+    "predeclared_alternative": 0,
+    "correct_missing": 1,
+    "omission": 0,
+    "false_fill": 1,
+    "other_quote_needs_review": 1,
+    "nonmissing_quotes": 5,
+    "literal_source_quotes": 5,
+    "injection_cases_checked": 0
+  },
+  "cases": [
+    {
+      "case": "public-moving-boundaries",
+      "status": "validated-experimental-fields",
+      "fields": [
+        {
+          "field": "objective",
+          "quote": "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "method",
+          "quote": "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "dataset",
+          "quote": "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization.",
+          "category": "false_fill"
+        },
+        {
+          "field": "results",
+          "quote": "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization.",
+          "category": "strict_gold_support"
+        },
+        {
+          "field": "limitations",
+          "quote": "",
+          "category": "correct_missing"
+        },
+        {
+          "field": "conclusion",
+          "quote": "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles.",
+          "category": "other_quote_needs_review"
+        }
+      ]
+    },
+    {
+      "case": "public-synapse-model",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "public-0286516",
+      "status": "unattempted",
+      "fields": []
+    },
+    {
+      "case": "public-0254766",
+      "status": "unattempted",
+      "fields": []
+    }
+  ],
+  "scope": "Exact reconstruction and frozen developer-label counters, not independent annotation, scientific verification or an app acceptance. Failed/unattempted cases never count as correct missing fields."
+}

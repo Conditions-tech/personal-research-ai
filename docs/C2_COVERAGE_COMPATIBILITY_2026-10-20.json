@@ -1,0 +1,46 @@
+{
+  "check": "Previous snapshot implementation versus current explicit v1/v2 dispatch",
+  "cases": [
+    {
+      "record_key": "fixture:tune-abbreviations",
+      "protocol": "abstract-analysis-v1",
+      "request_or_refusal_identical": true
+    },
+    {
+      "record_key": "fixture:tune-abbreviations",
+      "protocol": "abstract-quotes-v2",
+      "request_or_refusal_identical": true
+    },
+    {
+      "record_key": "fixture:tune-passive-archive",
+      "protocol": "abstract-analysis-v1",
+      "request_or_refusal_identical": true
+    },
+    {
+      "record_key": "fixture:tune-passive-archive",
+      "protocol": "abstract-quotes-v2",
+      "request_or_refusal_identical": true
+    },
+    {
+      "record_key": "fixture:tune-quoted-attack-study",
+      "protocol": "abstract-analysis-v1",
+      "request_or_refusal_identical": true
+    },
+    {
+      "record_key": "fixture:tune-quoted-attack-study",
+      "protocol": "abstract-quotes-v2",
+      "request_or_refusal_identical": true
+    },
+    {
+      "record_key": "fixture:tune-null-participants",
+      "protocol": "abstract-analysis-v1",
+      "request_or_refusal_identical": true
+    },
+    {
+      "record_key": "fixture:tune-null-participants",
+      "protocol": "abstract-quotes-v2",
+      "request_or_refusal_identical": true
+    }
+  ],
+  "fixed_compatibility_fixtures": "Covered by isolated reopening tests; unchanged bytes checked separately"
+}

@@ -1,0 +1,28 @@
+{
+  "default": "abstract-quotes-v3",
+  "normal_app_proposal_versions": {
+    "abstract-analysis-v1": 1,
+    "abstract-quotes-v2": 2,
+    "abstract-quotes-v3": 3,
+    "abstract-quotes-v4": 4,
+    "abstract-quotes-v5": 5
+  },
+  "v6": [
+    {
+      "partition": "DEVELOPMENT",
+      "saved_v6_requests_responses_snapshot_reaudited": true,
+      "app_review_import_refused_diagnostic": true
+    },
+    {
+      "partition": "HOLDOUT",
+      "saved_v6_requests_responses_snapshot_reaudited": true,
+      "app_review_import_refused_diagnostic": true
+    }
+  ],
+  "archived_v1_v5_audit_unchanged_after_import_fix": true,
+  "archive_validation_levels": {
+    "complete-review-reopening": 6,
+    "context-protocol-only": 27,
+    "unreplayed-no-complete-review": 4
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "scope": "Frozen developer-label agreement, not independent annotation, entailment or scientific verification",
+  "manifest_sha256": "c37cbc73c6852bd831eda995d310c87bc51526ad655f47800afddc7da26bce32",
+  "partition": "holdout",
+  "protocol": "abstract-quotes-v5",
+  "report_state": "complete",
+  "counts": {
+    "cases": 4,
+    "benign_cases": 4,
+    "expected_nonmissing_fields_all_benign_cases": 20,
+    "unattempted_cases": 0,
+    "attempted_cases": 4,
+    "model_responses_observed": 4,
+    "no_saved_proposal": 0,
+    "saved_proposals": 4,
+    "expected_refusal_without_proposal": 0,
+    "benign_cases_without_proposal": 0,
+    "benign_cases_with_proposal": 4,
+    "returned_fields": 24,
+    "strict_developer_label_matches": 15,
+    "expected-quote": 12,
+    "expected-missing": 3,
+    "omission": 0,
+    "unexpected-fill": 1,
+    "different-field-quote": 8,
+    "nonmissing_selected_quotes": 21,
+    "selected_quotes_exactly_copied_from_original": 21,
+    "expected_nonmissing_fields_selected_all_benign_cases": 12
+  },
+  "cases": [
+    {
+      "case": "public-0129031",
+      "kind": "public-abstract",
+      "expected_refusal": false,
+      "status": "proposal-pending",
+      "fields": [
+        {
+          "field": "objective",
+          "selected_quote": "We raise the question of the elementary units for which Zipf’s law should hold in the most natural way, studying its validity for plain word forms and for the corresponding lemma forms.",
+          "expected_quotes": [
+            "We raise the question of the elementary units for which Zipf’s law should hold in the most natural way, studying its validity for plain word forms and for the corresponding lemma forms.",
+            "We investigate the extent to which the word-lemma transformation preserves two parameters of Zipf’s law: the exponent and the low-frequency cut-off."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "method",
+          "selected_quote": "We analyze several long literary texts comprising four languages, with different levels of morphological complexity.",
+          "expected_quotes": [
+            "We raise the question of the elementary units for which Zipf’s law should hold in the most natural way, studying its validity for plain word forms and for the corresponding lemma forms.",
+            "We analyze several long literary texts comprising four languages, with different levels of morphological complexity.",
+            "We investigate the extent to which the word-lemma transformation preserves two parameters of Zipf’s law: the exponent and the low-frequency cut-off."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "dataset",
+          "selected_quote": "In all cases Zipf’s law is fulfilled, in the sense that a power-law distribution of word or lemma frequencies is valid for several orders of magnitude.",
+          "expected_quotes": [
+            "We analyze several long literary texts comprising four languages, with different levels of morphological complexity."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "results",
+          "selected_quote": "We investigate the extent to which the word-lemma transformation preserves two parameters of Zipf’s law: the exponent and the low-frequency cut-off.",
+          "expected_quotes": [
+            "In all cases Zipf’s law is fulfilled, in the sense that a power-law distribution of word or lemma frequencies is valid for several orders of magnitude.",
+            "We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies.",
+            "In contrast, the low-frequency cut-offs are less stable, tending to increase substantially after the transformation."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "limitations",
+          "selected_quote": "We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies.",
+          "expected_quotes": [
+            "We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "conclusion",
+          "selected_quote": "In contrast, the low-frequency cut-offs are less stable, tending to increase substantially after the transformation.",
+          "expected_quotes": [
+            "We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        }
+      ],
+      "model_response_observed": true
+    },
+    {
+      "case": "public-0123952",
+      "kind": "public-abstract",
+      "expected_refusal": false,
+      "status": "proposal-pending",
+      "fields": [
+        {
+          "field": "objective",
+          "selected_quote": "The conversion of forest to agriculture across the world’s tropics, and the limited space for protected areas, has increased the need to identify effective conservation strategies in human-modified landscapes.",
+          "expected_quotes": [
+            "Here we investigate the role of isolated Ficus trees, which are of critical importance to tropical forest ecosystems, in conserving frugivore composition and function in a human-modified landscape in Assam, India."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "method",
+          "selected_quote": "We surveyed the frugivorous birds feeding at 122 isolated Ficus trees, 33 fruit trees, and 31 other large trees across a range of 32 km from the nearest intact forest.",
+          "expected_quotes": [
+            "We surveyed the frugivorous birds feeding at 122 isolated Ficus trees, 33 fruit trees, and 31 other large trees across a range of 32 km from the nearest intact forest."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "dataset",
+          "selected_quote": "We found that Ficus trees attracted richer and more abundant assemblages of frugivores than the other tree categories.",
+          "expected_quotes": [
+            "We surveyed the frugivorous birds feeding at 122 isolated Ficus trees, 33 fruit trees, and 31 other large trees across a range of 32 km from the nearest intact forest."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "results",
+          "selected_quote": "However, incidence function estimates revealed that forest specialist species decreased dramatically within the first kilometre of the forest edge.",
+          "expected_quotes": [
+            "We found that Ficus trees attracted richer and more abundant assemblages of frugivores than the other tree categories.",
+            "However, incidence function estimates revealed that forest specialist species decreased dramatically within the first kilometre of the forest edge.",
+            "Despite this, species richness and functional diversity remained consistent across the human-modified landscape, as habitat generalists replaced forest-dependent frugivores, and accounted for most of the ecological function found in Ficus trees near the forest edge."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "limitations",
+          "selected_quote": "Despite this, species richness and functional diversity remained consistent across the human-modified landscape, as habitat generalists replaced forest-dependent frugivores, and accounted for most of the ecological function found in Ficus trees near the forest edge.",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "unexpected-fill"
+        },
+        {
+          "field": "conclusion",
+          "selected_quote": "We recommend that isolated Ficus trees are awarded greater conservation status, and suggest that their conservation can support ecologically functional networks of frugivorous bird communities.",
+          "expected_quotes": [
+            "We recommend that isolated Ficus trees are awarded greater conservation status, and suggest that their conservation can support ecologically functional networks of frugivorous bird communities."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        }
+      ],
+      "model_response_observed": true
+    },
+    {
+      "case": "public-0202762",
+      "kind": "public-abstract",
+      "expected_refusal": false,
+      "status": "proposal-pending",
+      "fields": [
+        {
+          "field": "objective",
+          "selected_quote": "We developed a new probabilistic model to assess the impact of recommendations rectifying the reproducibility crisis (by publishing both positive and ‘negative‘ results and increasing statistical power) on competing objectives, such as discovering causal relationships, avoiding publishing false positive results, and reducing resource consumption.",
+          "expected_quotes": [
+            "We developed a new probabilistic model to assess the impact of recommendations rectifying the reproducibility crisis (by publishing both positive and ‘negative‘ results and increasing statistical power) on competing objectives, such as discovering causal relationships, avoiding publishing false positive results, and reducing resource consumption."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "method",
+          "selected_quote": "We can prove that higher-powered experiments can save resources in the overall research process without generating excess false positives.",
+          "expected_quotes": [
+            "We developed a new probabilistic model to assess the impact of recommendations rectifying the reproducibility crisis (by publishing both positive and ‘negative‘ results and increasing statistical power) on competing objectives, such as discovering causal relationships, avoiding publishing false positive results, and reducing resource consumption.",
+            "In contrast to recent publications our model quantifies the impact of each single suggestion not only for an individual study but especially their relation and consequences for the overall scientific process."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "dataset",
+          "selected_quote": "",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-missing"
+        },
+        {
+          "field": "results",
+          "selected_quote": "Additionally, we quantify the adverse effects of both neglecting good practices in the design and conduct of hypotheses-based research, and the omission of the publication of ‘negative‘ findings.",
+          "expected_quotes": [
+            "We can prove that higher-powered experiments can save resources in the overall research process without generating excess false positives.",
+            "The better the quality of the pre-study information and its exploitation, the more likely this beneficial effect is to occur."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "limitations",
+          "selected_quote": "",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-missing"
+        },
+        {
+          "field": "conclusion",
+          "selected_quote": "Our contribution is a plea for adherence to or reinforcement of the good scientific practice and publication of ‘negative‘ findings.",
+          "expected_quotes": [
+            "Our contribution is a plea for adherence to or reinforcement of the good scientific practice and publication of ‘negative‘ findings."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        }
+      ],
+      "model_response_observed": true
+    },
+    {
+      "case": "public-0020753",
+      "kind": "public-abstract",
+      "expected_refusal": false,
+      "status": "proposal-pending",
+      "fields": [
+        {
+          "field": "objective",
+          "selected_quote": "This study examines whether holistic processing is also engaged by expert word recognition, which is thought to involve coarser, basic-level processing that is more part-based.",
+          "expected_quotes": [
+            "This study examines whether holistic processing is also engaged by expert word recognition, which is thought to involve coarser, basic-level processing that is more part-based."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "method",
+          "selected_quote": "We adopted a paradigm widely used for faces – the composite task, and found clear evidence of holistic processing for English words.",
+          "expected_quotes": [
+            "We adopted a paradigm widely used for faces – the composite task, and found clear evidence of holistic processing for English words.",
+            "A second experiment further showed that holistic processing for words was sensitive to the amount of experience with the language concerned (native vs. second-language readers) and with the specific stimuli (words vs. pseudowords)."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "dataset",
+          "selected_quote": "A second experiment further showed that holistic processing for words was sensitive to the amount of experience with the language concerned (native vs. second-language readers) and with the specific stimuli (words vs. pseudowords).",
+          "expected_quotes": [
+            "We adopted a paradigm widely used for faces – the composite task, and found clear evidence of holistic processing for English words.",
+            "A second experiment further showed that holistic processing for words was sensitive to the amount of experience with the language concerned (native vs. second-language readers) and with the specific stimuli (words vs. pseudowords)."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "results",
+          "selected_quote": "The adoption of a paradigm from the face perception literature to the study of expert word perception is important for further comparison between perceptual expertise with words and face-like expertise.",
+          "expected_quotes": [
+            "We adopted a paradigm widely used for faces – the composite task, and found clear evidence of holistic processing for English words.",
+            "A second experiment further showed that holistic processing for words was sensitive to the amount of experience with the language concerned (native vs. second-language readers) and with the specific stimuli (words vs. pseudowords)."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "limitations",
+          "selected_quote": "",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-missing"
+        },
+        {
+          "field": "conclusion",
+          "selected_quote": "The adoption of a paradigm from the face perception literature to the study of expert word perception is important for further comparison between perceptual expertise with words and face-like expertise.",
+          "expected_quotes": [
+            "The adoption of a paradigm from the face perception literature to the study of expert word perception is important for further comparison between perceptual expertise with words and face-like expertise."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        }
+      ],
+      "model_response_observed": true
+    }
+  ],
+  "interpretation_limits": [
+    "Refused/unattempted papers do not contribute correct missing fields.",
+    "Source presence and field agreement are separate; source presence alone cannot establish support.",
+    "Different quotes may be valid alternatives absent from developer labels; inspect them, do not silently relabel gold.",
+    "No saved proposal may reflect refusal or backend failure; original errors remain visible."
+  ]
+}

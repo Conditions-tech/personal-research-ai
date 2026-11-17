@@ -1,0 +1,259 @@
+{
+  "format_version": 1,
+  "created_date": "2026-10-20",
+  "purpose": "Public abstract quality/coverage evaluation, no private research or provider discovery",
+  "adjudication": "Developer-authored labels before tuning; not independently annotated or blinded. Source presence is distinct from field relevance/scientific support. Ambiguous roles retained with notes.",
+  "split_policy": "Tuning cases may inform rules/prompts. Holdout text/labels were curated before tuning, but neither holdout outcomes nor labels may inform tuning. Freeze a new partition before any future retuning.",
+  "all_sources_one_publisher_limit": true,
+  "partition": "holdout",
+  "cases": [
+    {
+      "id": "public-0129031",
+      "kind": "public-abstract",
+      "domain": "quantitative linguistics",
+      "title": "Zipf’s Law for Word Frequencies: Word Forms versus Lemmas in Long Texts",
+      "authors": "Álvaro Corral; Gemma Boleda; Ramon Ferrer-i-Cancho",
+      "year": 2015,
+      "doi": "10.1371/journal.pone.0129031",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0129031",
+      "license": "CC BY 4.0",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Copyright:  © 2015 Corral et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited",
+      "abstract": "Zipf’s law is a fundamental paradigm in the statistics of written and spoken natural language as well as in other communication systems. We raise the question of the elementary units for which Zipf’s law should hold in the most natural way, studying its validity for plain word forms and for the corresponding lemma forms. We analyze several long literary texts comprising four languages, with different levels of morphological complexity. In all cases Zipf’s law is fulfilled, in the sense that a power-law distribution of word or lemma frequencies is valid for several orders of magnitude. We investigate the extent to which the word-lemma transformation preserves two parameters of Zipf’s law: the exponent and the low-frequency cut-off. We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies. In contrast, the low-frequency cut-offs are less stable, tending to increase substantially after the transformation.",
+      "abstract_sha256": "88ed00b99c8c589ec782c753bceff398c6485a3e572f929729caf426693bb6f1",
+      "html_sha256": "99de263d166179eb6dca15935d6b1cafe1b3275d5d9306f3473272ddb8f064ea",
+      "capture_utc": "2026-10-20T12:45:57.151581+00:00",
+      "capture_method": "Publisher citation_abstract meta attribute; HTML entities decoded by HTMLParser; full abstract preserved without section headings/emphasis markup",
+      "expected_refusal": false,
+      "adjudication_note": "The inability to demonstrate strict tail invariance is both an inference boundary and an author result/conclusion; roles overlap and labels are developer judgments.",
+      "expected": {
+        "objective": [
+          "We raise the question of the elementary units for which Zipf’s law should hold in the most natural way, studying its validity for plain word forms and for the corresponding lemma forms.",
+          "We investigate the extent to which the word-lemma transformation preserves two parameters of Zipf’s law: the exponent and the low-frequency cut-off."
+        ],
+        "method": [
+          "We raise the question of the elementary units for which Zipf’s law should hold in the most natural way, studying its validity for plain word forms and for the corresponding lemma forms.",
+          "We analyze several long literary texts comprising four languages, with different levels of morphological complexity.",
+          "We investigate the extent to which the word-lemma transformation preserves two parameters of Zipf’s law: the exponent and the low-frequency cut-off."
+        ],
+        "dataset": [
+          "We analyze several long literary texts comprising four languages, with different levels of morphological complexity."
+        ],
+        "results": [
+          "In all cases Zipf’s law is fulfilled, in the sense that a power-law distribution of word or lemma frequencies is valid for several orders of magnitude.",
+          "We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies.",
+          "In contrast, the low-frequency cut-offs are less stable, tending to increase substantially after the transformation."
+        ],
+        "limitations": [
+          "We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies."
+        ],
+        "conclusion": [
+          "We are not able to demonstrate a strict invariance of the tail, as for a few texts both exponents deviate significantly, but we conclude that the exponents are very similar, despite the remarkable transformation that going from words to lemmas represents, considerably affecting all ranges of frequencies."
+        ]
+      },
+      "prelabel_sentence_ids": {
+        "objective": [
+          1,
+          4
+        ],
+        "method": [
+          1,
+          2,
+          4
+        ],
+        "dataset": [
+          2
+        ],
+        "results": [
+          3,
+          5,
+          6
+        ],
+        "limitations": [
+          5
+        ],
+        "conclusion": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "public-0123952",
+      "kind": "public-abstract",
+      "domain": "ecology / conservation field survey",
+      "title": "Are Protected Areas Required to Maintain Functional Diversity in Human-Modified Landscapes?",
+      "authors": "H. Eden W. Cottee-Jones; Thomas J. Matthews; Tom P. Bregman; Maan Barua; Jatin Tamuly; Robert J. Whittaker",
+      "year": 2015,
+      "doi": "10.1371/journal.pone.0123952",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0123952",
+      "license": "CC BY 4.0",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Copyright:  © 2015 Cottee-Jones et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited",
+      "abstract": "The conversion of forest to agriculture across the world’s tropics, and the limited space for protected areas, has increased the need to identify effective conservation strategies in human-modified landscapes. Isolated trees are believed to conserve elements of ecological structure, providing micro-sites for conservation in matrix landscapes, and facilitating seed dispersal and forest restoration. Here we investigate the role of isolated Ficus trees, which are of critical importance to tropical forest ecosystems, in conserving frugivore composition and function in a human-modified landscape in Assam, India. We surveyed the frugivorous birds feeding at 122 isolated Ficus trees, 33 fruit trees, and 31 other large trees across a range of 32 km from the nearest intact forest. We found that Ficus trees attracted richer and more abundant assemblages of frugivores than the other tree categories. However, incidence function estimates revealed that forest specialist species decreased dramatically within the first kilometre of the forest edge. Despite this, species richness and functional diversity remained consistent across the human-modified landscape, as habitat generalists replaced forest-dependent frugivores, and accounted for most of the ecological function found in Ficus trees near the forest edge. We recommend that isolated Ficus trees are awarded greater conservation status, and suggest that their conservation can support ecologically functional networks of frugivorous bird communities.",
+      "abstract_sha256": "e63923c15e9b4eed1c7f9b78d2e04fffd36a7af557e733500f5f5896141a00f6",
+      "html_sha256": "9537db217dc443253a6aa95ef0275292feb867ddef5b2e679c820834311656bc",
+      "capture_utc": "2026-10-20T12:45:58.357942+00:00",
+      "capture_method": "Publisher citation_abstract meta attribute; HTML entities decoded by HTMLParser; full abstract preserved without section headings/emphasis markup",
+      "expected_refusal": false,
+      "adjudication_note": "Limited space for protected areas is background, and the declining forest specialists are findings rather than an explicit study limitation.",
+      "expected": {
+        "objective": [
+          "Here we investigate the role of isolated Ficus trees, which are of critical importance to tropical forest ecosystems, in conserving frugivore composition and function in a human-modified landscape in Assam, India."
+        ],
+        "method": [
+          "We surveyed the frugivorous birds feeding at 122 isolated Ficus trees, 33 fruit trees, and 31 other large trees across a range of 32 km from the nearest intact forest."
+        ],
+        "dataset": [
+          "We surveyed the frugivorous birds feeding at 122 isolated Ficus trees, 33 fruit trees, and 31 other large trees across a range of 32 km from the nearest intact forest."
+        ],
+        "results": [
+          "We found that Ficus trees attracted richer and more abundant assemblages of frugivores than the other tree categories.",
+          "However, incidence function estimates revealed that forest specialist species decreased dramatically within the first kilometre of the forest edge.",
+          "Despite this, species richness and functional diversity remained consistent across the human-modified landscape, as habitat generalists replaced forest-dependent frugivores, and accounted for most of the ecological function found in Ficus trees near the forest edge."
+        ],
+        "limitations": [],
+        "conclusion": [
+          "We recommend that isolated Ficus trees are awarded greater conservation status, and suggest that their conservation can support ecologically functional networks of frugivorous bird communities."
+        ]
+      },
+      "prelabel_sentence_ids": {
+        "objective": [
+          2
+        ],
+        "method": [
+          3
+        ],
+        "dataset": [
+          3
+        ],
+        "results": [
+          4,
+          5,
+          6
+        ],
+        "limitations": [],
+        "conclusion": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "public-0202762",
+      "kind": "public-abstract",
+      "domain": "metascience / probabilistic theory",
+      "title": "Simple changes of individual studies can improve the reproducibility of the biomedical scientific process as a whole",
+      "authors": "Matthias Steinfath; Silvia Vogl; Norman Violet; Franziska Schwarz; Hans Mielke; Thomas Selhorst; Matthias Greiner; Gilbert Schönfelder",
+      "year": 2018,
+      "doi": "10.1371/journal.pone.0202762",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202762",
+      "license": "CC BY 4.0",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Copyright:  © 2018 Steinfath et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "abstract": "We developed a new probabilistic model to assess the impact of recommendations rectifying the reproducibility crisis (by publishing both positive and ‘negative‘ results and increasing statistical power) on competing objectives, such as discovering causal relationships, avoiding publishing false positive results, and reducing resource consumption. In contrast to recent publications our model quantifies the impact of each single suggestion not only for an individual study but especially their relation and consequences for the overall scientific process. We can prove that higher-powered experiments can save resources in the overall research process without generating excess false positives. The better the quality of the pre-study information and its exploitation, the more likely this beneficial effect is to occur. Additionally, we quantify the adverse effects of both neglecting good practices in the design and conduct of hypotheses-based research, and the omission of the publication of ‘negative‘ findings. Our contribution is a plea for adherence to or reinforcement of the good scientific practice and publication of ‘negative‘ findings.",
+      "abstract_sha256": "e6c85a436f90adef9368e393a6667605e08d5a4f741320f6da9c2a1a6405c546",
+      "html_sha256": "603a4bf6f4ff65b5e91dbb9cfc73ece4ce77779189667f718f0b1adfe7206021",
+      "capture_utc": "2026-10-20T12:45:59.531923+00:00",
+      "capture_method": "Publisher citation_abstract meta attribute; HTML entities decoded by HTMLParser; full abstract preserved without section headings/emphasis markup",
+      "expected_refusal": false,
+      "adjudication_note": "A theoretical model is not itself an empirical dataset. The pre-study quality condition is an outcome qualification, not explicitly a limitation of the study.",
+      "expected": {
+        "objective": [
+          "We developed a new probabilistic model to assess the impact of recommendations rectifying the reproducibility crisis (by publishing both positive and ‘negative‘ results and increasing statistical power) on competing objectives, such as discovering causal relationships, avoiding publishing false positive results, and reducing resource consumption."
+        ],
+        "method": [
+          "We developed a new probabilistic model to assess the impact of recommendations rectifying the reproducibility crisis (by publishing both positive and ‘negative‘ results and increasing statistical power) on competing objectives, such as discovering causal relationships, avoiding publishing false positive results, and reducing resource consumption.",
+          "In contrast to recent publications our model quantifies the impact of each single suggestion not only for an individual study but especially their relation and consequences for the overall scientific process."
+        ],
+        "dataset": [],
+        "results": [
+          "We can prove that higher-powered experiments can save resources in the overall research process without generating excess false positives.",
+          "The better the quality of the pre-study information and its exploitation, the more likely this beneficial effect is to occur."
+        ],
+        "limitations": [],
+        "conclusion": [
+          "Our contribution is a plea for adherence to or reinforcement of the good scientific practice and publication of ‘negative‘ findings."
+        ]
+      },
+      "prelabel_sentence_ids": {
+        "objective": [
+          0
+        ],
+        "method": [
+          0,
+          1
+        ],
+        "dataset": [],
+        "results": [
+          2,
+          3
+        ],
+        "limitations": [],
+        "conclusion": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "public-0020753",
+      "kind": "public-abstract",
+      "domain": "visual cognition / reading experiments",
+      "title": "Holistic Processing of Words Modulated by Reading Experience",
+      "authors": "Alan C.-N. Wong; Cindy M. Bukach; Crystal Yuen; Lizhuang Yang; Shirley Leung; Emma Greenspon",
+      "year": 2011,
+      "doi": "10.1371/journal.pone.0020753",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020753",
+      "license": "Creative Commons Attribution License; version unspecified on publisher page",
+      "license_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020753",
+      "license_evidence": "Copyright:  © 2011 Wong et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "abstract": "Perceptual expertise has been studied intensively with faces and object categories involving detailed individuation. A common finding is that experience in fulfilling the task demand of fine, subordinate-level discrimination between highly similar instances is associated with the development of holistic processing. This study examines whether holistic processing is also engaged by expert word recognition, which is thought to involve coarser, basic-level processing that is more part-based. We adopted a paradigm widely used for faces – the composite task, and found clear evidence of holistic processing for English words. A second experiment further showed that holistic processing for words was sensitive to the amount of experience with the language concerned (native vs. second-language readers) and with the specific stimuli (words vs. pseudowords). The adoption of a paradigm from the face perception literature to the study of expert word perception is important for further comparison between perceptual expertise with words and face-like expertise.",
+      "abstract_sha256": "d1bfbdbfa654a8f36e57a70874a6f800e15977f30b1068d7ae89393d4932ff0b",
+      "html_sha256": "9a4f2a5c33bb7867bb66908c407a5217ecc4a3575c2f84514bbe95068fd138c8",
+      "capture_utc": "2026-10-20T12:46:00.668099+00:00",
+      "capture_method": "Publisher citation_abstract meta attribute; HTML entities decoded by HTMLParser; full abstract preserved without section headings/emphasis markup",
+      "expected_refusal": false,
+      "adjudication_note": "English words, words/pseudowords and native/second-language reader groups identify studied materials/populations without a sample size. Compound source sentences support several roles; no isolated causal paraphrase is generated.",
+      "expected": {
+        "objective": [
+          "This study examines whether holistic processing is also engaged by expert word recognition, which is thought to involve coarser, basic-level processing that is more part-based."
+        ],
+        "method": [
+          "We adopted a paradigm widely used for faces – the composite task, and found clear evidence of holistic processing for English words.",
+          "A second experiment further showed that holistic processing for words was sensitive to the amount of experience with the language concerned (native vs. second-language readers) and with the specific stimuli (words vs. pseudowords)."
+        ],
+        "dataset": [
+          "We adopted a paradigm widely used for faces – the composite task, and found clear evidence of holistic processing for English words.",
+          "A second experiment further showed that holistic processing for words was sensitive to the amount of experience with the language concerned (native vs. second-language readers) and with the specific stimuli (words vs. pseudowords)."
+        ],
+        "results": [
+          "We adopted a paradigm widely used for faces – the composite task, and found clear evidence of holistic processing for English words.",
+          "A second experiment further showed that holistic processing for words was sensitive to the amount of experience with the language concerned (native vs. second-language readers) and with the specific stimuli (words vs. pseudowords)."
+        ],
+        "limitations": [],
+        "conclusion": [
+          "The adoption of a paradigm from the face perception literature to the study of expert word perception is important for further comparison between perceptual expertise with words and face-like expertise."
+        ]
+      },
+      "prelabel_sentence_ids": {
+        "objective": [
+          2
+        ],
+        "method": [
+          3,
+          4
+        ],
+        "dataset": [
+          3,
+          4
+        ],
+        "results": [
+          3,
+          4
+        ],
+        "limitations": [],
+        "conclusion": [
+          5
+        ]
+      }
+    }
+  ]
+}

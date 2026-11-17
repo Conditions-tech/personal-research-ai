@@ -1,0 +1,23 @@
+# Qwen3 live pilot — in progress
+
+**Status reconciled 2026-10-24:** all seven charged requests have complete saved responses; five cases remain unattempted and current RAM blocks loading. [Current report](C2_QWEN3_STATUS_2026-10-24.md) supersedes this unfinished progress narrative; the observations below retain their original checkpoint scope.
+
+The approved pilot resumed after the user freed memory and an actual sample exceeded the unchanged 5.5 GiB loading gate. The first two public development abstracts completed real CPU/loopback generations using the [frozen protocol](C2_QWEN3_PROTOCOL_FREEZE_2026-10-21.json). Remaining evaluation is in progress; the [ledger](C2_QWEN3_BUDGET_2026-10-21.json) is the current attempt count. No default promotion or Phase C completion is justified.
+
+The [preparation report](C2_QWEN3_PILOT_2026-10-21.md) preserves the original 0/12 memory block, download, official model/licence checks, frozen data and offline verification. Subsequent resource checks and actual responses do not rewrite that checkpoint. No extra model, package/runtime upgrade, external inference, production change or Git operation is included.
+
+## Observations so far
+
+The first [actual result](C2_QWEN3_FIRST_RESULT_2026-10-21.json) took 102.206 seconds, passed mechanical validation and verified an empty `/api/ps` after generation. Its five selected quotes were literal source text. Against frozen developer labels: three supported fields, one correct missing field, one fill against declared missingness and one other quote needing support review. The dataset selection describes a simulated photobleaching experiment rather than an identified empirical dataset; the conclusion selection repeats the algorithm contribution. The latter is a gold mismatch requiring support judgment, not automatically a fabricated scientific claim. Labels remain unchanged. [Exact reconstruction/counters](C2_QWEN3_FIRST_RESULT_AUDIT_2026-10-21.json).
+
+The first immediate pre-load sample was 6,171,410,432 bytes. Sampled runtime working-set peak was 3,720,155,136 bytes and minimum sampled system availability was 545,505,280 bytes (about 0.51 GiB). One process-measurement error occurred; these observations are incomplete and do not guarantee an exact peak or sufficient headroom for other inputs. After unload, eleven samples across ten seconds remained below the next-load gate, so further loading stopped. The user freed additional memory before the next actual sample qualified. [Recovery check](C2_QWEN3_POST_FIRST_RESOURCE_CHECK_2026-10-21.json).
+
+The second development paper completed in 84.549 seconds and matched all six frozen decisions (four supported fields, two correct missing fields). Its minimum sampled available RAM was 2,281,025,536 bytes, with no sampler errors. This small success does not erase the first paper's missingness/role issues or establish general scientific accuracy. Raw remaining development responses are retained in a [separate report](C2_QWEN3_DEVELOPMENT_REMAINDER_RESULTS_2026-10-21.json); it may still be running.
+
+## Interpretation and unchanged boundaries
+
+Every generation is charged before transport, including failure; charged cases cannot be repeated. The first paper is not rerun. The fixed six-role v5 prompt/schema/validation is reused with Qwen3-specific 6,144/1,024 CPU settings and `think:false`. No thinking output was observed in the first response; this is not proof about internal computation. Each next load must independently satisfy 5.5 GiB and an unloaded runtime. The app retains Qwen2.5/v3 and saved proposal formats 1–5. These Qwen3 outputs are separate diagnostics, not accepted reviewer notes or app integration.
+
+Gold and declared alternatives were frozen before Qwen3 inference. Existing public examples were previously developer-inspected; the holdout is reserved for this model pilot, not globally novel or independent expert gold. Source presence, field agreement, alternative support, missingness, unattempted cases and failures remain distinct. A different source quote is not automatically wrong, and exact copying alone never establishes scientific support. No generated response is silently corrected or accepted.
+
+The unchanged source/fixture regression checkpoint passed 217 tests in 35.970 seconds and compiled 51 active Python files before live inference. Raw live outcomes are separately audited; mocked tests do not demonstrate model quality. Final live counters, resources and preservation checks will be recorded when this bounded run finishes or reaches a blocker. Do not infer completion from this in-progress report.

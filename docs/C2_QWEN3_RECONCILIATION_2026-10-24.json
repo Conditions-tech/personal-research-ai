@@ -1,0 +1,91 @@
+{
+  "checked_utc": "2026-10-24T17:13:40.398806+00:00",
+  "prior_usage_limit_interruption": "2026-10-21",
+  "ledger_sha256": "c41a196712ebfb0bca3b7d4cfb77d4f6138bcebf896fab56c22a3bbe90dbb41a",
+  "charged_attempts": 7,
+  "cap": 12,
+  "remaining_authorized_maximum": 5,
+  "entries": [
+    {
+      "case": "public-moving-boundaries",
+      "source": "docs\\C2_QWEN3_FIRST_RESULT_2026-10-21.json",
+      "status": "complete-response-reconstructed",
+      "response_sha256": "325dcddf6cd7ff5cacc9c39b1248de3a653220d5a47deff53d490fcb2a74ac5a",
+      "unload_verified_in_saved_events": true,
+      "original_review_unchanged": true,
+      "original_review_roundtrip": true
+    },
+    {
+      "case": "public-synapse-model",
+      "source": "docs\\C2_QWEN3_DEVELOPMENT_REMAINDER_RESULTS_2026-10-21.json",
+      "status": "complete-response-reconstructed",
+      "response_sha256": "6054c3aa37db2638eb2d4b36eaf9ce398ecc7e0f049c873ed18c98813c4ac2f2",
+      "unload_verified_in_saved_events": true,
+      "original_review_unchanged": true,
+      "original_review_roundtrip": true
+    },
+    {
+      "case": "public-0286516",
+      "source": "docs\\C2_QWEN3_DEVELOPMENT_REMAINDER_RESULTS_2026-10-21.json",
+      "status": "complete-response-reconstructed",
+      "response_sha256": "edae6b13279448550d879085857dcc322921fecda439e326e3837b1bdb6b317c",
+      "unload_verified_in_saved_events": true,
+      "original_review_unchanged": true,
+      "original_review_roundtrip": true
+    },
+    {
+      "case": "public-0254766",
+      "source": "docs\\C2_QWEN3_DEVELOPMENT_REMAINDER_RESULTS_2026-10-21.json",
+      "status": "complete-response-reconstructed",
+      "response_sha256": "ba98178fc71e79f9f51208a6e4d6b23e8a12f0e34fe88ca2f8dda2a8d6b578f0",
+      "unload_verified_in_saved_events": true,
+      "original_review_unchanged": true,
+      "original_review_roundtrip": true
+    },
+    {
+      "case": "public-0129031",
+      "source": "docs\\C2_QWEN3_HOLDOUT_RESULTS_2026-10-21.json",
+      "status": "complete-response-reconstructed",
+      "response_sha256": "f838f06153b3e296803cd11e0cdeb26cfc92020c8f3194f0db838bd8850e45f2",
+      "unload_verified_in_saved_events": true,
+      "original_review_unchanged": true,
+      "original_review_roundtrip": true
+    },
+    {
+      "case": "public-0123952",
+      "source": "docs\\C2_QWEN3_HOLDOUT_REMAINDER_RESULTS_2026-10-21.json",
+      "status": "complete-response-reconstructed",
+      "response_sha256": "31c086dba099c42c13a33f8e5a116f6810dd26f78e3ef340cc25ce990eab8cb3",
+      "unload_verified_in_saved_events": true,
+      "original_review_unchanged": true,
+      "original_review_roundtrip": true
+    },
+    {
+      "case": "public-0202762",
+      "source": "docs\\C2_QWEN3_HOLDOUT_REMAINDER_2_RESULTS_2026-10-21.json",
+      "status": "complete-response-reconstructed",
+      "response_sha256": "bcccb0c3fe18264eb4d7406845d4ee4d130b1aecfae3b75f930defdf51089484",
+      "unload_verified_in_saved_events": true,
+      "original_review_unchanged": true,
+      "original_review_roundtrip": true
+    }
+  ],
+  "unknown_or_ambiguous_outcomes": [],
+  "unattempted_case_ids": [
+    "public-0020753",
+    "holdout-ecology-abbrev",
+    "holdout-letters",
+    "holdout-safe-task-instruction",
+    "qwen3-synthetic-mixed-injection"
+  ],
+  "canonical_raw_inputs_sha256": {
+    "docs\\C2_QWEN3_FIRST_RESULT_2026-10-21.json": "feaaee46aef37d41d623a46c81e54b5a2923c95eed879aaf65dde73bd596dfed",
+    "docs\\C2_QWEN3_DEVELOPMENT_REMAINDER_RESULTS_2026-10-21.json": "9cccadcc5fdff2e81777379eb903d3196fa6aa5ce435fd7de51ff4d2564d4415",
+    "docs\\C2_QWEN3_HOLDOUT_RESULTS_2026-10-21.json": "555a5e9b6409754a4877cc776940fe8c6e27dfbb6b296bda5a1bda207c3bcde4",
+    "docs\\C2_QWEN3_HOLDOUT_REMAINDER_RESULTS_2026-10-21.json": "d8fd1c06c8df385db3fbea1192b04bc073974b56b499d5aed1db8629ed7b6824",
+    "docs\\C2_QWEN3_HOLDOUT_REMAINDER_2_RESULTS_2026-10-21.json": "13f8ebf92d9827c4aaf9f0b03ab51d3982561a4d497f91eb86777fc617257472"
+  },
+  "derived_development_composite_excluded_from_attempt_count": true,
+  "no_requests_repeated_uncharged_or_reset": true,
+  "new_inference_requests": 0
+}

@@ -1,0 +1,59 @@
+{
+  "format_version": 1,
+  "date": "2026-10-21",
+  "protocol_hypothesis": "One role per independent request with the whole safe abstract will reduce cross-role interference/position filling relative to six-role v5. Literal whole-source quote or empty string only. No automatic corrections or fills.",
+  "design": "Six serial role requests on one previously observed development paper, then six on one fresh public holdout. One fixed protocol; no tuning after holdout inference. No cross-request generated answers in context.",
+  "adjudication": "Developer-labelled before protocol implementation and inference; not independent or blinded. Strict gold, predeclared valid alternatives, false fills and omissions reported separately.",
+  "decision_rule": "Any clear unsupported role fill/wrong-role evidence prevents quality promotion. Exact-gold disagreement alone is not semantic error. Two papers cannot establish general accuracy.",
+  "partition": "development",
+  "cases": [
+    {
+      "id": "v6-moving-boundaries-development",
+      "kind": "public-abstract",
+      "domain": "public computational biophysics",
+      "title": "Simulating Stochastic Reaction-Diffusion Systems on and within Moving Boundaries",
+      "authors": "Atiyo Ghosh; Tatiana T. Marquez-Lago",
+      "year": 2015,
+      "doi": "10.1371/journal.pone.0133401",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0133401",
+      "license": "CC BY 4.0",
+      "abstract": "Chemical reactions inside cells are generally considered to happen within fixed-size compartments. However, cells and their compartments are highly dynamic. Thus, such stringent geometrical assumptions may not reflect biophysical reality, and can highly bias conclusions from simulation studies. In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles. We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates. Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization.",
+      "expected": {
+        "objective": [
+          "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles."
+        ],
+        "method": [
+          "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles.",
+          "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+          "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+        ],
+        "dataset": [],
+        "results": [
+          "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+          "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+        ],
+        "limitations": [],
+        "conclusion": [
+          "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+        ]
+      },
+      "expected_refusal": false,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "accessed_date": "2026-10-20",
+      "transformation": "HTML abstract rendered as plain text; paragraph breaks joined by spaces, emphasis removed; no sentence intentionally omitted.",
+      "adjudication_note": "Developer labels from abstract only; objective/conclusion alternatives in unstructured real abstracts are interpretive, not independent scientific ground truth.",
+      "abstract_sha256": "6ce1892f2c59b4193d8a49d78c6ac2d273c108b74659b75ff389438de6dd2832",
+      "role_in_previous_evaluation": "Observed v3 holdout failure, explicitly reused as tuning only",
+      "previous_use": "Previously observed public tuning failure; no longer holdout",
+      "acceptable_alternate_quotes": {
+        "objective": [],
+        "method": [],
+        "dataset": [],
+        "results": [],
+        "limitations": [],
+        "conclusion": []
+      },
+      "capture_date": "2026-10-20"
+    }
+  ]
+}

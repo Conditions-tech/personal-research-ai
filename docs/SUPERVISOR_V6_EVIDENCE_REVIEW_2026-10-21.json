@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-21",
+  "reviewer": "Supervising coding assistant; second software/evidence review, not independent domain-expert or blinded scientific validation",
+  "scope": "Twelve archived v6 selections against complete captured abstracts; no new model request or changes to frozen labels",
+  "papers": [
+    {
+      "partition": "development",
+      "doi": "10.1371/journal.pone.0133401",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0133401",
+      "license": "CC BY 4.0",
+      "abstract_sha256": "6ce1892f2c59b4193d8a49d78c6ac2d273c108b74659b75ff389438de6dd2832",
+      "adjudication_file_sha256": "b2c0ef750278439470677f99574af3f38e9205e938f35eee33703343a04d657d",
+      "roles": [
+        {
+          "field": "objective",
+          "verdict": "supported",
+          "reason": "The sentence identifies this work's proposed algorithm, serving as its aim/contribution.",
+          "source_presence": true
+        },
+        {
+          "field": "method",
+          "verdict": "supported",
+          "reason": "The selected sentence explicitly describes benchmarking against differential-equation solutions.",
+          "source_presence": true
+        },
+        {
+          "field": "dataset",
+          "verdict": "unsupported-role",
+          "reason": "The selected benchmarking/finding sentence identifies no actual dataset or sampled population.",
+          "source_presence": true
+        },
+        {
+          "field": "results",
+          "verdict": "supported",
+          "reason": "The numerical experiment reports effects of moving boundaries with its original qualification.",
+          "source_presence": true
+        },
+        {
+          "field": "limitations",
+          "verdict": "unsupported-role",
+          "reason": "A background statement about cellular dynamics does not state a limitation of this study.",
+          "source_presence": true
+        },
+        {
+          "field": "conclusion",
+          "verdict": "supported",
+          "reason": "The qualified implication of the numerical experiment is an author takeaway.",
+          "source_presence": true
+        }
+      ]
+    },
+    {
+      "partition": "holdout",
+      "doi": "10.1371/journal.pone.0287443",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0287443",
+      "license": "CC BY 4.0",
+      "abstract_sha256": "ed6f3d9db39a5d256597edb124607ddcd6a289819a02796e5620e68b7b31b181",
+      "adjudication_file_sha256": "1ad60725475692a1c6270527ab025cb8d5a074ab65811d2850e1978cbbdf15db",
+      "roles": [
+        {
+          "field": "objective",
+          "verdict": "unsupported-role",
+          "reason": "The null finding is a result, not the explicit purpose stated earlier in the abstract.",
+          "source_presence": true
+        },
+        {
+          "field": "method",
+          "verdict": "unsupported-role",
+          "reason": "The null finding does not describe the randomized experimental design.",
+          "source_presence": true
+        },
+        {
+          "field": "dataset",
+          "verdict": "unsupported-role",
+          "reason": "The null finding does not identify the 1,544 papers and 2,797 reviewers described in the design sentence.",
+          "source_presence": true
+        },
+        {
+          "field": "results",
+          "verdict": "supported",
+          "reason": "The quote reports the study's null result without changing its wording.",
+          "source_presence": true
+        },
+        {
+          "field": "limitations",
+          "verdict": "unsupported-role",
+          "reason": "The quoted policy implication is not an explicit limitation of this study or inference.",
+          "source_presence": true
+        },
+        {
+          "field": "conclusion",
+          "verdict": "supported",
+          "reason": "The quote explicitly states a qualified policy implication.",
+          "source_presence": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "supported_selections": 6,
+    "unsupported_role_selections": 6,
+    "quality_gate": "failed",
+    "legacy_evidence_modified": false,
+    "new_inference_requests": 0,
+    "limits": "Tiny already-inspected sample. Reviewer saw original labels/outcomes; this is confirmation of concrete errors, not a new independent accuracy estimate. No full-text or scientific-truth assessment."
+  }
+}

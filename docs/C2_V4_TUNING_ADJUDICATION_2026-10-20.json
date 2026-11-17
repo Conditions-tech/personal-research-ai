@@ -1,0 +1,311 @@
+{
+  "scope": "Frozen developer-label agreement, not independent annotation, entailment or scientific verification",
+  "manifest_sha256": "59cb77bdcc13c984d29d99d02815e5e55d36949160bc70760af04ff8f3163f44",
+  "partition": "tuning",
+  "protocol": "abstract-quotes-v4",
+  "report_state": "complete",
+  "counts": {
+    "cases": 4,
+    "benign_cases": 4,
+    "expected_nonmissing_fields_all_benign_cases": 17,
+    "unattempted_cases": 0,
+    "attempted_cases": 4,
+    "model_responses_observed": 4,
+    "no_saved_proposal": 0,
+    "saved_proposals": 4,
+    "expected_refusal_without_proposal": 0,
+    "benign_cases_without_proposal": 0,
+    "benign_cases_with_proposal": 4,
+    "returned_fields": 24,
+    "strict_developer_label_matches": 3,
+    "expected-quote": 3,
+    "expected-missing": 0,
+    "omission": 0,
+    "unexpected-fill": 7,
+    "different-field-quote": 14,
+    "nonmissing_selected_quotes": 24,
+    "selected_quotes_exactly_copied_from_original": 24,
+    "expected_nonmissing_fields_selected_all_benign_cases": 3
+  },
+  "cases": [
+    {
+      "case": "public-moving-boundaries",
+      "kind": "public-abstract",
+      "expected_refusal": false,
+      "status": "proposal-pending",
+      "fields": [
+        {
+          "field": "objective",
+          "selected_quote": "Chemical reactions inside cells are generally considered to happen within fixed-size compartments.",
+          "expected_quotes": [
+            "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "method",
+          "selected_quote": "However, cells and their compartments are highly dynamic.",
+          "expected_quotes": [
+            "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles.",
+            "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+            "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "dataset",
+          "selected_quote": "Thus, such stringent geometrical assumptions may not reflect biophysical reality, and can highly bias conclusions from simulation studies.",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "unexpected-fill"
+        },
+        {
+          "field": "results",
+          "selected_quote": "In this work, we present an intuitive algorithm for particle-based diffusion in and on moving boundaries, for both point particles and spherical particles.",
+          "expected_quotes": [
+            "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+            "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "limitations",
+          "selected_quote": "We first benchmark our proposed stochastic method against solutions of partial differential equations in appropriate scenarios, and further demonstrate that moving boundaries can give rise to super-diffusive motion as well as time-inhomogeneous reaction rates.",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "unexpected-fill"
+        },
+        {
+          "field": "conclusion",
+          "selected_quote": "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization.",
+          "expected_quotes": [
+            "Finally, we conduct a numerical experiment representing photobleaching of diffusing fluorescent proteins in dividing Saccharomyces cerevisiae cells to demonstrate that moving boundaries might cause important effects neglected in previously published studies of cell compartmentalization."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        }
+      ],
+      "model_response_observed": true
+    },
+    {
+      "case": "public-synapse-model",
+      "kind": "public-abstract",
+      "expected_refusal": false,
+      "status": "proposal-pending",
+      "fields": [
+        {
+          "field": "objective",
+          "selected_quote": "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft.",
+          "expected_quotes": [
+            "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "method",
+          "selected_quote": "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft.",
+          "expected_quotes": [
+            "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft.",
+            "Numerical simulations complement these scaling laws by quantifying the nucleation, growth and stabilization of proteins domains on the size of the cell.",
+            "Direct comparison with experiment shows that passive elastohydrodynamics and kinetics of protein binding in the synaptic cleft can describe the short-time formation and organization of protein clusters, without evoking any active processes in the cytoskeleton."
+          ],
+          "source_presence": true,
+          "developer_label_match": true,
+          "category": "expected-quote"
+        },
+        {
+          "field": "dataset",
+          "selected_quote": "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft.",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "unexpected-fill"
+        },
+        {
+          "field": "results",
+          "selected_quote": "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft.",
+          "expected_quotes": [
+            "Our theory leads to simple predictions for the spatial and temporal scales of protein cluster formation, growth and arrest as a function of membrane stiffness, rigidity and kinetics of the adhesive proteins, and the fluid flow in the synaptic cleft.",
+            "Direct comparison with experiment shows that passive elastohydrodynamics and kinetics of protein binding in the synaptic cleft can describe the short-time formation and organization of protein clusters, without evoking any active processes in the cytoskeleton.",
+            "Despite the apparent complexity of the process, our analysis shows that just two dimensionless parameters characterize the spatial and temporal evolution of the protein pattern: a ratio of membrane elasticity to protein stiffness, and the ratio of a hydrodynamic time scale for fluid flow relative to the protein binding rate."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "limitations",
+          "selected_quote": "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft.",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "unexpected-fill"
+        },
+        {
+          "field": "conclusion",
+          "selected_quote": "We propose a minimal mathematical model for the physical basis of membrane protein patterning in the immunological synapse (IS), which encompass membrane mechanics, protein binding kinetics and motion, and fluid flow in the synaptic cleft.",
+          "expected_quotes": [
+            "Direct comparison with experiment shows that passive elastohydrodynamics and kinetics of protein binding in the synaptic cleft can describe the short-time formation and organization of protein clusters, without evoking any active processes in the cytoskeleton.",
+            "A simple phase diagram encompasses the variety of patterns that can arise."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        }
+      ],
+      "model_response_observed": true
+    },
+    {
+      "case": "public-0286516",
+      "kind": "public-abstract",
+      "expected_refusal": false,
+      "status": "proposal-pending",
+      "fields": [
+        {
+          "field": "objective",
+          "selected_quote": "Nowadays, use of a second language (L2) has taken a central role in daily activities.",
+          "expected_quotes": [
+            "The aim of the present study was to investigate the possible consequences on learning derived from studying materials in L2 and, more specifically, to explore whether the interplay between monitoring and control (metamemory processes) changes as a function of the language involved."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "method",
+          "selected_quote": "There are numerous contexts in which people have to process information, acquire new knowledge, or make decisions via a second language.",
+          "expected_quotes": [
+            "In three experiments, we explored whether font type (Experiment 1), concreteness (Experiment 2), and relatedness (Experiment 3) affected judgments of learning (JOLs) and memory performance in both L1 and L2."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "dataset",
+          "selected_quote": "For example, in academia and higher education, English is commonly used as the language of instruction and communication even though English might not be students’ native or first language (L1) and they might not be proficient in it.",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "unexpected-fill"
+        },
+        {
+          "field": "results",
+          "selected_quote": "Such students may face different challenges when studying and learning in L2 relative to contexts in which they study and learn in their L1, and this may affect their metamemory strategies.",
+          "expected_quotes": [
+            "The results of this study showed that people were able to monitor their learning in both L1 and L2, even though they judged L2 learning as more difficult than L1.",
+            "Interestingly, self-perceived difficulty did not hinder learning, and people recognized L2 materials as well or better than L1 materials."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "limitations",
+          "selected_quote": "However, little is yet known about whether metamemory processes undergo significant changes when learning is carried out in L2.",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "unexpected-fill"
+        },
+        {
+          "field": "conclusion",
+          "selected_quote": "The aim of the present study was to investigate the possible consequences on learning derived from studying materials in L2 and, more specifically, to explore whether the interplay between monitoring and control (metamemory processes) changes as a function of the language involved.",
+          "expected_quotes": [
+            "We suggest that this might be an example of a desirable difficulty for memory."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        }
+      ],
+      "model_response_observed": true
+    },
+    {
+      "case": "public-0254766",
+      "kind": "public-abstract",
+      "expected_refusal": false,
+      "status": "proposal-pending",
+      "fields": [
+        {
+          "field": "objective",
+          "selected_quote": "Ceramic analysis has been concerned with categorizing types according to vessel shape and size for describing a given material culture at a particular time.",
+          "expected_quotes": [
+            "This study, aiming to assess whether it is possible to identify social signatures, focuses on a single archaeological ceramic type."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "method",
+          "selected_quote": "Ceramic analysis has been concerned with categorizing types according to vessel shape and size for describing a given material culture at a particular time.",
+          "expected_quotes": [
+            "The vessels selected were 3-D scanned to extract accurate geometric parameters and analyzed through an advanced shape analysis."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "dataset",
+          "selected_quote": "Ceramic analysis has been concerned with categorizing types according to vessel shape and size for describing a given material culture at a particular time.",
+          "expected_quotes": [
+            "For this propose, we selected a corpus of 235 storage jars from two distinct periods: storage jars from the Intermediate Bronze Age (the 25th -20th century BCE); and the Oval Storage Jar type (hereafter: OSJ) from the Iron Age II (the late 9th–early 6th century BCE)."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "results",
+          "selected_quote": "Ceramic analysis has been concerned with categorizing types according to vessel shape and size for describing a given material culture at a particular time.",
+          "expected_quotes": [
+            "The study results show that integrating computational and objective analysis methods, focusing on the “minute variation” within a single ceramic type, yields substantial insights regarding the relationship between variability and social units.",
+            "In addition to the methodological guidelines and the suggested “work protocol” for further studies, the results shed light on the social organization of the Intermediate Bronze Age and the Iron Age II in Southern Levant."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        },
+        {
+          "field": "limitations",
+          "selected_quote": "Ceramic analysis has been concerned with categorizing types according to vessel shape and size for describing a given material culture at a particular time.",
+          "expected_quotes": [],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "unexpected-fill"
+        },
+        {
+          "field": "conclusion",
+          "selected_quote": "Ceramic analysis has been concerned with categorizing types according to vessel shape and size for describing a given material culture at a particular time.",
+          "expected_quotes": [
+            "The study results show that integrating computational and objective analysis methods, focusing on the “minute variation” within a single ceramic type, yields substantial insights regarding the relationship between variability and social units.",
+            "In addition to the methodological guidelines and the suggested “work protocol” for further studies, the results shed light on the social organization of the Intermediate Bronze Age and the Iron Age II in Southern Levant."
+          ],
+          "source_presence": true,
+          "developer_label_match": false,
+          "category": "different-field-quote"
+        }
+      ],
+      "model_response_observed": true
+    }
+  ],
+  "interpretation_limits": [
+    "Refused/unattempted papers do not contribute correct missing fields.",
+    "Source presence and field agreement are separate; source presence alone cannot establish support.",
+    "Different quotes may be valid alternatives absent from developer labels; inspect them, do not silently relabel gold.",
+    "No saved proposal may reflect refusal or backend failure; original errors remain visible."
+  ]
+}
