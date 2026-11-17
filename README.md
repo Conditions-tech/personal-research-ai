@@ -53,6 +53,8 @@ Then activate and install as above. In VS Code, select `.venv\Scripts\python.exe
 
 ## Usage
 
+For a task-oriented walkthrough, see the [Usage Guide](docs/USAGE_GUIDE.md).
+
 1. Enter a research topic and select the maximum fetched entries per service: 5, 10, 25, 50, 100 or 250 (default 10). This is a raw metadata budget before filtering and deduplication, not a target number of matching papers.
 2. Set publication year bounds and publication types. The defaults remain 2015 to the current local year. Either year checkbox can remove its bound; both off searches without year bounds and includes missing-year metadata. Bounded controls accept CE years 1-9999. OpenAlex date parameters use four-digit years. Both providers' normalized results honor the enabled bounds and selected categories.
 3. Start the search. OpenAlex receives year/native candidate-type filters and numbered pages; Crossref uses a bibliographic query, cursors and server-side year/type filters (start year widened by one; see below). Both apply exact local year/category checks. Retrieval stops at the raw budget, five pages, the between-request time budget, a final page, or a provider problem. Each source shows raw fetched entries, filtered records, status and stop reason; later-page failures retain earlier valid pages. A higher budget can reach matching papers on later pages, but does not guarantee more selected papers.
